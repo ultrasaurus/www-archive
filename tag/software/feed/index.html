@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>software &#8211; the evolving ultrasaurus</title>
+	<atom:link href="https://www.ultrasaurus.com/tag/software/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.ultrasaurus.com</link>
+	<description>Sarah Allen&#039;s reflections on internet software and other topics</description>
+	<lastBuildDate>Sun, 21 Dec 2008 17:36:41 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<item>
+		<title>test- and behavior-driven development</title>
+		<link>https://www.ultrasaurus.com/2008/12/test-and-behavior-driven-development/</link>
+					<comments>https://www.ultrasaurus.com/2008/12/test-and-behavior-driven-development/#respond</comments>
+		
+		<dc:creator><![CDATA[sarah]]></dc:creator>
+		<pubDate>Sun, 21 Dec 2008 17:36:41 +0000</pubDate>
+				<category><![CDATA[general]]></category>
+		<category><![CDATA[software]]></category>
+		<category><![CDATA[testing]]></category>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/wordpress/?p=464</guid>
+
+					<description><![CDATA[I did a bit of reading about test-driven development (TDD), which led me to behavior-driven development (BDD). I started out by looking at some slides on TDD by Andrzej Krzywda which provide a nice overview: TDD (at a high level) is about visualizing goals Software developers are responsible for the visualization of other people&#8217;s goals&#8230; <a href="https://www.ultrasaurus.com/2008/12/test-and-behavior-driven-development/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p>I did a bit of reading about test-driven development (TDD), which led me to behavior-driven development (BDD).  I started out by looking at some <a href="http://andrzejonsoftware.blogspot.com/2008/04/tdd-with-rails-slides-from-my-talk-at.html">slides on TDD</a> by Andrzej Krzywda which provide a nice overview:</p>
+<ul>
+<li>TDD (at a high level) is about visualizing goals</li>
+<li>Software developers are responsible for the visualization of other people&#8217;s goals</li>
+<li>Guidelines:
+<ul>
+<li>write tests BEFORE writing production code</li>
+<li>have many tests</li>
+<li>3D rule = Defense (Tests), Design, and Documentation</li>
+<li>there is always exactly one test failing</li>
+</ul>
+</li>
+<li>Definitions
+<ul>
+<li>Acceptance test: a test from the user&#8217;s perspective</li>
+<li>Unit test: a test of a class</li>
+</ul>
+</li>
+</ul>
+<p>Andrej argues that Rails focuses on acceptance tests because it is a mature community (from a TDD perspective) and because of the available tools.  I&#8217;m not sure why REST makes it so controllers don&#8217;t need testing, but it makes sense to me that the focus is on tests of the model. Andrej goes on to introduce behavior-driven development (BDD).  He recommends that you start with user stories.  RSpec is a tool that helps with that. With BDD, you create executable specifications, not tests.  You want to look at what your code does, not the internals of how it does it.</p>
+<p>Bryan Helmkamp (via <a href="http://andrzejonsoftware.blogspot.com/2008/05/story-driven-development.html">Andrej&#8217;s blog</a>) provides a quote from Robert Martin:</p>
+<blockquote><p>Unit tests: &#8220;Make sure you write the code right.&#8221;</p>
+<p>Scenarios: &#8220;Make sure you write the right code.&#8221;</p></blockquote>
+<p>&#8220;BDD is what you are doing already if you are ding TDD very well&#8221; notes Dave Astels, one of the creator&#8217;s of RSpec in  &#8220;<a href="http://video.google.com/videoplay?docid=8135690990081075324&amp;pl=true">Beyond Test Driven Development: Behaviour Driven Development</a>&#8220;,  Google TechTalk March 17, 2006.  Further notes from that talk:</p>
+<ul>
+<li>If you focus on testing your classes, then the structure of your test code mirrors the structure of your production code.  What happens when you refactor and you change that structure?  do you then re-write your tests?  If you focus on behavior you don&#8217;t have to.  When you refactor, the behavior of your application doesn&#8217;t change</li>
+<li>Get away from state-based testing.  If you depend on specific variables in your code, the inner state of your app, that will be a barrier to re-factoring.  Instead of focusing on assertions, set expectations.</li>
+</ul>
+<p>I found the link to Dave Astel&#8217;s talk in a <a href="http://www.ruby-forum.com/topic/94721">good thread on RSpec</a> that is worth reading, where I also found the following memorable quotes:</p>
+<blockquote><p>&#8220;any time your code does something unexpected, write a test.&#8221;</p>
+<p align="right">&#8212; <a href="http://www.ruby-forum.com/topic/94721#195326">Eric Hodel</a></p>
+</blockquote>
+<blockquote><p>When I do TDD, I approach it with a Jeckle and Hyde perspective.  When Iwrite a test, I am writing a specification of how the code should work.</p>
+<p>When I start writing code, I become the laziest programmer you can imagine, writing only enough code to pass the specification as it is written at that moment.  If it is not called out in the spec, it doesn&#8217;t get written.</p>
+<p>When I switch back to test writing, I cuss out that lazy programmer (i.e. me just a few moments ago) and write additional specs to force the code to do exactly what I want.</p>
+<p>The tension between Dr. Jeckle (the spec writer), and Mr. Hyde (the programmer) causes Dr. Jeckle to write better specs and Mr. Hyde to write lean, correct code.</p>
+<p align="right">&#8212; <a href="http://www.ruby-forum.com/topic/94721#195102">Jim Weirich</a></p>
+</blockquote>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.ultrasaurus.com/2008/12/test-and-behavior-driven-development/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: [rust] what&#8217;s a tuple variant?	</title>
+	<atom:link href="https://www.ultrasaurus.com/2019/10/rust-whats-a-tuple-variant/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.ultrasaurus.com/2019/10/rust-whats-a-tuple-variant/</link>
+	<description>Sarah Allen&#039;s reflections on internet software and other topics</description>
+	<lastBuildDate>Sun, 13 Oct 2019 18:03:43 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<item>
+		<title>
+		By: Kornel		</title>
+		<link>https://www.ultrasaurus.com/2019/10/rust-whats-a-tuple-variant/#comment-18539</link>
+
+		<dc:creator><![CDATA[Kornel]]></dc:creator>
+		<pubDate>Sun, 13 Oct 2019 17:03:06 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=6859#comment-18539</guid>
+
+					<description><![CDATA[I hoped it&#039;d be an easy to fix it by just saying &quot;enum variant&quot; (since you shouldn&#039;t need to care what kind of variant it is - the message should be suggesting the right one), but unfortunately it&#039;s coming from a general-purpose error message:
+
+https://github.com/rust-lang/rust/blob/aa2ae564d391a3da10bca2a79ab529a9925fbe58/src/librustc_resolve/diagnostics.rs#L61-L66
+
+that uses descr() of whatever it finds:
+
+https://github.com/rust-lang/rust/blob/aa2ae564d391a3da10bca2a79ab529a9925fbe58/src/librustc/hir/def.rs#L85-L95
+
+and descr() makes a distinction between enum and different kinds of enum variants (and there&#039;s &quot;unit variant&quot;, ugh!)
+]]></description>
+			<content:encoded><![CDATA[<p>I hoped it&#8217;d be an easy to fix it by just saying &#8220;enum variant&#8221; (since you shouldn&#8217;t need to care what kind of variant it is &#8211; the message should be suggesting the right one), but unfortunately it&#8217;s coming from a general-purpose error message:</p>
+<p><a href="https://github.com/rust-lang/rust/blob/aa2ae564d391a3da10bca2a79ab529a9925fbe58/src/librustc_resolve/diagnostics.rs#L61-L66" rel="nofollow ugc">https://github.com/rust-lang/rust/blob/aa2ae564d391a3da10bca2a79ab529a9925fbe58/src/librustc_resolve/diagnostics.rs#L61-L66</a></p>
+<p>that uses descr() of whatever it finds:</p>
+<p><a href="https://github.com/rust-lang/rust/blob/aa2ae564d391a3da10bca2a79ab529a9925fbe58/src/librustc/hir/def.rs#L85-L95" rel="nofollow ugc">https://github.com/rust-lang/rust/blob/aa2ae564d391a3da10bca2a79ab529a9925fbe58/src/librustc/hir/def.rs#L85-L95</a></p>
+<p>and descr() makes a distinction between enum and different kinds of enum variants (and there&#8217;s &#8220;unit variant&#8221;, ugh!)</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

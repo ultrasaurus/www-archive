@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: declarative eventing	</title>
+	<atom:link href="https://www.ultrasaurus.com/2018/02/declarative-eventing/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.ultrasaurus.com/2018/02/declarative-eventing/</link>
+	<description>Sarah Allen&#039;s reflections on internet software and other topics</description>
+	<lastBuildDate>Sun, 25 Feb 2018 22:01:09 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<item>
+		<title>
+		By: Clifford Heath		</title>
+		<link>https://www.ultrasaurus.com/2018/02/declarative-eventing/#comment-7249</link>
+
+		<dc:creator><![CDATA[Clifford Heath]]></dc:creator>
+		<pubDate>Sun, 25 Feb 2018 22:01:09 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=6511#comment-7249</guid>
+
+					<description><![CDATA[GUIs did not typically support or encourage event isolation, where every event carries all context required to process it - until we did this in OpenUI in 1990 - that made for a revolutionary UI dev experience. HP&#039;s SoftBench also used a patented pub/sub messaging architecture for CASE tool integration, with pattern-matching for subscriptions.
+
+However the real devils in these systems are the methods for discovering, subscribing and routing messages reliably. If every message is &quot;very specific&quot; and you have to know where to subscribe, then at scale you can&#039;t manage faults and end up with a massive tangle of spaghetti that hinders rearchitecting.
+]]></description>
+			<content:encoded><![CDATA[<p>GUIs did not typically support or encourage event isolation, where every event carries all context required to process it &#8211; until we did this in OpenUI in 1990 &#8211; that made for a revolutionary UI dev experience. HP&#8217;s SoftBench also used a patented pub/sub messaging architecture for CASE tool integration, with pattern-matching for subscriptions.</p>
+<p>However the real devils in these systems are the methods for discovering, subscribing and routing messages reliably. If every message is &#8220;very specific&#8221; and you have to know where to subscribe, then at scale you can&#8217;t manage faults and end up with a massive tangle of spaghetti that hinders rearchitecting.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Sarah		</title>
+		<link>https://www.ultrasaurus.com/2018/02/declarative-eventing/#comment-7248</link>
+
+		<dc:creator><![CDATA[Sarah]]></dc:creator>
+		<pubDate>Sun, 25 Feb 2018 16:08:39 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=6511#comment-7248</guid>
+
+					<description><![CDATA[&lt;p&gt;I&#039;ve written a bit more detail on what I mean by very specific events, in terms of the conditions that trigger the events: https://www.ultrasaurus.com/2018/02/listening-to-very-specific-events/&lt;/p&gt;
+
+&lt;p&gt;CNCF Serverless WG is facilitating a process to formalize the event types with the CloudEvent specification: https://github.com/cloudevents/spec&lt;/p&gt;
+
+&lt;p&gt;There is indeed an opportunity to refine PaaS offerings.  There&#039;s a lot of discussion about events in the context of Functions-as-a-Service (FaaS), yet I think these kinds of events have a place in the broader ecosystem as well.&lt;/p&gt;
+]]></description>
+			<content:encoded><![CDATA[<p>I&#8217;ve written a bit more detail on what I mean by very specific events, in terms of the conditions that trigger the events: <a href="https://www.ultrasaurus.com/2018/02/listening-to-very-specific-events/" rel="nofollow ugc">https://www.ultrasaurus.com/2018/02/listening-to-very-specific-events/</a></p>
+<p>CNCF Serverless WG is facilitating a process to formalize the event types with the CloudEvent specification: <a href="https://github.com/cloudevents/spec" rel="nofollow ugc">https://github.com/cloudevents/spec</a></p>
+<p>There is indeed an opportunity to refine PaaS offerings.  There&#8217;s a lot of discussion about events in the context of Functions-as-a-Service (FaaS), yet I think these kinds of events have a place in the broader ecosystem as well.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Chris Lichti		</title>
+		<link>https://www.ultrasaurus.com/2018/02/declarative-eventing/#comment-7235</link>
+
+		<dc:creator><![CDATA[Chris Lichti]]></dc:creator>
+		<pubDate>Fri, 23 Feb 2018 21:31:27 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=6511#comment-7235</guid>
+
+					<description><![CDATA[Interesting.  When you say &quot;very specific events&quot;, are you referring to the schema of the data included in the event, or to some filter conditions that must be met for the event to reach the consumer, or both?  What is getting more specific?
+
+I&#039;m reminded of two things: percolators in elasticsearch, and separately, something we&#039;re doing now; event streams are flowing through stages of normalization and enrichment, but also through light weight functions as intermediary consumers that carve out events of interest to specialized consumers.  We don&#039;t quite have it automated to the point of being declarative, but the intermediary consumers are extremely lightweight, only taking a few minutes to create and deploy.
+
+Maybe there&#039;s an opportunity to refine PaaS offerings in this space...?
+]]></description>
+			<content:encoded><![CDATA[<p>Interesting.  When you say &#8220;very specific events&#8221;, are you referring to the schema of the data included in the event, or to some filter conditions that must be met for the event to reach the consumer, or both?  What is getting more specific?</p>
+<p>I&#8217;m reminded of two things: percolators in elasticsearch, and separately, something we&#8217;re doing now; event streams are flowing through stages of normalization and enrichment, but also through light weight functions as intermediary consumers that carve out events of interest to specialized consumers.  We don&#8217;t quite have it automated to the point of being declarative, but the intermediary consumers are extremely lightweight, only taking a few minutes to create and deploy.</p>
+<p>Maybe there&#8217;s an opportunity to refine PaaS offerings in this space&#8230;?</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

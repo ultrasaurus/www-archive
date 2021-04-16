@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: rails security review checklist	</title>
+	<atom:link href="https://www.ultrasaurus.com/2010/01/rails-security-review-checklist/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.ultrasaurus.com/2010/01/rails-security-review-checklist/</link>
+	<description>Sarah Allen&#039;s reflections on internet software and other topics</description>
+	<lastBuildDate>Fri, 10 Apr 2015 18:26:15 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<item>
+		<title>
+		By: Interesting developments a link dump (some HTML5, some nosql, some Rails, some Agile, some Redis, a touch of Scala, etc., etc.) &#171; turnings		</title>
+		<link>https://www.ultrasaurus.com/2010/01/rails-security-review-checklist/#comment-659</link>
+
+		<dc:creator><![CDATA[Interesting developments a link dump (some HTML5, some nosql, some Rails, some Agile, some Redis, a touch of Scala, etc., etc.) &#171; turnings]]></dc:creator>
+		<pubDate>Tue, 09 Feb 2010 12:58:01 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=2378#comment-659</guid>
+
+					<description><![CDATA[[...] https://www.ultrasaurus.com/sarahblog/2010/01/rails-security-review-checklist [...] ]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] <a href="https://www.ultrasaurus.com/sarahblog/2010/01/rails-security-review-checklist" rel="nofollow ugc">https://www.ultrasaurus.com/sarahblog/2010/01/rails-security-review-checklist</a> [&#8230;] </p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Caffeine Driven Development &#187; Blog Archive &#187; L33t Links #74		</title>
+		<link>https://www.ultrasaurus.com/2010/01/rails-security-review-checklist/#comment-658</link>
+
+		<dc:creator><![CDATA[Caffeine Driven Development &#187; Blog Archive &#187; L33t Links #74]]></dc:creator>
+		<pubDate>Fri, 29 Jan 2010 18:27:05 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=2378#comment-658</guid>
+
+					<description><![CDATA[[...] rails security review checklist [...] ]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] rails security review checklist [&#8230;] </p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Sarah		</title>
+		<link>https://www.ultrasaurus.com/2010/01/rails-security-review-checklist/#comment-657</link>
+
+		<dc:creator><![CDATA[Sarah]]></dc:creator>
+		<pubDate>Wed, 27 Jan 2010 13:59:11 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=2378#comment-657</guid>
+
+					<description><![CDATA[Updated post with (0) on checking Rails and gem versions, also 1Aii for the named_scope conditions.  Thanks Mike!]]></description>
+			<content:encoded><![CDATA[<p>Updated post with (0) on checking Rails and gem versions, also 1Aii for the named_scope conditions.  Thanks Mike!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Sarah		</title>
+		<link>https://www.ultrasaurus.com/2010/01/rails-security-review-checklist/#comment-656</link>
+
+		<dc:creator><![CDATA[Sarah]]></dc:creator>
+		<pubDate>Wed, 27 Jan 2010 13:09:49 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=2378#comment-656</guid>
+
+					<description><![CDATA[Hi Scott,
+
+I had forgotten to add that mass assignment the list (now added as 1A -- good catch!).   I haven&#039;t tried it yet, but it seems like the ideal solution to just disable ActiveRecord&#039;s powers of mass assignment.
+
+Here&#039;s the initializer recommended by Eric Chapweske: 
+&lt;pre&gt;
+config/initializers/disable_mass_assignment.rb
+     ActiveRecord::Base.send(:attr_accessible, nil)
+&lt;/pre&gt;
+
+Thanks!
+Sarah]]></description>
+			<content:encoded><![CDATA[<p>Hi Scott,</p>
+<p>I had forgotten to add that mass assignment the list (now added as 1A &#8212; good catch!).   I haven&#8217;t tried it yet, but it seems like the ideal solution to just disable ActiveRecord&#8217;s powers of mass assignment.</p>
+<p>Here&#8217;s the initializer recommended by Eric Chapweske: </p>
+<pre>
+config/initializers/disable_mass_assignment.rb
+     ActiveRecord::Base.send(:attr_accessible, nil)
+</pre>
+<p>Thanks!<br />
+Sarah</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Mike Gunderloy		</title>
+		<link>https://www.ultrasaurus.com/2010/01/rails-security-review-checklist/#comment-655</link>
+
+		<dc:creator><![CDATA[Mike Gunderloy]]></dc:creator>
+		<pubDate>Wed, 27 Jan 2010 11:28:21 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=2378#comment-655</guid>
+
+					<description><![CDATA[On the SQL injection front, you&#039;ll also want to search &quot;conditions&quot; - named scopes, for example, can be vulnerable without having find/first/all in sight.
+
+Another thing to look at is the version of Rails, to make sure that it&#039;s current (or that appropriate patches have been applied). http://groups.google.com/group/rubyonrails-security is the fastest way to get an overview of recent security patches.
+
+For XSS, it&#039;s worth considering installing http://github.com/nzkoz/rails_xss which switches escaping from a &quot;doesn&#039;t happen unless you ask for it&quot; to an &quot;always happens unless you override it&quot; action. This may require application rewrites, but it gives you a safe default.
+
+You need to check all models for appropriate use of attr_accessible/attr_protected to make sure you&#039;re not vulnerable to mass assignment bugs. I&#039;ve particularly seen places where this can be used for escalation of privilege in applications I&#039;ve reviewed.
+
+It&#039;s also worth reviewing the deployment stack, from the operating system through the ruby version to the web server software, to make sure it&#039;s being kept up to date.]]></description>
+			<content:encoded><![CDATA[<p>On the SQL injection front, you&#8217;ll also want to search &#8220;conditions&#8221; &#8211; named scopes, for example, can be vulnerable without having find/first/all in sight.</p>
+<p>Another thing to look at is the version of Rails, to make sure that it&#8217;s current (or that appropriate patches have been applied). <a href="http://groups.google.com/group/rubyonrails-security" rel="nofollow ugc">http://groups.google.com/group/rubyonrails-security</a> is the fastest way to get an overview of recent security patches.</p>
+<p>For XSS, it&#8217;s worth considering installing <a href="http://github.com/nzkoz/rails_xss" rel="nofollow ugc">http://github.com/nzkoz/rails_xss</a> which switches escaping from a &#8220;doesn&#8217;t happen unless you ask for it&#8221; to an &#8220;always happens unless you override it&#8221; action. This may require application rewrites, but it gives you a safe default.</p>
+<p>You need to check all models for appropriate use of attr_accessible/attr_protected to make sure you&#8217;re not vulnerable to mass assignment bugs. I&#8217;ve particularly seen places where this can be used for escalation of privilege in applications I&#8217;ve reviewed.</p>
+<p>It&#8217;s also worth reviewing the deployment stack, from the operating system through the ruby version to the web server software, to make sure it&#8217;s being kept up to date.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Scott Bronson		</title>
+		<link>https://www.ultrasaurus.com/2010/01/rails-security-review-checklist/#comment-654</link>
+
+		<dc:creator><![CDATA[Scott Bronson]]></dc:creator>
+		<pubDate>Wed, 27 Jan 2010 08:46:26 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=2378#comment-654</guid>
+
+					<description><![CDATA[Might want to mention mass assignment issues.  http://railspikes.com/2008/9/22/is-your-rails-application-safe-from-mass-assignment  This one is still found in popular Rails apps.
+
+It&#039;s so easy to fix too: you must use attr_accessible on any model that gets mass-assigned from user-supplied parameters (i.e. @order.update_attributes(params[:order])).]]></description>
+			<content:encoded><![CDATA[<p>Might want to mention mass assignment issues.  <a href="http://railspikes.com/2008/9/22/is-your-rails-application-safe-from-mass-assignment" rel="nofollow ugc">http://railspikes.com/2008/9/22/is-your-rails-application-safe-from-mass-assignment</a>  This one is still found in popular Rails apps.</p>
+<p>It&#8217;s so easy to fix too: you must use attr_accessible on any model that gets mass-assigned from user-supplied parameters (i.e. @order.update_attributes(params[:order])).</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matthew Lang		</title>
+		<link>https://www.ultrasaurus.com/2010/01/rails-security-review-checklist/#comment-653</link>
+
+		<dc:creator><![CDATA[Matthew Lang]]></dc:creator>
+		<pubDate>Wed, 27 Jan 2010 08:23:56 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=2378#comment-653</guid>
+
+					<description><![CDATA[Great list Sarah! It&#039;s been a while since I&#039;ve seen an article on security in Rails. Most previous articles tend to focus on SQL injection and scripting attacks. Good to see other aspects of security in Rails being covered as well.]]></description>
+			<content:encoded><![CDATA[<p>Great list Sarah! It&#8217;s been a while since I&#8217;ve seen an article on security in Rails. Most previous articles tend to focus on SQL injection and scripting attacks. Good to see other aspects of security in Rails being covered as well.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

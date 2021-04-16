@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>gogarugo &#8211; the evolving ultrasaurus</title>
+	<atom:link href="https://www.ultrasaurus.com/tag/gogarugo/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.ultrasaurus.com</link>
+	<description>Sarah Allen&#039;s reflections on internet software and other topics</description>
+	<lastBuildDate>Fri, 17 Apr 2009 22:11:00 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<item>
+		<title>ruby proxies</title>
+		<link>https://www.ultrasaurus.com/2009/04/ruby-proxies/</link>
+					<comments>https://www.ultrasaurus.com/2009/04/ruby-proxies/#respond</comments>
+		
+		<dc:creator><![CDATA[sarah]]></dc:creator>
+		<pubDate>Fri, 17 Apr 2009 22:11:00 +0000</pubDate>
+				<category><![CDATA[general]]></category>
+		<category><![CDATA[gogarugo]]></category>
+		<category><![CDATA[Ruby]]></category>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1051</guid>
+
+					<description><![CDATA[Ilya Grigorik, gave a very informative talk &#8220;Ruby Proxies for Scale, Performance, and Monitoring&#8221; Ilya describes a proxy server as his new favorite hammer. I can think of lots of cases where having an easy way to write a proxy server would come in handy. Mostly what we think of when we think of proxy&#8230; <a href="https://www.ultrasaurus.com/2009/04/ruby-proxies/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p><a href="http://www.igvita.com/">Ilya Grigorik</a>, gave a very informative talk &#8220;Ruby Proxies for Scale, Performance, and Monitoring&#8221;</p>
+<p>Ilya describes a proxy server as his new favorite hammer.  I can think of lots of cases where having an easy way to write a proxy server would come in handy.  Mostly what we think of when we think of proxy servers is a &#8220;transparent, cut-through proxy,&#8221; but proxies can be useful for other purposes.</p>
+<p>The problem that led Ilya to write a proxy server was benchmarking and performance testing.  He started with HTTPPerf is good tool for simulating load, but it is only good for a single run. <a href="http://github.com/igrigorik/autoperf/">autoperf</a> will make multiple runs and simulate more users.  </p>
+<p><a href="http://github.com/igrigorik/em-proxy/">em-proxy</a> Very simple syntax to send traffic to both the production server and benchmark server (and only the response is returned from production).  Real-time benchmarking against production traffic and user sees no performance hit. Only about 300 lines of code, shows the pattern for how to build a proxy server. </p>
+<p>Ilya walked us through using <a href="http://rubyeventmachine.com/">EventMachine</a> which has very concise, easy-to-read syntax for implementing proxy servers.  This does not need to be restricted to http, but can work with any protocol.</p>
+<p>Ilya described an interesting use case in detail. They created a proxy server which works with Beanstalkd, a distributed in-member work queue, where jobs are stored in MySql when they don&#8217;t need to be in memory.  </p>
+<p>Slides from the talk:</p>
+<div style="width:425px;text-align:left" id="__ss_1307248"><a style="font:14px Helvetica,Arial,Sans-serif;margin:12px 0 3px 0;text-decoration:underline" href="http://www.slideshare.net/igrigorik/ruby-proxies-for-scale-performance-and-monitoring-gogaruco-igvitacom?type=presentation" title="Ruby Proxies for Scale, Performance, and Monitoring - GoGaRuCo - igvita.com">Ruby Proxies for Scale, Performance, and Monitoring &#8211; GoGaRuCo &#8211; igvita.com</a></p>
+<div style="font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px">View more <a style="text-decoration:underline" href="http://www.slideshare.net/">presentations</a> from <a style="text-decoration:underline" href="http://www.slideshare.net/igrigorik">Ilya Grigorik</a>.</div>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.ultrasaurus.com/2009/04/ruby-proxies/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

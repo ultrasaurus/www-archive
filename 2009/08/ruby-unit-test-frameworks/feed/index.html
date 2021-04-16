@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: ruby unit test frameworks	</title>
+	<atom:link href="https://www.ultrasaurus.com/2009/08/ruby-unit-test-frameworks/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.ultrasaurus.com/2009/08/ruby-unit-test-frameworks/</link>
+	<description>Sarah Allen&#039;s reflections on internet software and other topics</description>
+	<lastBuildDate>Sat, 23 Jul 2011 15:03:34 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<item>
+		<title>
+		By: Taryn East		</title>
+		<link>https://www.ultrasaurus.com/2009/08/ruby-unit-test-frameworks/#comment-612</link>
+
+		<dc:creator><![CDATA[Taryn East]]></dc:creator>
+		<pubDate>Sat, 23 Jul 2011 15:03:34 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1997#comment-612</guid>
+
+					<description><![CDATA[YMMV, of course, but I use test::Unit over rspec because altering the output messaging is actually far easier.
+
+Sure, for very simple tests like your examples - that use the default messaging, the output seems better. But if you want to pass custom failure messages, rspec requires you to declare a brand new class every time... whereas Test::Unit you can just pass it as a param.  
+
+This becomes more important in actual, complex tests. I have a lot of asserts that are sanity checks... and I like to make sure my code outputs *what* failed and what it should have been.. with a comment eg as a toy example:
+
+   should &quot;approve a new widget&quot; do
+       w = MyWidget.new(:name =&#062; &quot;my widget&quot;, :approved =&#062; false)    
+     assert !w.approved?, &quot;sanity check: test data should not have started out approved&quot;
+     assert w.approve!, &quot;approval process should have worked&quot;
+     assert w.approved? # note - no need to comment this one as it&#039;s the *actual* test
+  end
+
+The last line is the actual thing you&#039;re testing - but sanity checking the data and the intermediate steps is useful to make sure you are *actually testing what you think you&#039;re testing* - something that you often only find out later when it breaks...
+and having better output on the lines makes Test::unit far easier to get proper messages passed around as to what should be happening and why.]]></description>
+			<content:encoded><![CDATA[<p>YMMV, of course, but I use test::Unit over rspec because altering the output messaging is actually far easier.</p>
+<p>Sure, for very simple tests like your examples &#8211; that use the default messaging, the output seems better. But if you want to pass custom failure messages, rspec requires you to declare a brand new class every time&#8230; whereas Test::Unit you can just pass it as a param.  </p>
+<p>This becomes more important in actual, complex tests. I have a lot of asserts that are sanity checks&#8230; and I like to make sure my code outputs *what* failed and what it should have been.. with a comment eg as a toy example:</p>
+<p>   should &#8220;approve a new widget&#8221; do<br />
+       w = MyWidget.new(:name =&gt; &#8220;my widget&#8221;, :approved =&gt; false)<br />
+     assert !w.approved?, &#8220;sanity check: test data should not have started out approved&#8221;<br />
+     assert w.approve!, &#8220;approval process should have worked&#8221;<br />
+     assert w.approved? # note &#8211; no need to comment this one as it&#8217;s the *actual* test<br />
+  end</p>
+<p>The last line is the actual thing you&#8217;re testing &#8211; but sanity checking the data and the intermediate steps is useful to make sure you are *actually testing what you think you&#8217;re testing* &#8211; something that you often only find out later when it breaks&#8230;<br />
+and having better output on the lines makes Test::unit far easier to get proper messages passed around as to what should be happening and why.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: on choosing RSpec as a test framework &#124; the evolving ultrasaurus		</title>
+		<link>https://www.ultrasaurus.com/2009/08/ruby-unit-test-frameworks/#comment-610</link>
+
+		<dc:creator><![CDATA[on choosing RSpec as a test framework &#124; the evolving ultrasaurus]]></dc:creator>
+		<pubDate>Fri, 01 Apr 2011 14:42:24 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1997#comment-610</guid>
+
+					<description><![CDATA[[...] I most value RSpec is in its clarity of output for a test failure, which I covered in detail in my earlier comparison. When I&#8217;m working on production code and a test fails, that is when I want to be most [...] ]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] I most value RSpec is in its clarity of output for a test failure, which I covered in detail in my earlier comparison. When I&#8217;m working on production code and a test fails, that is when I want to be most [&#8230;] </p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Sarah		</title>
+		<link>https://www.ultrasaurus.com/2009/08/ruby-unit-test-frameworks/#comment-609</link>
+
+		<dc:creator><![CDATA[Sarah]]></dc:creator>
+		<pubDate>Thu, 31 Mar 2011 22:48:33 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1997#comment-609</guid>
+
+					<description><![CDATA[I think we should teach using what is best for the student.  As teachers, we need to use our best judgement in picking what collection of tools to introduce students to.  This is not just a chocolate or strawberry kind of choice.   I tried to explain in my post why I chose RSpec for teaching.  As I mentioned, I actually started the experiment with a bias toward Test::Unit.
+
+Right now minitest comes with Ruby and Test::Unit comes with Rails.  Those projects pick their test frameworks for a lot of reasons -- my guess is that being able to create very clear failing tests was not a high priority.  In the case of Rails, RSpec didn&#039;t exists when they chose Test::Unit and they are working on improving the readability of output (https://github.com/TwP/turn) but I still think it doesn&#039;t approach the clarity of RSpec.]]></description>
+			<content:encoded><![CDATA[<p>I think we should teach using what is best for the student.  As teachers, we need to use our best judgement in picking what collection of tools to introduce students to.  This is not just a chocolate or strawberry kind of choice.   I tried to explain in my post why I chose RSpec for teaching.  As I mentioned, I actually started the experiment with a bias toward Test::Unit.</p>
+<p>Right now minitest comes with Ruby and Test::Unit comes with Rails.  Those projects pick their test frameworks for a lot of reasons &#8212; my guess is that being able to create very clear failing tests was not a high priority.  In the case of Rails, RSpec didn&#8217;t exists when they chose Test::Unit and they are working on improving the readability of output (<a href="https://github.com/TwP/turn" rel="nofollow ugc">https://github.com/TwP/turn</a>) but I still think it doesn&#8217;t approach the clarity of RSpec.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Paris Sinclair		</title>
+		<link>https://www.ultrasaurus.com/2009/08/ruby-unit-test-frameworks/#comment-608</link>
+
+		<dc:creator><![CDATA[Paris Sinclair]]></dc:creator>
+		<pubDate>Thu, 31 Mar 2011 18:47:14 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1997#comment-608</guid>
+
+					<description><![CDATA[If it&#039;s a matter a taste, and one of the options comes with Ruby, then that&#039;s the obvious choice. Especially when teaching!
+
+Since when is the canon just legacy?
+
+If people want to switch to some other flavor they like, great! But they should be doing that based on real reasons they understand. It&#039;s a major disservice to send them off with some Fav Flav. Even if it&#039;s your fav flav.]]></description>
+			<content:encoded><![CDATA[<p>If it&#8217;s a matter a taste, and one of the options comes with Ruby, then that&#8217;s the obvious choice. Especially when teaching!</p>
+<p>Since when is the canon just legacy?</p>
+<p>If people want to switch to some other flavor they like, great! But they should be doing that based on real reasons they understand. It&#8217;s a major disservice to send them off with some Fav Flav. Even if it&#8217;s your fav flav.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Sam Livingston-Gray		</title>
+		<link>https://www.ultrasaurus.com/2009/08/ruby-unit-test-frameworks/#comment-607</link>
+
+		<dc:creator><![CDATA[Sam Livingston-Gray]]></dc:creator>
+		<pubDate>Thu, 31 Mar 2011 17:14:58 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1997#comment-607</guid>
+
+					<description><![CDATA[I&#039;ve been using Shoulda in Rails for a couple of years, and I don&#039;t really use its Rails-specific test methods (e.g., #should_belong_to).  They&#039;ve always seemed just a little too tautological for my taste -- in that they don&#039;t describe actual value.  If there aren&#039;t other tests that fail without a given association being declared, You&#039;re Doing It Wrong (tm).
+
+That being said, I do like Shoulda&#039;s nested contexts, if for no other reason than that they let me fold up large sections of tests that I don&#039;t currently care about.]]></description>
+			<content:encoded><![CDATA[<p>I&#8217;ve been using Shoulda in Rails for a couple of years, and I don&#8217;t really use its Rails-specific test methods (e.g., #should_belong_to).  They&#8217;ve always seemed just a little too tautological for my taste &#8212; in that they don&#8217;t describe actual value.  If there aren&#8217;t other tests that fail without a given association being declared, You&#8217;re Doing It Wrong &#8482;.</p>
+<p>That being said, I do like Shoulda&#8217;s nested contexts, if for no other reason than that they let me fold up large sections of tests that I don&#8217;t currently care about.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Scott Bronson		</title>
+		<link>https://www.ultrasaurus.com/2009/08/ruby-unit-test-frameworks/#comment-606</link>
+
+		<dc:creator><![CDATA[Scott Bronson]]></dc:creator>
+		<pubDate>Wed, 27 Jan 2010 09:01:28 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1997#comment-606</guid>
+
+					<description><![CDATA[Peter, I&#039;m doing this in my current app to compare many deep structures: http://gist.github.com/287675
+
+Not elegant but it works.]]></description>
+			<content:encoded><![CDATA[<p>Peter, I&#8217;m doing this in my current app to compare many deep structures: <a href="http://gist.github.com/287675" rel="nofollow ugc">http://gist.github.com/287675</a></p>
+<p>Not elegant but it works.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Peter Fitzgibbons		</title>
+		<link>https://www.ultrasaurus.com/2009/08/ruby-unit-test-frameworks/#comment-605</link>
+
+		<dc:creator><![CDATA[Peter Fitzgibbons]]></dc:creator>
+		<pubDate>Tue, 01 Sep 2009 21:32:58 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1997#comment-605</guid>
+
+					<description><![CDATA[You&#039;ll find the same Rspec look/feel of code and output from within Rails. 
+There is one spot i notice that still falls apart, no matter the test framework : diffs of failing array/hash comparison.  Anyone have a Rpec &#039;plugin&#039; for this?]]></description>
+			<content:encoded><![CDATA[<p>You&#8217;ll find the same Rspec look/feel of code and output from within Rails.<br />
+There is one spot i notice that still falls apart, no matter the test framework : diffs of failing array/hash comparison.  Anyone have a Rpec &#8216;plugin&#8217; for this?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Jeremy D. Frens		</title>
+		<link>https://www.ultrasaurus.com/2009/08/ruby-unit-test-frameworks/#comment-604</link>
+
+		<dc:creator><![CDATA[Jeremy D. Frens]]></dc:creator>
+		<pubDate>Tue, 01 Sep 2009 13:08:14 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1997#comment-604</guid>
+
+					<description><![CDATA[You can actually use Test::Unit in RSpec (http://blog.davidchelimsky.net/2009/2/2/rspec-works-with-test-unit/) and Shoulda has some special RSpec hooks as well.  I&#039;ve found this useful when incrementally transforming Test::Unit tests into RSpec examples.]]></description>
+			<content:encoded><![CDATA[<p>You can actually use Test::Unit in RSpec (<a href="http://blog.davidchelimsky.net/2009/2/2/rspec-works-with-test-unit/" rel="nofollow ugc">http://blog.davidchelimsky.net/2009/2/2/rspec-works-with-test-unit/</a>) and Shoulda has some special RSpec hooks as well.  I&#8217;ve found this useful when incrementally transforming Test::Unit tests into RSpec examples.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Sarah		</title>
+		<link>https://www.ultrasaurus.com/2009/08/ruby-unit-test-frameworks/#comment-603</link>
+
+		<dc:creator><![CDATA[Sarah]]></dc:creator>
+		<pubDate>Tue, 01 Sep 2009 03:55:03 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1997#comment-603</guid>
+
+					<description><![CDATA[If anyone wants to experiment with the files at home, I posted them on github: http://github.com/ultrasaurus/test-framework-comparison/tree/master]]></description>
+			<content:encoded><![CDATA[<p>If anyone wants to experiment with the files at home, I posted them on github: <a href="http://github.com/ultrasaurus/test-framework-comparison/tree/master" rel="nofollow ugc">http://github.com/ultrasaurus/test-framework-comparison/tree/master</a></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Sarah		</title>
+		<link>https://www.ultrasaurus.com/2009/08/ruby-unit-test-frameworks/#comment-602</link>
+
+		<dc:creator><![CDATA[Sarah]]></dc:creator>
+		<pubDate>Tue, 01 Sep 2009 03:48:45 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1997#comment-602</guid>
+
+					<description><![CDATA[Wow.  That&#039;s a different dialect than I learned.  Wikipedia notes that there are different consonants used in different dialects:
+
+&quot;In words that begin with vowel sounds or silent consonants, the syllable &quot;ay&quot; is added to the end of the word. In some dialects, to aid in pronunciation, an extra consonant is added to the beginning of the suffix; for instance, eagle could yield eagle&#039;yay, eagle&#039;way, or eagle&#039;hay.&quot;
+
+http://en.wikipedia.org/wiki/Pig_Latin#Rules_and_variations]]></description>
+			<content:encoded><![CDATA[<p>Wow.  That&#8217;s a different dialect than I learned.  Wikipedia notes that there are different consonants used in different dialects:</p>
+<p>&#8220;In words that begin with vowel sounds or silent consonants, the syllable &#8220;ay&#8221; is added to the end of the word. In some dialects, to aid in pronunciation, an extra consonant is added to the beginning of the suffix; for instance, eagle could yield eagle&#8217;yay, eagle&#8217;way, or eagle&#8217;hay.&#8221;</p>
+<p><a href="http://en.wikipedia.org/wiki/Pig_Latin#Rules_and_variations" rel="nofollow ugc">http://en.wikipedia.org/wiki/Pig_Latin#Rules_and_variations</a></p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

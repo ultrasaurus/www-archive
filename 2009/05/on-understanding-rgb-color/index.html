@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+	<head>
+				<link rel="profile" href="http://gmpg.org/xfn/11" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<title>on understanding rgb color &laquo; the evolving ultrasaurus</title>
+		
+				<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="the evolving ultrasaurus &raquo; Feed" href="https://www.ultrasaurus.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="the evolving ultrasaurus &raquo; Comments Feed" href="https://www.ultrasaurus.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="the evolving ultrasaurus &raquo; on understanding rgb color Comments Feed" href="https://www.ultrasaurus.com/2009/05/on-understanding-rgb-color/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.ultrasaurus.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.1"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='mailchimpSF_main_css-css'  href='https://www.ultrasaurus.com/?mcsf_action=main_css&#038;ver=5.7.1' type='text/css' media='all' />
+<!--[if IE]>
+<link rel='stylesheet' id='mailchimpSF_ie_css-css'  href='https://www.ultrasaurus.com/wp-content/plugins/mailchimp/css/ie.css?ver=5.7.1' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='wp-block-library-css'  href='https://www.ultrasaurus.com/wp-includes/css/dist/block-library/style.min.css?ver=5.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='tw-bootstrap-css'  href='https://www.ultrasaurus.com/wp-content/themes/the-bootstrap/css/bootstrap.min.css?ver=2.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='the-bootstrap-css'  href='https://www.ultrasaurus.com/wp-content/themes/the-bootstrap/style.min.css?ver=2.0.1' type='text/css' media='all' />
+<style id='the-bootstrap-inline-css' type='text/css'>
+body > .container{margin-top:68px;}@media(min-width: 980px){body > .container{margin-top:58px;}}
+</style>
+<script type='text/javascript' src='https://www.ultrasaurus.com/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://www.ultrasaurus.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://www.ultrasaurus.com/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.5.4' id='ga-external-tracking-js'></script>
+<link rel="https://api.w.org/" href="https://www.ultrasaurus.com/wp-json/" /><link rel="alternate" type="application/json" href="https://www.ultrasaurus.com/wp-json/wp/v2/posts/1397" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.ultrasaurus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.ultrasaurus.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.7.1" />
+<link rel="canonical" href="https://www.ultrasaurus.com/2009/05/on-understanding-rgb-color/" />
+<link rel='shortlink' href='https://www.ultrasaurus.com/?p=1397' />
+<link rel="alternate" type="application/json+oembed" href="https://www.ultrasaurus.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.ultrasaurus.com%2F2009%2F05%2Fon-understanding-rgb-color%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.ultrasaurus.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.ultrasaurus.com%2F2009%2F05%2Fon-understanding-rgb-color%2F&#038;format=xml" />
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>	<style type="text/css">
+				#branding hgroup {
+			position: absolute !important;
+			clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+			</style>
+		<!--[if lt IE 9]>
+		<script src="https://www.ultrasaurus.com/wp-content/themes/the-bootstrap/js/html5shiv.min.js" type="text/javascript"></script>
+		<script src="https://www.ultrasaurus.com/wp-content/themes/the-bootstrap/js/respond.min.js" type="text/javascript"></script>
+	<![endif]-->
+	<!-- Google Analytics Tracking by Google Analyticator 6.5.4: http://www.videousermanuals.com/google-analyticator/ -->
+<script type="text/javascript">
+    var analyticsFileTypes = [''];
+    var analyticsSnippet = 'enabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+  
+	_gaq.push(['_setAccount', 'UA-4313619-1']);
+    _gaq.push(['_addDevId', 'i9k95']); // Google Analyticator App ID with Google
+    _gaq.push(['_gat._anonymizeIp']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+		<style type="text/css" id="wp-custom-css">
+			code {
+	color: #70a
+}
+
+p {
+	color: #333
+}
+
+blockquote p {
+	font-size: 14px;
+	font-weight: normal;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 10px;
+	padding-right: 60px;
+	line-height: 1.2;
+}		</style>
+			</head>
+	
+	<body class="post-template-default single single-post postid-1397 single-format-standard content-sidebar">
+		<div class="container">
+			<div id="page" class="hfeed row">
+								<header id="branding" role="banner" class="span12">
+										<hgroup>
+						<h1 id="site-title">
+							<a href="https://www.ultrasaurus.com/" title="the evolving ultrasaurus" rel="home">
+								<span>the evolving ultrasaurus</span>
+							</a>
+						</h1>
+						<h2 id="site-description">Sarah Allen&#039;s reflections on internet software and other topics</h2>
+					</hgroup>
+					
+					
+					<nav id="access" role="navigation">
+						<h3 class="assistive-text">Main menu</h3>
+						<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
+						<div class="skip-link"><a class="assistive-text" href="#secondary" title="Skip to secondary content">Skip to secondary content</a></div>
+												<div class="navbar navbar-fixed-top navbar-inverse">
+							<div class="navbar-inner">
+								<div class="container">
+									<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+									<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</a>
+																		<span class="brand">the evolving ultrasaurus</span>
+																		<div class="nav-collapse">
+										<div class="menu-primary-container"><ul id="menu-primary" class="nav"><li id="menu-item-4272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4272"><a href="https://www.ultrasaurus.com/about/">About</a></li>
+<li id="menu-item-6605" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6605"><a href="https://www.ultrasaurus.com/speaking/">Speaking</a></li>
+<li id="menu-item-6366" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6366"><a href="https://www.ultrasaurus.com/code/">Code</a></li>
+<li id="menu-item-4269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4269"><a href="https://www.ultrasaurus.com/archives/">Archives</a></li>
+<li id="menu-item-4759" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4759"><a href="https://www.ultrasaurus.com/contact/">Contact</a></li>
+<li id="menu-item-4697" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4697"><a href="https://www.ultrasaurus.com/ultrasaurus/">What is an ultrasaurus?</a></li>
+</ul></div>	<form id="searchform" class="navbar-search pull-right" method="get" action="https://www.ultrasaurus.com/">
+						<label for="s" class="assistive-text hidden">Search</label>
+						<input type="search" class="search-query" name="s" id="s" placeholder="Search" />
+					</form>								    </div>
+								</div>
+							</div>
+						</div>
+											</nav><!-- #access -->
+									</header><!-- #branding -->
+<section id="primary" class="span8">
+	
+		<div id="content" role="main">
+		<article id="post-1397" class="post-1397 post type-post status-publish format-standard hentry category-general">
+		
+	<header class="page-header">
+		<h1 class="entry-title">on understanding rgb color</h1>		<div class="entry-meta"><span class="sep">Posted on </span><a href="https://www.ultrasaurus.com/2009/05/on-understanding-rgb-color/" title="4:34 am" rel="bookmark"><time class="entry-date" datetime="2009-05-29T04:34:57-07:00" pubdate>May 29, 2009</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://www.ultrasaurus.com/author/sarah/" title="View all posts by sarah" rel="author">sarah</a></span></span>		<span class="sep"> | </span>
+		<span class="comments-link">
+			<a href="https://www.ultrasaurus.com/2009/05/on-understanding-rgb-color/#comments"><strong>4</strong> Replies</a>		</span>
+		</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+	<div class="entry-content clearfix">
+		<p>Last week I wanted to teach the kids how to create a randomly colored shape, which (in <a href="http://shoooes.net/">Shoes</a>) would use a fill color like this:</p>
+<pre>fill rgb(0..255.rand, 0..255.rand, 0..255.rand)</pre>
+<p>I figured they could easily grasp the random number syntax, but creating colors as a mix of red, green, and blue? They are used to primary colors of red, yellow and blue.  It is totally weird that green and red make yellow, and downright amazing that red, green and blue make white.   You have to be an old school graphics geek like me or someone who does stage lighting to have gained any intuition about how these kinds of colors mix.  Most folks, elementary school students included, only have experience mixing colors with paint or dye, where red and green make brown.  That is called &#8220;subtractive&#8221; color mixing.  When we mix light (and pixel values), it is called additive color mixing.</p>
+<p>To explain this, I put together a neat physical demonstration with the help of my friends, Paul &amp; Glen, from <a href="http://www.emotionstudios.com/">Emotion Studios</a>, and Janet from <a href="http://www.jcxex.com/">JCX Expendibles</a>. (As a side note, I must say that if you live in San Francisco, enjoy this article and periodically need random materials for your crazy projects you must visit JCX on Harrison Street.  It is awesome.)</p>
+<p>My goal was to create three spots of color (red, green, and blue), then mix them to create white where they overlap.  This looks much cooler in real life&#8230;</p>
+<p><img src="http://img.skitch.com/20090529-k93w1f1555hkuxqka6ym23ejkk.jpg" alt="" /> <img src="http://img.skitch.com/20090529-mx5w27j1fsyf6ke6spnkngp39f.jpg" alt="" /></p>
+<p>I ended up finding it could work using three Mini Maglight flashlights (about $14 each, which adds up but I figured I could use them for camping later).  The front of each light is covered by a gel.  I used the following colors from Lee Filters (the big sheets are $6 each, but I bet if you called them up they would send you a sampler).  I used these colors:</p>
+<ul>
+<li>Primary Green 139</li>
+<li>Primary Red 106</li>
+<li>Just Blue 079</li>
+</ul>
+<p><img src="http://img.skitch.com/20090529-fg6ybuiiaghip6wtfdpdeabn5e.jpg" /></p>
+<p>I highly recommend this demonstration when teaching anyone about rgb color.   This would even make a fun early physics experiment for first graders.</p>
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<span class="cat-links block">Posted in <a href="https://www.ultrasaurus.com/category/general/" rel="category tag">general</a>.</span>	</footer><!-- .entry-footer -->
+	
+	</article><!-- #post-1397 -->
+		<div id="comments">
+			<h2 id="comments-title">
+				4 thoughts on &ldquo;<span>on understanding rgb color</span>&rdquo;			</h2>
+		
+					
+			<ol class="commentlist unstyled">
+					
+		<li id="li-comment-518" class="pingback even thread-even depth-1">
+			<p class="row">
+				<strong class="ping-label span1">Pingback:</strong>
+				<span class="span7"><a href='https://www.ultrasaurus.com/sarahblog/2009/05/teaching-kids-to-code-lesson-2/' rel='external nofollow ugc' class='url'>teaching kids to code: lesson #2 | the evolving ultrasaurus</a></span>
+			</p>
+	
+	</li><!-- #comment-## -->
+		
+		<li  id="li-comment-519" class="comment odd alt thread-odd thread-alt depth-1">
+			<article id="comment-519" class="comment row">
+				<div class="comment-author-avatar span1">
+					<img alt='' src='https://secure.gravatar.com/avatar/eb1cf7a1034b31a9349321cdc83070d3?s=70&#038;r=g' srcset='https://secure.gravatar.com/avatar/eb1cf7a1034b31a9349321cdc83070d3?s=140&#038;r=g 2x' class='avatar avatar-70 photo' height='70' width='70' loading='lazy'/>				</div>
+				<footer class="comment-meta span7">
+					<p class="comment-author vcard">
+						<span class="fn"><a href='http://pt.withy.org' rel='external nofollow ugc' class='url'>P T Withington</a></span> <span class="says">said</span> on <a href="https://www.ultrasaurus.com/2009/05/on-understanding-rgb-color/#comment-519"><time pubdate datetime="2009-05-29T06:32:15-07:00">May 29, 2009 at 6:32 am</time></a>:					</p><!-- .comment-author .vcard -->
+	
+						
+				</footer><!-- .comment-meta -->
+	
+				<div class="comment-content span7">
+					<p>Here&#8217;s an interesting question to ask kids (who hopefully have no preconceived notions):  How would you sort colors?  Give them a bunch of colors and ask them to put them &#8216;in order&#8217;.  Next time, throw in some colors that vary in intensity or brightness and ask the same question.</p>
+<p>Obviously, there is no right answer.  But it might be amusing to look at the rgb values of the colors after they are sorted to see if there is a pattern, and then to talk about other ways of describing color&#8230;</p>
+				</div><!-- .comment-content -->
+			</article><!-- #comment-519 .comment -->
+			
+	</li><!-- #comment-## -->
+		
+		<li  id="li-comment-520" class="comment even thread-even depth-1">
+			<article id="comment-520" class="comment row">
+				<div class="comment-author-avatar span1">
+					<img alt='' src='https://secure.gravatar.com/avatar/4c3621e398d1e47d55810a31a3a272c6?s=70&#038;r=g' srcset='https://secure.gravatar.com/avatar/4c3621e398d1e47d55810a31a3a272c6?s=140&#038;r=g 2x' class='avatar avatar-70 photo' height='70' width='70' loading='lazy'/>				</div>
+				<footer class="comment-meta span7">
+					<p class="comment-author vcard">
+						<span class="fn"><a href='http://www.mightyverse.com' rel='external nofollow ugc' class='url'>Paul Lundahl</a></span> <span class="says">said</span> on <a href="https://www.ultrasaurus.com/2009/05/on-understanding-rgb-color/#comment-520"><time pubdate datetime="2009-05-29T07:12:39-07:00">May 29, 2009 at 7:12 am</time></a>:					</p><!-- .comment-author .vcard -->
+	
+						
+				</footer><!-- .comment-meta -->
+	
+				<div class="comment-content span7">
+					<p>Sarah,</p>
+<p>Wonderful idea, well executed. I believe that it&#8217;s these kind of simple experiments that can spark curiosity for life in young people. Here is the link to order the filter packs on line:<br />
+<a href="http://www.rosco.com/sbreqs/index.cfm" rel="nofollow ugc">http://www.rosco.com/sbreqs/index.cfm</a><br />
+I think that the Roscolux version is probably best.<br />
+Or people can visit JCX in San Francisco and ask Janet for a pack!<br />
+<a href="http://www.jcxex.com/" rel="nofollow ugc">http://www.jcxex.com/</a></p>
+				</div><!-- .comment-content -->
+			</article><!-- #comment-520 .comment -->
+			
+	</li><!-- #comment-## -->
+		
+		<li  id="li-comment-521" class="comment odd alt thread-odd thread-alt depth-1">
+			<article id="comment-521" class="comment row">
+				<div class="comment-author-avatar span1">
+					<img alt='' src='https://secure.gravatar.com/avatar/600ad48eea92da6bdab1e6d2b51bf819?s=70&#038;r=g' srcset='https://secure.gravatar.com/avatar/600ad48eea92da6bdab1e6d2b51bf819?s=140&#038;r=g 2x' class='avatar avatar-70 photo' height='70' width='70' loading='lazy'/>				</div>
+				<footer class="comment-meta span7">
+					<p class="comment-author vcard">
+						<span class="fn"><a href='http://devyn.tumblr.com/' rel='external nofollow ugc' class='url'>Devyn</a></span> <span class="says">said</span> on <a href="https://www.ultrasaurus.com/2009/05/on-understanding-rgb-color/#comment-521"><time pubdate datetime="2009-10-05T18:47:44-07:00">October 5, 2009 at 6:47 pm</time></a>:					</p><!-- .comment-author .vcard -->
+	
+						
+				</footer><!-- .comment-meta -->
+	
+				<div class="comment-content span7">
+					<p>We (the kids) aren&#8217;t the future. We are the present.</p>
+				</div><!-- .comment-content -->
+			</article><!-- #comment-521 .comment -->
+			
+	</li><!-- #comment-## -->
+			</ol><!-- .commentlist .unstyled -->
+		
+					
+		</div><!-- #comments -->
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title"><legend>Leave a reply</legend> <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2009/05/on-understanding-rgb-color/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://www.ultrasaurus.com/wp-comments-post.php" method="post" id="commentform" class="comment-form"><div class="form-horizontal"><div class="comment-form-comment control-group"><label class="control-label" for="comment">Comment</label><div class="controls"><textarea autocomplete="new-password"  class="span7" id="e40bdd6746"  name="e40bdd6746"   rows="8" aria-required="true"></textarea><textarea id="comment" aria-hidden="true" name="comment" autocomplete="new-password" style="padding:0 !important;clip:rect(1px, 1px, 1px, 1px) !important;position:absolute !important;white-space:nowrap !important;height:1px !important;width:1px !important;overflow:hidden !important;" tabindex="-1"></textarea><script data-noptimize type="text/javascript">document.getElementById("comment").setAttribute( "id", "a44379601aafde4250ed4096b290e5dc" );document.getElementById("e40bdd6746").setAttribute( "id", "comment" );</script></div></div><div class="form-allowed-tags control-group"><label class="control-label">You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes: </label><div class="controls"><pre>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;s&gt; &lt;strike&gt; &lt;strong&gt; </pre></div></div>
+									 <div class="form-actions"><div class="comment-form-author control-group">
+				<label for="author" class="control-label">Name</label>
+				<div class="controls">
+					<input id="author" name="author" type="text" value="" size="30" aria-required='true' />
+					<p class="help-inline"><span class="required">required</span></p>
+				</div>
+			</div>
+<div class="comment-form-email control-group">
+				<label for="email" class="control-label">Email</label>
+				<div class="controls">
+					<input id="email" name="email" type="email" value="" size="30" aria-required='true' />
+					<p class="help-inline"><span class="required">required</span>, will not be published</p>
+				</div>
+			</div>
+<div class="comment-form-url control-group">
+				<label for="url" class="control-label">Website</label>
+				<div class="controls">
+					<input id="url" name="url" type="url" value="" size="30" />
+				</div>
+			</div>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='1397' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p></div></div></form>	</div><!-- #respond -->
+			
+		<nav id="nav-single" class="pager">
+			<h3 class="assistive-text">Post navigation</h3>
+			<span class="next"><a href="https://www.ultrasaurus.com/2009/05/teaching-kids-to-code-lesson-2/" rel="next">Next Post <span class="meta-nav">&rarr;</span></a></span>
+			<span class="previous"><a href="https://www.ultrasaurus.com/2009/05/rails-plugin-view-helpers-and-rspec/" rel="prev"><span class="meta-nav">&larr;</span> Previous Post</a></span>
+		</nav><!-- #nav-single -->
+		
+			</div><!-- #content -->
+	</section><!-- #primary -->
+
+<section id="secondary" class="widget-area span4" role="complementary">
+	<aside id="recent-comments-2" class="widget well widget_recent_comments"><h2 class="widget-title">Recent Comments</h2><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link"><a href='https://da.biomarmicrobialtechnologies.com/' rel='external nofollow ugc' class='url'>Silje Randrup</a></span> on <a href="https://www.ultrasaurus.com/2003/08/the-history-of-the-letter-c/#comment-22370">the history of the letter &#8216;C&#8217;</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://x--x.us' rel='external nofollow ugc' class='url'>Paula</a></span> on <a href="https://www.ultrasaurus.com/2003/08/the-history-of-the-letter-c/#comment-19549">the history of the letter &#8216;C&#8217;</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://x--x.us' rel='external nofollow ugc' class='url'>Michelle</a></span> on <a href="https://www.ultrasaurus.com/2003/08/the-history-of-the-letter-c/#comment-19399">the history of the letter &#8216;C&#8217;</a></li><li class="recentcomments"><span class="comment-author-link">Craig</span> on <a href="https://www.ultrasaurus.com/2019/10/http-3-starter-notes-rust-quiche/#comment-18963">http/3 starter notes, rust quiche</a></li><li class="recentcomments"><span class="comment-author-link">Kornel</span> on <a href="https://www.ultrasaurus.com/2019/10/rust-whats-a-tuple-variant/#comment-18539">[rust] what&#8217;s a tuple variant?</a></li><li class="recentcomments"><span class="comment-author-link"><a href='https://apromixately.github.io' rel='external nofollow ugc' class='url'>Simon</a></span> on <a href="https://www.ultrasaurus.com/2019/06/essential-rust-tools/#comment-13007">essential rust tools</a></li><li class="recentcomments"><span class="comment-author-link"><a href='https://balsamiq.com/company/' rel='external nofollow ugc' class='url'>balsamiqVal</a></span> on <a href="https://www.ultrasaurus.com/2018/10/the-path-is-made-by-walking/#comment-9108">the path is made by walking</a></li><li class="recentcomments"><span class="comment-author-link">Jennifer</span> on <a href="https://www.ultrasaurus.com/2018/07/optimize-for-results-not-optics/#comment-8193">optimize for results, not optics</a></li><li class="recentcomments"><span class="comment-author-link">Bernardo Gomes</span> on <a href="https://www.ultrasaurus.com/2016/06/sailsjs-testing-patterns-trunctate-database/#comment-8058">sailsjs testing: how to truncate the database</a></li><li class="recentcomments"><span class="comment-author-link">Bernardo Gomes</span> on <a href="https://www.ultrasaurus.com/2016/06/sailsjs-testing-patterns-trunctate-database/#comment-8057">sailsjs testing: how to truncate the database</a></li></ul></aside>
+		<aside id="recent-posts-2" class="widget well widget_recent_entries">
+		<h2 class="widget-title">Recent Posts</h2>
+		<ul>
+											<li>
+					<a href="https://www.ultrasaurus.com/2020/07/hope-is-not-a-strategy/">hope is not a strategy</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2020/01/duck-typing-in-rust-trait-vs-type/">duck typing in rust: trait vs type</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2020/01/writing-c-library-in-rust/">writing c library in rust</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2020/01/rust-on-heroku-with-hyper-http/">rust on heroku with hyper http</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2020/01/rust-on-heroku-with-async-await-and-tokio/">rust on heroku with async/await and tokio</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/12/patterns-of-actions-are-a-making/">patterns of actions are a making</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/12/memory-safety-necessary-not-sufficient/">memory safety: necessary, not sufficient</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/12/brief-history-of-rtmp-future-thoughts/">brief history of rtmp + future thoughts</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/12/rust-2020/">rust 2020: fulfill the promise</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/11/nut-loaf-with-red-pepper-sauce/">nut loaf with red pepper sauce</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/10/http-3-starter-notes-rust-quiche/">http/3 starter notes, rust quiche</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/10/rust-whats-a-tuple-variant/">[rust] what&#8217;s a tuple variant?</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/08/graph-in-rust-using-petgraph/">graph in rust using petgraph</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/06/debugging-openssl-shared-libary/">debugging openssl shared libary</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/06/digital-identity-how-to-verify-trust/">digital identity: how to verify trust?</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/06/essential-rust-tools/">essential rust tools</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/05/learning-scala-with-graphics/">learning scala with graphics</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/04/when-reality-is-broken-change-the-rules/">when reality is broken, change the rules</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/04/subverting-saurons-business-model/">subverting Sauron&#8217;s business model</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/02/firebase-auth-migration-from-rails-and-devise/">firebase auth migration from rails/devise</a>
+									</li>
+					</ul>
+
+		</aside></section><!-- #secondary .widget-area -->
+				<footer id="colophon" role="contentinfo" class="span12">
+										<div id="page-footer" class="well clearfix">
+						<span class="credits alignleft">&copy; 2021 <a href="https://www.ultrasaurus.com/">the evolving ultrasaurus</a>, all rights reserved.</span>						<div id="site-generator">
+							<a	href="http://wordpress.org/"
+								title="Semantic Personal Publishing Platform"
+								target="_blank"
+								rel="generator">Proudly powered by WordPress</a>
+						</div>
+					</div><!-- #page-footer .well .clearfix -->
+									</footer><!-- #colophon -->
+							</div><!-- #page -->
+		</div><!-- .container -->
+	<!-- 48 queries. 0.358 seconds. -->
+	<script type='text/javascript' src='https://www.ultrasaurus.com/wp-content/themes/the-bootstrap/js/bootstrap.min.js?ver=2.0.3' id='tw-bootstrap-js'></script>
+<script type='text/javascript' src='https://www.ultrasaurus.com/wp-content/themes/the-bootstrap/js/the-bootstrap.min.js?ver=2.0.1' id='the-bootstrap-js'></script>
+<script type='text/javascript' src='https://www.ultrasaurus.com/wp-includes/js/wp-embed.min.js?ver=5.7.1' id='wp-embed-js'></script>
+	</body>
+</html>

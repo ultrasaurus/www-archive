@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: rails 2 day 4: rcov and more behavior-driven development	</title>
+	<atom:link href="https://www.ultrasaurus.com/2008/12/rails-2-day-4-rcov-and-more-behavior-driven-development/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.ultrasaurus.com/2008/12/rails-2-day-4-rcov-and-more-behavior-driven-development/</link>
+	<description>Sarah Allen&#039;s reflections on internet software and other topics</description>
+	<lastBuildDate>Wed, 03 Mar 2010 22:59:42 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<item>
+		<title>
+		By: Cucumber and RSpec resources &#124; Codesennin		</title>
+		<link>https://www.ultrasaurus.com/2008/12/rails-2-day-4-rcov-and-more-behavior-driven-development/#comment-357</link>
+
+		<dc:creator><![CDATA[Cucumber and RSpec resources &#124; Codesennin]]></dc:creator>
+		<pubDate>Wed, 03 Mar 2010 22:59:42 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/sarahblog/2008/12/rails-2-day-4-rcov-and-more-behavior-driven-development/#comment-357</guid>
+
+					<description><![CDATA[[...] rcov and more behavior-driven development [...] ]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] rcov and more behavior-driven development [&#8230;] </p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: markiv		</title>
+		<link>https://www.ultrasaurus.com/2008/12/rails-2-day-4-rcov-and-more-behavior-driven-development/#comment-356</link>
+
+		<dc:creator><![CDATA[markiv]]></dc:creator>
+		<pubDate>Sat, 17 Oct 2009 01:06:25 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/sarahblog/2008/12/rails-2-day-4-rcov-and-more-behavior-driven-development/#comment-356</guid>
+
+					<description><![CDATA[Thanks for the great post....]]></description>
+			<content:encoded><![CDATA[<p>Thanks for the great post&#8230;.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Ansgar		</title>
+		<link>https://www.ultrasaurus.com/2008/12/rails-2-day-4-rcov-and-more-behavior-driven-development/#comment-355</link>
+
+		<dc:creator><![CDATA[Ansgar]]></dc:creator>
+		<pubDate>Fri, 06 Feb 2009 12:58:29 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/sarahblog/2008/12/rails-2-day-4-rcov-and-more-behavior-driven-development/#comment-355</guid>
+
+					<description><![CDATA[Hi Sarah,
+thank you for this tutorial.
+
+One note to the last refactoring (respond_to block).
+This block is there to return the data in the requested format.  So 
+format.html returns the web page as we know it and 
+format.xml returns the data in xml format (try http://localhost:3000/tasks.xml).
+
+Ansgar]]></description>
+			<content:encoded><![CDATA[<p>Hi Sarah,<br />
+thank you for this tutorial.</p>
+<p>One note to the last refactoring (respond_to block).<br />
+This block is there to return the data in the requested format.  So<br />
+format.html returns the web page as we know it and<br />
+format.xml returns the data in xml format (try <a href="http://localhost:3000/tasks.xml" rel="nofollow ugc">http://localhost:3000/tasks.xml</a>).</p>
+<p>Ansgar</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Paul		</title>
+		<link>https://www.ultrasaurus.com/2008/12/rails-2-day-4-rcov-and-more-behavior-driven-development/#comment-354</link>
+
+		<dc:creator><![CDATA[Paul]]></dc:creator>
+		<pubDate>Tue, 20 Jan 2009 06:25:44 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/sarahblog/2008/12/rails-2-day-4-rcov-and-more-behavior-driven-development/#comment-354</guid>
+
+					<description><![CDATA[Hi.
+This is a great post. I have a couple small suggestions:
+
+change this &lt;code&gt;&#060;tr id=&quot;&#060;%=&quot;task&quot;+task.id.to_s%&#062;&quot;&#062;&lt;/code&gt;
+to this &lt;code&gt;&#060;tr id=&quot;&#060;%= dom_id(task) %&#062;&quot;&#062;&lt;/code&gt;
+
+That will produce output like task_1, task_2, etc. That&#039;s just a bit more of a &quot;Rails&quot; way to do it.
+
+Then in your matcher, you could change this &lt;code&gt;within(&quot;table &#062; tr#task&quot;+task.id.to_s) do&lt;/code&gt;
+to this &lt;code&gt;within(&quot;table &#062; tr#task_#{task.id}&quot;) do&lt;/code&gt;
+
+Or you could include &lt;code&gt;ActionView::Helpers::RecordIdentificationHelper&lt;/code&gt; and then change it to this &lt;code&gt;within(&quot;table &#062; tr##{dom_id task}&quot;) do&lt;/code&gt;
+
+Cheers]]></description>
+			<content:encoded><![CDATA[<p>Hi.<br />
+This is a great post. I have a couple small suggestions:</p>
+<p>change this <code>&lt;tr id="&lt;%="task"+task.id.to_s%&gt;"&gt;</code><br />
+to this <code>&lt;tr id="&lt;%= dom_id(task) %&gt;"&gt;</code></p>
+<p>That will produce output like task_1, task_2, etc. That&#8217;s just a bit more of a &#8220;Rails&#8221; way to do it.</p>
+<p>Then in your matcher, you could change this <code>within("table &gt; tr#task"+task.id.to_s) do</code><br />
+to this <code>within("table &gt; tr#task_#{task.id}") do</code></p>
+<p>Or you could include <code>ActionView::Helpers::RecordIdentificationHelper</code> and then change it to this <code>within("table &gt; tr##{dom_id task}") do</code></p>
+<p>Cheers</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

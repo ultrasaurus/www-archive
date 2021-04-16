@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Uncategorized &#8211; the evolving ultrasaurus</title>
+	<atom:link href="https://www.ultrasaurus.com/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.ultrasaurus.com</link>
+	<description>Sarah Allen&#039;s reflections on internet software and other topics</description>
+	<lastBuildDate>Sat, 04 Jul 2020 10:47:06 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<item>
+		<title>hope is not a strategy</title>
+		<link>https://www.ultrasaurus.com/2020/07/hope-is-not-a-strategy/</link>
+					<comments>https://www.ultrasaurus.com/2020/07/hope-is-not-a-strategy/#respond</comments>
+		
+		<dc:creator><![CDATA[sarah]]></dc:creator>
+		<pubDate>Sat, 04 Jul 2020 10:46:13 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=7019</guid>
+
+					<description><![CDATA[&#8220;Yeah I think I got to the limit of my bargaining &#8230; getting to end of May, and when I didn’t seem to get past my last best day which was 2 weeks ago&#8221; It was May 25th, the day I remember grieving for my lost life, text chatting with my flu buddy about the&#8230; <a href="https://www.ultrasaurus.com/2020/07/hope-is-not-a-strategy/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p>&#8220;Yeah I think I got to the limit of my bargaining &#8230; getting to end of May, and when I didn’t seem to get past my last best day which was 2 weeks ago&#8221; It was May 25th, the day I remember grieving for my lost life, text chatting with my <em>flu buddy</em> about the five stages of grief: denial, anger, bargaining, depression and acceptance.</p>
+<p>&#8220;I think the thing is that I have to learn to live with this — I can’t just keep expecting, waiting to suddenly get better.&#8221; I stopped making plans beyond &#8220;rest, walk a little, rest, eat a little, rest&#8230;&#8221; in achingly slow motion, on a good day I could send an email <em>and</em> talk on the phone to a friend.</p>
+<p>It&#8217;s not that I gave up hope, it&#8217;s just that thinking about any specific hope for the future was just not helpful. Recently, my brother shared a poem that captured this experience well:</p>
+<p>My grandmother once gave me a tip:<br />
+In difficult times, you move forward in small steps.<br />
+Do what you have to do, but little by little.<br />
+Don&#8217;t think about the future, or what may happen tomorrow.<br />
+Wash the dishes.<br />
+Remove the dust.<br />
+Write a letter.<br />
+Make a soup.<br />
+You see?<br />
+You are advancing step by step.<br />
+Take a step and stop.<br />
+Rest a little.<br />
+Praise yourself.<br />
+Take another step.<br />
+Then another.<br />
+You won&#8217;t notice, but your steps will grow more and more.<br />
+And the time will come when you can think about the future without crying.</p>
+<p>&#8212; Elena Mikhalkova, <em>The Room of Ancient Keys</em></p>
+<p>I couldn&#8217;t find anything else written by Elena Mikhalkova that has been translated into English. I&#8217;d love to hear about it if her books or any of her other poems is ever translated.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.ultrasaurus.com/2020/07/hope-is-not-a-strategy/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>memory safety: necessary, not sufficient</title>
+		<link>https://www.ultrasaurus.com/2019/12/memory-safety-necessary-not-sufficient/</link>
+					<comments>https://www.ultrasaurus.com/2019/12/memory-safety-necessary-not-sufficient/#respond</comments>
+		
+		<dc:creator><![CDATA[sarah]]></dc:creator>
+		<pubDate>Sun, 22 Dec 2019 22:33:28 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=6933</guid>
+
+					<description><![CDATA[As I think about developing new Internet-connected software, I worry about the safety of the people who use it. By 2021, most Web browsers won&#8217;t allow native code extensions, which will eliminate a lot of potential issues, while a hug swath of creative animations and interactives will disappear from the Web. I spent some time&#8230; <a href="https://www.ultrasaurus.com/2019/12/memory-safety-necessary-not-sufficient/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p>As I think about developing new Internet-connected software, I worry about the safety of the people who use it. By 2021, most Web browsers won&#8217;t allow native code extensions, which will eliminate a lot of potential issues, while a hug swath of creative animations and interactives will disappear from the Web. I spent some time this summer, thinking about what I could learn from the security vulnerabilities in the Flash Player that has been much maligned in recent years.</p>
+<h2>Flash CVEs (2001-2009)</h2>
+<p>I looked at the Common Vulnerabilities and Exposure List (<a href="https://cve.mitre.org/data/downloads/index.html">CVE List</a> hosted by Mitre with all reports 2001-2019. I found 1172 Flash Player vulnerabilities, which sounds huge, but in context of vulnerabilities reported in Web Browsers, doesn&#8217;t look that bad:</p>
+<ul>
+<li>1172  Flash Player </li>
+<li>1999  Internet Explorer </li>
+<li>2033  Chrome </li>
+<li>2442  Firefox</li>
+</ul>
+<p>Note: these numbers don&#8217;t necessarily tell us that Firefox had more vulnerabilities than Internet Explorer. It could mean that Firefox was more rigorously open in reporting vulnerabilities, which seems likely.</p>
+<h2>Understanding attack vectors</h2>
+<p>Vulnerabilities in the Flash Player were particularly dangerous because Flash was installed on all of the Web Browsers, so any flaw in Flash was much easier to exploit than a flaw in a specific Web Browser. To understand this, one needs to understand that the primary <a href="https://www.sumologic.com/glossary/attack-vector/">attack vector</a> enabling a hacker to take advantage of a vulnerability in Flash Player was to create a <em>malicious Flash application or movie</em> that would distract the user while doing something illicit or intentionally trigger a crash and then exploiting that crash to execute native code with access to the user&#8217;s machine.</p>
+<p>In the larger context of a specific attack, a vulnerability in the Flash Player would typically need to be combined with something else:<br />
+* deceptive emails (aka phishing)<br />
+* deceptive websites<br />
+* &#8220;man in the middle&#8221; attacks (replace real Web content with malicious content that appears identical)</p>
+<h2>Categorizing vulnerabilities</h2>
+<p>I conducted a rough cut analysis of matching terms by reading the list of CVEs and creating categories that might provide instructive value in thinking through how to avoid similar issues in the future.</p>
+<p><img src="https://www.ultrasaurus.com/wp-content/uploads/2019/12/flash-cve-categories.png" alt="pie chart illustrating data in table below" /></p>
+<ul>
+<li>802   memory safety</li>
+<li>42    other code execution</li>
+<li>58    XSS, CORS, CLRF</li>
+<li>61    parsing / validation</li>
+<li>13    clickjacking</li>
+<li>91    bypass sandbox</li>
+<li>105   other</li>
+</ul>
+<h3>Memory safety (~70%)</h3>
+<p>The vast majority of issues (&#8220;memory safety&#8221;) resulted from coding errors, which can now be avoided with modern programming languages. For a long time, we&#8217;ve been able to use languages like Erlang/Elixir, Java, Python, Ruby, and Go for server-side coding with memory safety features. Even C++ has language features and libraries (though you must choose to use them).  Now, for low-profile client software we can use Rust or WebAssembly when we need something higher performance or less memory-hungry than JavaScript.</p>
+<h3>Escaping the &#8220;sandbox&#8221; (~15%)</h3>
+<p>If we develop code that runs in a Web browser, we can trust the browser&#8217;s &#8220;sandbox&#8221; &#8212; our apps can only use a restricted set of APIs.  If we&#8217;re writing a Web browser or any other Internet-connected software used by humans or machines, then it is a good idea to carefully isolate our code that can access the operating system to write files or make network calls.</p>
+<p>From my CVE analysis, coding errors in this category resulted in just over 15% of CVEs (other code execution, bypassing sandbox, and XSS, CORS, CLRF issues). Of course, the biggest thing you can do is not include the code that does powerful things you don&#8217;t want to allow. However, sometimes you do need to load and execute a shared library, accessing the filesystem and the network.</p>
+<h3>Parsing / Validation (~5% / ~15% excluding memory safety)</h3>
+<p>Parsing and validation of input (mostly reading a file or parameter) is another common coding error pattern which can result in a serious vulnerability. Having to fix these kinds of issues causes me to be very careful when adding parsing code to any app or library.  If we exclude memory safety errors, parsing and validation errors are larger than any identified class of error.</p>
+<p><img src="https://www.ultrasaurus.com/wp-content/uploads/2019/12/pie-chart-excluding-memory-safety-1.png" alt="pie chart excluding memory safety shows 16% parsing / validation" /></p>
+<h3>Clickjacking and &#8220;other&#8221;</h3>
+<p>Clickjacking is noteworthy for anyone developing a client app with extensions where 3rd party developers (or other users via content sharing) can present information to the user and allow interaction. This class of attack uses features that are designed to empower users to present compelling content to be instead used to trick people into doing something unintended.  For example, there were bugs that allowed Flash content to overlay other web pages or browser UI, thereby tricking the user into clicking or typing in a way to provide privileged access.</p>
+<p>Perhaps &#8220;other&#8221; deserves a closer look, but I didn&#8217;t find clear patterns and suspect that contains many smaller categories.</p>
+<h2>Parsing is hard</h2>
+<p>In my experience, many programmers recognize that implementing an extension mechanism that allows for user interaction or providing a &#8220;sandbox&#8221; for 3rd party code can be very tricky to get right and will exercise great care in writing or using that kind of code.  However, I have often interacted with programmers who don&#8217;t seem to believe that writing code to parse text is difficult. Writing code that performs the intended action is not hard, but writing code that has no unintended effects requires very careful coding and a little imagination.</p>
+<p>Looking toward open source code for some examples to learn from, here are a few examples of URL parsing libraries where bugs were found (and fixed) after vulnerabilities were discovered in the field:</p>
+<ul>
+<li>https://github.com/envoyproxy/envoy/issues/7728 (Envoy proxy)</li>
+<li>https://go-review.googlesource.com/c/go/+/189258/ (Go)</li>
+<li>https://www.cvedetails.com/cve/CVE-2018-3774/ (url-parse Node library)</li>
+</ul>
+<hr />
+<p>The results of this analysis were included as part of Code Mesh LDN 19 talk, A landscape of unintended consequences (<a href="https://www.youtube.com/watch?v=pcuNby-MxCo">video</a>, <a href="https://www.slideshare.net/sarah.allen/internet-security-a-landscape-of-unintended-consequences">slides</a>). The data and methodology is available at on github: <a href="https://github.com/ultrasaurus/flash-cve-analysis">ultrasaurus/flash-cve-analysis</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.ultrasaurus.com/2019/12/memory-safety-necessary-not-sufficient/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>brief history of rtmp + future thoughts</title>
+		<link>https://www.ultrasaurus.com/2019/12/brief-history-of-rtmp-future-thoughts/</link>
+					<comments>https://www.ultrasaurus.com/2019/12/brief-history-of-rtmp-future-thoughts/#respond</comments>
+		
+		<dc:creator><![CDATA[sarah]]></dc:creator>
+		<pubDate>Tue, 17 Dec 2019 01:47:02 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=6922</guid>
+
+					<description><![CDATA[RTMP: web video innovation or Web 1.0 hack… how did we get to now? (Demuxed 2019) It was fun to go back in time and recall why Flash was great in 2000, when IE 5.5 had just been released and you couldn&#8217;t rely on CSS actually working. In prepping for this talk, I worked really&#8230; <a href="https://www.ultrasaurus.com/2019/12/brief-history-of-rtmp-future-thoughts/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p><strong>RTMP: web video innovation or Web 1.0 hack… how did we get to now?</strong> (Demuxed 2019)</p>
+<p><iframe loading="lazy" width="770" height="433" src="https://www.youtube.com/embed/5Rv50RCwqo8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>It was fun to go back in time and recall why Flash was great in 2000, when IE 5.5 had just been released and you couldn&#8217;t rely on CSS actually working.  In prepping for this talk, I worked really hard to try to express what Web development was like then and why people loved Flash: &#8220;200K of cross-platform goodness.&#8221; Flash made the Web work for high fidelity interactive graphics 20 years ago, which I think helped drive Web standards to support more than text, images and links.</p>
+<p>&#8220;We wanted to support all the people on the internet.&#8221; It still boggles my mind how we could support low-latency way-back-then and now when computers and networks are faster it seems impossible&#8230; sometimes I try to visualize what is happening to the bits as I wait for something to happen. (I really do know why things are slower now, and it&#8217;s not just about the tech, but that&#8217;s a different story.)</p>
+<p>HTTP tunneling worked much better than you would expect&#8230; sometimes it&#8217;s good to make something work for everyone, even if not optimal.</p>
+<p>I fondly remembering Doug Engelbart telling me that his Augment system (built in the 1960s) had more features than Flash Player 6 + Flash Communication Server in 2002.  (It&#8217;s great when your heroes tell you that your great accomplishments are not all that interesting.) Later, he did acknowledge that making this stuff available to everyone on the Web was &#8220;pretty good.&#8221; Inspiring widespread adoption, creating an ecosystem is a different kind of innovation.</p>
+<p>The thing that makes it an ecosystem is that each essential component can be bought from multiple companies and is available as open source. At first Flash was essential, now much later, Flash doesn&#8217;t really matter anymore to the relevance of the RTMP protocol.</p>
+<p>Today there are 500M IP camera on the Internet, about the number of people on the Web when Flash Player 6 was released. SmartHome video sensors have insane growth. The future of video is not about how to catch up with latency and resolution of live broadcast TV (though that will happen), it&#8217;s about how we can be integrate video streams from new devices, how we can help the machines help the people by creating new applications.  Maybe RTMP will be a part of that, what do you think?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.ultrasaurus.com/2019/12/brief-history-of-rtmp-future-thoughts/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>golang philosophy</title>
+		<link>https://www.ultrasaurus.com/2019/01/golang-philosophy/</link>
+					<comments>https://www.ultrasaurus.com/2019/01/golang-philosophy/#respond</comments>
+		
+		<dc:creator><![CDATA[sarah]]></dc:creator>
+		<pubDate>Fri, 18 Jan 2019 16:16:43 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=6719</guid>
+
+					<description><![CDATA[In learning a new programming language, it&#8217;s helpful to understand it&#8217;s philosophy. I seek to learn patterns that are idiomatic, and more importantly: why the syntax is the way it is. This allows me to write original code more quickly, gaining an intuition for simple things like when to look for a library and when&#8230; <a href="https://www.ultrasaurus.com/2019/01/golang-philosophy/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p>In learning a new programming language, it&#8217;s helpful to understand it&#8217;s philosophy. I seek to learn patterns that are idiomatic, and more importantly: why the syntax is the way it is. This allows me to write original code more quickly, gaining an intuition for simple things like when to look for a library and when to just write code.</p>
+<p>I rarely find good resources for learning a new language that are targeted at experienced programmers. So I&#8217;ve developed a habit of looking for language koans. Inspired by <a href="http://rubykoans.com/">Ruby Koans</a>, these are unit tests which guide a programmer through basic language constructs by presenting a failing test and let you write simple code to learn the syntax of a language.  These tests typically include a bit of text that helps newcomers reflect on what is special and interesting about this particular programming language.</p>
+<p>In learning Go, I found <a href="https://github.com/cdarwin/go-koans">cdarwin/go-koans</a>, which helped me to reflect on the philosophy of golang, the Go programming language.</p>
+<p>The koans caused me to meditate on the basics, leading me to read more and reflect. While <a href="https://github.com/cdarwin/go-koans/blob/master/about_basics.go">about_basics.go</a> is quick to solve technically, it sparked my curiosity on two points.</p>
+<h2>1. The uninitialized variable</h2>
+<p>I really wanted the comments in the <code>go-koans</code> to be a bit more like Zen koans (or Ruby koans), so I wrote these:</p>
+<pre><code>// listen to the darkness of an unset variable
+// what is the code that is not written?
+// consider the emptiness of a string
+
+// create meaning from emptiness
+// undefined structure isn't
+</code></pre>
+<p>&#8220;Make the zero value useful&#8221; &#8212;<a href="https://go-proverbs.github.io/">Go Proverbs</a></p>
+<p>It reminds me of the <a href="http://bengtwendel.com/your-teacup-is-full-empty-your-cup/">Zen teacup parable</a>. An empty cup has utility, even before it is filled.</p>
+<h2>2. The implications of a string</h2>
+<p>One of the most deceptively simple types in modern programming languages is the string. In Go, there is a <a href="https://golang.org/pkg/builtin/#string">built-in string type</a> with short, unsatisfying descriptive text.</p>
+<p><a href="https://blog.golang.org/strings">Strings, bytes, runes and characters in Go</a> explains that strings are a read-only slice of bytes (at runtime). Go source code is UTF-8, so string literals always contain UTF-8 text (except for <a href="https://golang.org/ref/spec#String_literals">byte-level escapes</a>.</p>
+<p>Strings always cause me to reflect on how memory management works in a language. In my search for basic answers about how and when memory happens in string operations, I read about <a href="https://segment.com/blog/allocation-efficiency-in-high-performance-go-services/">allocation efficiency in high-performance Go services</a> which includes a nice explanation of heap vs stack memory allocation in Go.</p>
+<h2>Reflections</h2>
+<p>At this point, I don&#8217;t know what I need to know about this new programming language. I just like to know what the code I&#8217;m typing actually does. Learning syntax is boring, so I need to occupy my mind with something more interesting while I practice typing unfamiliar sequences of text. To write good code, I need to know so much more than the syntax, but I need to be careful not get get too attached to certain details. For example, future compiler versions change the patterns of how code is transformed into machine operations. However, if I attach just a little deeper meaning to these syntax constructs and get a feel for what my code ends up doing under-the-hood, I can more quickly understand the implications of the code I write.</p>
+<p>When I emerge from these learning meditations and I can finally construct this new syntax without thinking and start to solve actual problems that matter to humans, then I will have created these little trails in my mind that lead to empty spaces, which have shape and meaning, like the Go zero value and the Zen teacup.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.ultrasaurus.com/2019/01/golang-philosophy/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>agynephasia: the inability to understand what women say</title>
+		<link>https://www.ultrasaurus.com/2019/01/agynephasia-the-inability-to-understand-what-women-say/</link>
+					<comments>https://www.ultrasaurus.com/2019/01/agynephasia-the-inability-to-understand-what-women-say/#respond</comments>
+		
+		<dc:creator><![CDATA[sarah]]></dc:creator>
+		<pubDate>Mon, 14 Jan 2019 00:40:13 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=6697</guid>
+
+					<description><![CDATA[There&#8217;s a common pattern where some men seem to have a complete inability to understand women when they speak. As far back as the 1970s, this kind of interaction has been illustrated with humor: The term mansplaining was coined more recently, sparked by Rebecca Solnit&#8217;s 2008 essay Men Explain Things to Me. Solnit&#8217;s stories present&#8230; <a href="https://www.ultrasaurus.com/2019/01/agynephasia-the-inability-to-understand-what-women-say/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p>There&#8217;s a common pattern where some men seem to have a complete inability to understand women when they speak. As far back <a href="http://answers.google.com/answers/threadview/id/609976.html">as the 1970s</a>, this kind of interaction has been illustrated with humor:</p>
+<p><a href="https://punch.photoshelter.com/image/I0000eHEXGJ_wImQ"><img src="https://www.ultrasaurus.com/wp-content/uploads/2019/01/ms-triggs.jpg" alt="an excellent suggestion, Miss Triggs. Perhaps one of the men here would like to make it" /></a></p>
+<p>The term <a href="https://thenib.com/mansplaining-explained">mansplaining</a> was coined more recently, sparked by Rebecca Solnit&#8217;s 2008 essay <a href="https://www.commondreams.org/views/2008/04/13/men-explain-things-me-facts-didnt-get-their-way">Men Explain Things to Me</a>. Solnit&#8217;s stories present a different perspective from the prevailing narrative that women lack confidence to speak up: perhaps the lack of confidence is not in ourselves but <a href="https://hbr.org/2018/03/is-the-confidence-gap-between-men-and-women-a-myth">rather in our audience</a>. One must be an authoritative expert on a subject with footnoted documentation before having the right to an opinion, and even then, we may be inaccurately criticized or simply ignored.</p>
+<p>It was a few years ago when I realized that I had accepted the status quo. I was on a conference call with two male colleagues. I was caught up in the discussion and hadn&#8217;t noticed that I had initially put forth an idea that was then attributed to my other male colleague. Instead of tacitly accepting credit for my idea, he promptly said &#8220;I agree, that was a great idea that Sarah had.&#8221; A simple correction, said kindly with an edge of humor, honored my contribution while gently chiding our colleague. Most men have the capacity to listen to the words I say and follow the thread of the idea, and some realize that correct attribution is a simple respect that fosters effective collaboration.</p>
+<p>A couple of weeks ago, <a href="https://twitter.com/jenmeiwu">Jen-Mei Wu</a>, <a href="https://twitter.com/judytuna">Judy Tuan</a> and I were talking about code and sharing stories of our lives. With dark humor, I noted that for some men, it seems that my voice is unintelligible. I know they hear me, since they typically wait till I finish speaking before repeating themselves verbatim as if I had not spoken or asking a less knowledgeable man to explain in more detail.  I joked that I needed a personal translator, a man who would attend meetings with me and repeat what I say for some of my colleagues who can&#8217;t seem to understand my words.</p>
+<p>We wondered if this behavior might stem from the need to compensate for a cognitive disability where some men can hear female voices, yet struggle to discern meaning from sound. Without self-awareness of their own affliction, when they hear the garbled syllables, they assume the woman is not speaking clearly, and so they feel compelled to repeat their understanding of the words. Tech companies might identify men who are thus impaired and offer mansplaining-as-a-service as a benefit to accommodate this peculiar affliction.</p>
+<p>I sought a word to describe this new insight about a potential root cause, perhaps a previously unknown form of aphasia where some men cannot cognitively process words when they are spoken by women. It seems important to separate the community service where a man will amplify a women&#8217;s ideas by repeating key points with attribution, as distinct from the bizarre echolalia commonly known as <em>mansplaining</em> which may be a further symptom of this affliction.</p>
+<p>In reading further on this subject, I discovered <a href="https://www.researchgate.net/publication/268749059_Discrimination_of_voice_gender_in_the_human_auditory_cortex">some research</a> indicating that there might be a physiological basis for this syndrome. Further study may be needed. Independent of the neurological processes involved, I suggest the word <em>agynephasia</em> to describe this phenomenon.</p>
+<p><img src="https://www.ultrasaurus.com/wp-content/uploads/2019/01/agynephasia.png" alt="agynephasia greek roots: a- not, gune woman, phanai speak" /></p>
+<p>I urge men to support your colleagues who may be unaware of their disability. Until the tech companies start routine testing for this affliction and providing trained assistants, you can help by learning about the expertise of your colleagues and dinner guests, regardless of their race or gender, correctly attributing ideas, and helping to redirect the discussion if needed.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.ultrasaurus.com/2019/01/agynephasia-the-inability-to-understand-what-women-say/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the path is made by walking</title>
+		<link>https://www.ultrasaurus.com/2018/10/the-path-is-made-by-walking/</link>
+					<comments>https://www.ultrasaurus.com/2018/10/the-path-is-made-by-walking/#comments</comments>
+		
+		<dc:creator><![CDATA[sarah]]></dc:creator>
+		<pubDate>Sun, 14 Oct 2018 22:24:17 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=6677</guid>
+
+					<description><![CDATA[In 2009, when Sarah Mei and I started teaching free coding workshops for women, we didn&#8217;t expect to fix the industry, just our little corner of it. We&#8217;re programmers. We solve problems by focusing on something concrete that can be built with the tools at hand. We focused on increasing diversity in the SF Ruby&#8230; <a href="https://www.ultrasaurus.com/2018/10/the-path-is-made-by-walking/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p>In 2009, when Sarah Mei and I started teaching free coding workshops for women, we didn&#8217;t expect to fix the industry, just our little corner of it.</p>
+<p>We&#8217;re programmers. We solve problems by focusing on something concrete that can be built with the tools at hand. We focused on increasing diversity in the SF Ruby meetup. By teaching workshops, engaging the local tech companies and all of the people who wanted to help, we <a href="http://www.sarahmei.com/blog/2010/02/20/scale-8x-slides-posted/">moved the needle</a>. Later we expanded to include outreach to other demographics who are underrepresented in tech (which turns out to be most people).</p>
+<p>Last week I spoke at a <a href="https://eventbrite.com/e/bridge-foundry-impact-vision-tickets-50996690474">Bridge Foundry event</a> where we announced a new <a href="https://bridgefoundry.org/partner">industry partner program</a>. In preparing for this announcement, I spoke to Amanda Cooper (<a href="https://twitter.com/MandaCoop">@MandaCoop</a>) on our advisory board. She framed what we do as &#8220;you make the road by walking it.&#8221;</p>
+<p>There was no clear path, but we had ideas that we thought could work. We did the work to implement our ideas. We took a data-driven approach to measuring impact. We open-sourced our process and materials. In doing the work, we created a path that others could follow. Or more accurately, inspired others to help create the path by walking it with us.</p>
+<p>Over the years, I&#8217;ve watched students become senior software developers. I&#8217;ve seen how volunteering at the workshops has caused some ex-programmers to decide to become software engineers again. It&#8217;s not all about more diverse software developers &#8212; we want everyone to be able to learn these tech skills, if they want to. Coding skills are applicable across many disciplines and can be useful to simply understand the technology that people use every day.</p>
+<p>Most students and volunteers are working software developers, and we&#8217;re seeing some particular problems in the tech industry where we think we can help.</p>
+<h2>Lack of <em>good</em> tech jobs</h2>
+<p>The tech industry has a diversity problem that goes well beyond the &#8220;pipeline&#8221; problem that can be address with skill training. There seem to be few workplaces where there is real opportunity to succeed based on individual skill and potential.</p>
+<p>I believe that most companies genuinely want to create workplaces where people with the right skills and capabilities can deliver business impact. This should be very aligned with business goals. Unfortunately systemic bias gets in the way. There are patterns that need to and can be changed. There are bugs in the system that need to be fixed in order to attract and retain diverse talent.</p>
+<p>I see some companies where the environment seems to be different. I hear about companies who want to do better. Help create the path by walking it with some folks who have a lot of experience solving these kinds of challenges: join the <a href="https://bridgefoundry.org/partner">Bridge Foundry Industry Partner Program</a>.</p>
+<hr />
+<p><strong>XXIX</strong></p>
+<p>Traveler, there is no path.<br />
+The path is made by walking.</p>
+<p>Traveller, the path is your tracks<br />
+And nothing more.<br />
+Traveller, there is no path<br />
+The path is made by walking.<br />
+By walking you make a path<br />
+And turning, you look back<br />
+At a way you will never tread again<br />
+Traveller, there is no road<br />
+Only wakes in the sea.</p>
+<p>― Antonio Machado, Border of a Dream: Selected Poems</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.ultrasaurus.com/2018/10/the-path-is-made-by-walking/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>いろは (iroha) hiragana basics</title>
+		<link>https://www.ultrasaurus.com/2014/10/iroha-hiragana-basics/</link>
+					<comments>https://www.ultrasaurus.com/2014/10/iroha-hiragana-basics/#comments</comments>
+		
+		<dc:creator><![CDATA[sarah]]></dc:creator>
+		<pubDate>Sun, 26 Oct 2014 23:18:47 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=5347</guid>
+
+					<description><![CDATA[Today I learned about いろは (iroha) a different way to learn Hiragana than the gojūon (五十音) ordering I learned in my Japanese class, where the characters are displayed in a grid. It makes sense to teach that way since it is easy to see which share same beginning (consonant) sound or ending (vowel) sound. However,&#8230; <a href="https://www.ultrasaurus.com/2014/10/iroha-hiragana-basics/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p><a href="http://en.wikipedia.org/wiki/Goj%C5%ABon"><img loading="lazy" src="https://www.ultrasaurus.com/wp-content/uploads/2014/10/Screen-Shot-2014-10-26-at-3.49.37-PM-103x300.png" alt="The gojūon is a Japanese ordering of kana named for the 5×10 grid in which the characters are displayed. Each kana corresponds to one sound in the Japanese language. " width="103" height="300" class="alignright size-medium wp-image-5352" /></a>Today I learned about いろは (iroha) a different way to learn Hiragana than the <a href="http://en.wikipedia.org/wiki/Goj%C5%ABon">gojūon (五十音) ordering</a> I learned in my Japanese class, where the characters are displayed in a grid. It makes sense to teach that way since it is easy to see which share same beginning (consonant) sound or ending (vowel) sound.</p>
+<p>However, I knew the characters once and wanted to make my study session more interesting. I had forgotten about half the characters since first studying Japanese four years ago and wanted to review using actual words. If I could learn the characters with the context of real language then I could learn vocabulary at the same time. I wondered if there were a &#8220;quick brown fox&#8221; (<a href="http://en.wikipedia.org/wiki/Pangram">pangram</a>) for Hiragana.</p>
+<p>I quickly found <a href="http://en.wikipedia.org/wiki/Iroha">いろは</a> (iroha) an ancient Japanese poem:</p>
+<p>いろはにほへと<br />
+ちりぬるを<br />
+わかよたれそ<br />
+つねならむ<br />
+うゐのおくやま<br />
+けふこえて<br />
+あさきゆめみし<br />
+ゑひもせす</p>
+<p>This poem not just an arcane bit of trivia, but a real ABCs of Japanese, where the ordering from the poem is still used today.  I found a wonderful video <a href="https://www.youtube.com/watch?v=-kmtHTUUCvI">What is &#8220;いろは iroha&#8221;?</a> that tells the story of this word which means &#8220;basic&#8221; or &#8220;fundamental&#8221; in Japanese.  I learned that the first 7 characters are used for musical notes (the way we use A-G, in Japanese they use いろはにほへと.  I read elsewhere that theater seats are often ordered this way.</p>
+<p>I realized that if I could learn this poem, I would also learn other useful aspects of the Japanese language and a glimpse of the culture as well.  I wanted to hear it while I studied, and found answers via my new twitter friend Charelle Collett (<a href="https://twitter.com/Charcol1900">@Charcol1900</a>)</p>
+<p>Here&#8217;s someone singing it in a child-like ABCs &#8212; no idea what the words on the right are, but this is the very clear to follow along and practice reading while hearing the characters pronounced:</p>
+<p><iframe loading="lazy" width="770" height="433" src="http://www.youtube.com/embed/NTkyIW6eX8E?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p>and here&#8217;s Hatsune Miku (Vocal software) singing it:</p>
+<p><iframe loading="lazy" width="770" height="433" src="http://www.youtube.com/embed/oESk9EUP4VA?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p>This second one is really interesting since it also shows the evolution of early Japanese script into modern Hiragana and then shows some more variants &#8212; here&#8217;s some detail on the first three.</p>
+<ol>
+<li><a href="http://en.wikipedia.org/wiki/Man%27y%C5%8Dgana">Man&#8217;yōgana</a>: an ancient writing system that employs Chinese characters to represent the Japanese language</li>
+<li><a href="http://en.wikipedia.org/wiki/Hiragana#History">Chinese Cursive Script</a> from which Hiragana evolved</li>
+<li>Modern Hiragana</li>
+</ol>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.ultrasaurus.com/2014/10/iroha-hiragana-basics/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>midas: government open source in action</title>
+		<link>https://www.ultrasaurus.com/2014/08/midas-government-open-source-action/</link>
+					<comments>https://www.ultrasaurus.com/2014/08/midas-government-open-source-action/#respond</comments>
+		
+		<dc:creator><![CDATA[sarah]]></dc:creator>
+		<pubDate>Sun, 10 Aug 2014 12:54:41 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=5199</guid>
+
+					<description><![CDATA[The project I&#8217;m working on, Midas Innovation Toolkit, was developed in the open from day one. It started as a Presidential Innovation Fellows project, sponsored by the US Department of State. Both the State Dept and Health and Human Services (HHS) are actively working to pilot the software within each agency to foster collaboration within&#8230; <a href="https://www.ultrasaurus.com/2014/08/midas-government-open-source-action/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p>The project I&#8217;m working on, <a href="http://18fblog.tumblr.com/post/91952641466/midas-a-marketplace-for-innovation-in-government">Midas Innovation Toolkit</a>, was developed in the open from day one.  It started as a <a href="http://www.whitehouse.gov/innovationfellows">Presidential Innovation Fellows</a> project, sponsored by the <a href="http://www.state.gov/">US Department of State</a>.</p>
+<p>Both the State Dept and <a href="http://www.hhs.gov/">Health and Human Services</a> (HHS) are actively working to pilot the software within each agency to foster collaboration within different target communities. Developers at each agency are leveraging each other&#8217;s efforts by submitting changes (via pull requests) to a common shared codebase (<a href="https://github.com/18F/midas">hosted on github</a>).</p>
+<p>It&#8217;s exciting to see this cross-agency collaboration through open source.  The software is designed to help agency employees collaborate across team boundaries, and it&#8217;s wonderful that we&#8217;re doing that with the software itself using the entirely different mechanisms of open source.</p>
+<p>I&#8217;m relatively new to the project and still learning about it myself, but would welcome volunteer contributions &#8212; or feedback on how to make the project more welcoming to people who want to help.  It uses <a href="http://nodejs.org/">Nodejs</a> and <a href="http://sailsjs.org">Sails</a> with <a href="http://backbonejs.org/">Backbone</a> on the front end, and we&#8217;ve just started writing some Chef recipes for automated deployment.  There&#8217;s a lot of low-hanging fruit in the <a href="https://github.com/18F/midas/issues">github issues list</a>.</p>
+<p>Would love to hear what you think about this project specifically or government open source in general!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.ultrasaurus.com/2014/08/midas-government-open-source-action/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>developing in the open</title>
+		<link>https://www.ultrasaurus.com/2014/08/developing-open/</link>
+					<comments>https://www.ultrasaurus.com/2014/08/developing-open/#comments</comments>
+		
+		<dc:creator><![CDATA[sarah]]></dc:creator>
+		<pubDate>Thu, 07 Aug 2014 16:57:47 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=5168</guid>
+
+					<description><![CDATA[As a developer and a citizen, I am excited about open source in the US Government. I recently joined 18F, a new digital services delivery team within the federal government, part of our General Services Administration (GSA). Last week, we announced our open source policy where our source code is developed in the open from&#8230; <a href="https://www.ultrasaurus.com/2014/08/developing-open/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p>As a developer and a citizen, I am excited about open source in the US Government.  I recently joined <a href="https://18f.gsa.gov/">18F</a>, a new digital services delivery team within the federal government, part of our General Services Administration (<a href="http://www.gsa.gov/">GSA</a>).  Last week, we announced our <a href="http://18fblog.tumblr.com/post/93226835135/18f-an-open-source-team">open source policy</a> where our source code is <a href="http://18fblog.tumblr.com/post/93415834296/working-in-public-from-day-1">developed in the open from day one</a> as <a href="https://github.com/18F/open-source-policy">public domain (CCO)</a>.</p>
+<p><strong>As a citizen</strong>, I believe open source makes best use of our tax dollars:</p>
+<ul>
+<li>Leveraging open source tools &amp; libraries is not just about saving licensing costs, it saves time.  We can evaluate a library or tool by actually using it, without up-front analysis and a time-consuming procurement process.
+</li>
+<li>New contractors can pick up a project easily, which will drive competition and reduce switching costs.
+</li>
+<li>Different agencies in federal, state and local governments can easily leverage each other’s code through coder social networks like github. This happened recently with the <a href="https://github.com/18F/answers">18F Answers platform</a>, based on <a href="http://answers.honolulu.gov/">Honolulu Answers</a>, developed by <a href="http://codeforamerica.org/">Code for America</a>, and now being leveraged to improve the immigration experience (USCIS).</li>
+</ul>
+<p><strong>As a developer</strong>, open source encourages me to apply best practices:  effectively communicating the impact of the code I write making choices that will yield high quality, secure code, and embracing volunteer contributions that are aligned with the project’s mission.</p>
+<p>On a personal level, it is an amazing professional development opportunity.  A long time ago, a conversation with Rob Savoy, forever changed how I thought about the personal impact of developing open source software.  He said that, with rare exception, all the code he had written was available to him in any future project.  Imagine if that were true for me… if the source code of After Effects, Flash video, and Shockwave (or their open source equivalents in a parallel universe) were available on my next project.</p>
+<p>This is even more compelling for the now-defunct proprietary software I&#8217;ve create.  Adobe ScreenReady turned any document into a high quality image with anti-aliasing and alpha channel (turning the “paper” into transparency). PACo/QuickPICS enabled long-format synchronized audio-video off CD-ROM (which at that time had a comparable bandwidth to a 14.4 modem). Both these products didn’t make sense to continue from a business perspective, but had passionate customers and could have evolved into powerful tools or libraries accelerating innovation in both private and public sectors.</p>
+<p>At 18F the software we develop is for the people and by the people. Open source gives us a firm foundation to make a lasting impact for our country and for the world.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.ultrasaurus.com/2014/08/developing-open/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>how to recruit a diverse team</title>
+		<link>https://www.ultrasaurus.com/2014/07/recruit-diverse-team/</link>
+					<comments>https://www.ultrasaurus.com/2014/07/recruit-diverse-team/#comments</comments>
+		
+		<dc:creator><![CDATA[sarah]]></dc:creator>
+		<pubDate>Wed, 16 Jul 2014 12:57:27 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=5137</guid>
+
+					<description><![CDATA[There is no quick fix to diversity hiring. The easiest way to hire for diversity is to start with diversity &#8212; to start when you add the second person on your team &#8212; but if you reading this post, you likely have an imbalanced or homogeneous team. I’ve primarily written this for all-white or all-male&#8230; <a href="https://www.ultrasaurus.com/2014/07/recruit-diverse-team/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p>There is no quick fix to diversity hiring. The easiest way to hire for diversity is to start with diversity &#8212; to start when you add the second person on your team &#8212; but if you reading this post, you likely have an imbalanced or homogeneous team.  I’ve primarily written this for all-white or all-male teams in tech. I believe the diversity has little to do with appearance, but gender and race is a shortcut to noticing the problem and visible variety actually affects behavior.</p>
+<h2>Before You Start</h2>
+<p>Make sure the women and people of color on your team already are happy.  See if you can find out if is any aspect of your current workplace or team that might create a hostile or unproductive workplace for any team member.  Fix that without making it the responsibility of minority folks.  If your team is bigger than 2-3 people and you don’t have any women or people of color, be aware that you may have teammates who would alienate the person you are trying to recruit.  Develop stated values. Publish a code of conduct.  Create ways you can put yourselves in a diverse crowd with customers or community events, and talk to your team about how to  be open and respectful to people who are different than they are.</p>
+<h2>Imagine Your Dream Team</h2>
+<p>Brainstorm 10 women or people of color that you would dream of hiring.  People who would bring incredible talent, skills, energy and enthusiasm to your team if you could somehow inspire them to come work with you.  Play <a href="http://www.forbes.com/sites/deannazandt/2012/07/09/a-challenge-to-digital-influencers-join-the-one4one-game/">the #one4one game</a> with your team.</p>
+<p>There are a small percentage of software engineers who are women, but quite a large number of them.  Relative to the number of qualified women engineers in your region, the number of positions you have open to fill is tiny.  Spend a bit of time doing web searches or just reflect on people you know or have heard about and put together a list of 10 amazing women and people of color who would be part of your dream team &#8212; if you could hire anyone who would it be?  Look at the people who speak at conferences centered around your technology, blogs, books, etc. Look to your local meetups.  If you have budget for relocation, broaden your search.  Once you have your list of 10, methodically go through the list and try to meet each of them.  Follow them on twitter, go to where they are (meetups, conferences), reach out and have coffee or lunch.  Start a conversation about shared interest in technology.  Seek out their opinion on something they are expert at.  See if they are happy in their job. Would they consider a new one?  If not, ask who they know who would be good.  Do not qualify your request with gender or race.</p>
+<p>If you are really lucky and good, one of your dream team will come work with you.  If not now, sometime in the future.  You might find a new advisor or a new friend.  You have definitely expanded your network, and if you show up at events where women and people of color are speaking, who you admire and are relevant to the position you are hiring, your next team member may be in the audience.</p>
+<h2>Important Details</h2>
+<p>If you want a great team, you want to have a tough decision to make between two or three amazing candidates.  Do the hard work. Get the details right.</p>
+<h3>Post the Job</h3>
+<p>A public link is the easiest was for people to help you recruit. It&#8217;s amazing how many people post their job late in the recruiting process or not at all.</p>
+<h3>Write a Good Job Description</h3>
+<p>Think about why you want diversity and add requirements that will find those people.  For example, if you the person will be responsible for hiring, consider adding a requirement “experience leading diverse teams.” You are more likely to attract diverse talent and find someone who has a network of diverse talent, in addition to actually finding someone to lead the team you want to have.</p>
+<p>Consider what you actually need in someone performing the job and include that in the job description.  Give thought to the <a href="http://www.ere.net/2013/03/01/you-dont-know-it-but-women-see-gender-bias-in-your-job-postings/">words you use</a>.  Find a few people with different backgrounds who are qualified for the job give you feedback on the job description.</p>
+<h3>Confidence != Competence</h3>
+<p>Interview for skills. Look for evidence they have done similar work. Ask about what they did individually to lead to outcomes in past work. Don&#8217;t get sucked in by bravado from people in the majority crowd. Don&#8217;t mistake quiet for weak. Watch your own biases.  Be on the lookout for greatness that doesn&#8217;t look like you.</p>
+<h2>Always Be Recruiting</h2>
+<p>Get involved in a local meetup. If there aren&#8217;t diverse speakers, talk to the organizer and see if you could help make that happen.</p>
+<p>Host a <a href="http://railsbridge.org/">RailsBridge</a> workshop, <a href="http://www.clojurebridge.org/">ClojureBridge</a> workshop, or make a <a href="http://bridgefoundry.org/">*Bridge</a> for your language or framework. Host<br />
+<a href="http://www.womenwhocode.com/">Women Who Code</a> hack night or study group, maybe <a href="http://girlgeekdinners.com/">Girl Geek Dinner</a>.  Even if you don&#8217;t find engineers from these groups who want to work for you, many women will be more likely to work for a company that is actively trying to be part of the solution.</p>
+<p>If you can hire less experienced talent, recruit at women’s colleges (in the SF Bay area, I’ve heard great things about Mills, a local women&#8217;s college where the CS dept has a great reputation) and look for colleges which have a good diversity track record, like <a href="http://blog.bridgefoundry.org/2011/12/19/doing-it-right-harvey-mudds-gender-balanced-cs-program/">Harvey Mudd</a>.</p>
+<h2>Background</h2>
+<p>At Blazing Cloud, I hired over 20 people with 50-50 gender balance, but I&#8217;m most proud of the other kinds of diversity &#8212; people with and without CS degrees, early experience in Java, C and SmallTalk, sailors and farmers, awkwardly dressed and stylishly hip.  Whenever we did user research, chances are someone on the team knew a group in our target audience. Our diversity fostered creativity and was a key component to our success.</p>
+<p>These tips are based on over 20 years of experience building technical teams. I wasn&#8217;t born knowing how to recruit women because I&#8217;m female.  Most of the engineers I&#8217;ve worked with are white men, so I started with the same challenges as everyone else.  Over the last ten years, I worked to develop a network and I have repeatedly applied these simple, yet time consuming techniques.  You can too.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.ultrasaurus.com/2014/07/recruit-diverse-team/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
