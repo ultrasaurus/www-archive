@@ -12,3 +12,6 @@ find . -name '*' -exec sed -i -e 's/https:\/\/ultrasaurus\.com//g' {} \;
 
 find . -name '*' -exec sed -i -e 's/https:\/\/www\.ultrasaurus\.com//g' {} \;
 ```
+
+remove query args from filenames
+
