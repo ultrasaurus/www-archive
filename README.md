@@ -1,5 +1,5 @@
 
-
+## static copy of WordPress site
 
 ```
 wget -r --trust-server-names www.ultrasaurus.com
