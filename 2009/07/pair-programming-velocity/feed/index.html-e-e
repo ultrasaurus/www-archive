@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: pair programming velocity	</title>
+	<atom:link href="https://www.ultrasaurus.com/2009/07/pair-programming-velocity/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.ultrasaurus.com/2009/07/pair-programming-velocity/</link>
+	<description>Sarah Allen&#039;s reflections on internet software and other topics</description>
+	<lastBuildDate>Mon, 28 Sep 2009 21:31:57 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<item>
+		<title>
+		By: Rob Levin		</title>
+		<link>https://www.ultrasaurus.com/2009/07/pair-programming-velocity/#comment-577</link>
+
+		<dc:creator><![CDATA[Rob Levin]]></dc:creator>
+		<pubDate>Mon, 28 Sep 2009 21:31:57 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1817#comment-577</guid>
+
+					<description><![CDATA[ OMG you lucky bastard J/K; I use rails.vim and have had to figure it out on my own and I&#039;m probably not nearly utilizing it as I could. I ended up using more traditional command line to do some of the stuff that RGenerate, RServer, etc., do but would love to hear Tim Pope speak about using his awesome plugin. If you guys ever have something with him giving a presentation I would be &quot;so there&quot;. I also use NERDTree and some other choice plugins to do RoR. I&#039;d also be curious to hear how has your Vim adoption come along at your shop?]]></description>
+			<content:encoded><![CDATA[<p> OMG you lucky bastard J/K; I use rails.vim and have had to figure it out on my own and I&#8217;m probably not nearly utilizing it as I could. I ended up using more traditional command line to do some of the stuff that RGenerate, RServer, etc., do but would love to hear Tim Pope speak about using his awesome plugin. If you guys ever have something with him giving a presentation I would be &#8220;so there&#8221;. I also use NERDTree and some other choice plugins to do RoR. I&#8217;d also be curious to hear how has your Vim adoption come along at your shop?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: test-driven teaching &#124; the evolving ultrasaurus		</title>
+		<link>https://www.ultrasaurus.com/2009/07/pair-programming-velocity/#comment-576</link>
+
+		<dc:creator><![CDATA[test-driven teaching &#124; the evolving ultrasaurus]]></dc:creator>
+		<pubDate>Mon, 17 Aug 2009 03:47:05 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1817#comment-576</guid>
+
+					<description><![CDATA[[...] quite approachable, but struggled with TestUnit and RSpec (which I eventually learned well through pair programming).  I figured that if people didn&#8217;t learn TDD in an introductory class, how the heck were [...] ]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] quite approachable, but struggled with TestUnit and RSpec (which I eventually learned well through pair programming).  I figured that if people didn&#8217;t learn TDD in an introductory class, how the heck were [&#8230;] </p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Sarah		</title>
+		<link>https://www.ultrasaurus.com/2009/07/pair-programming-velocity/#comment-575</link>
+
+		<dc:creator><![CDATA[Sarah]]></dc:creator>
+		<pubDate>Sat, 15 Aug 2009 02:11:52 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1817#comment-575</guid>
+
+					<description><![CDATA[Before we started pairing, Wolf was using Aptana and I was using Vim.  Wolf was not eager to sharpen his vi skills, and I was interested in learning about interative debugging techniques offered by an IDE.  We had both heard of RubyMine which was in beta at the time and decided to try it out together.  RubyMine worked well for us, and we learned the IDE together.  
+
+We also worked on two operating systems with him on Linux and me on the Mac.  This was awkward at times, but most of the tools (RubyMine and the command line) were identical.  I did end up buying a spare Mac keyboard which helped since the keys are in different places.
+
+By the way, Wolf will be visiting Hashrocket the week after next and you can ask him about it yourself!  
+
+Thanks for stopping by and continuing the conversation.  
+
+Sarah]]></description>
+			<content:encoded><![CDATA[<p>Before we started pairing, Wolf was using Aptana and I was using Vim.  Wolf was not eager to sharpen his vi skills, and I was interested in learning about interative debugging techniques offered by an IDE.  We had both heard of RubyMine which was in beta at the time and decided to try it out together.  RubyMine worked well for us, and we learned the IDE together.  </p>
+<p>We also worked on two operating systems with him on Linux and me on the Mac.  This was awkward at times, but most of the tools (RubyMine and the command line) were identical.  I did end up buying a spare Mac keyboard which helped since the keys are in different places.</p>
+<p>By the way, Wolf will be visiting Hashrocket the week after next and you can ask him about it yourself!  </p>
+<p>Thanks for stopping by and continuing the conversation.  </p>
+<p>Sarah</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Corey Grusden		</title>
+		<link>https://www.ultrasaurus.com/2009/07/pair-programming-velocity/#comment-574</link>
+
+		<dc:creator><![CDATA[Corey Grusden]]></dc:creator>
+		<pubDate>Fri, 14 Aug 2009 18:32:46 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1817#comment-574</guid>
+
+					<description><![CDATA[Awesome post Sarah! At Hashrocket we pair 100% of the time! Our setup is 2 developers are hooked in via USB to a 30&quot; display. Makes it easy to see! 
+
+I&#039;m interested to hear what Wolf was using when he came in and if you had to adapt to learn a new tool as well? A slight speed bump when pairing is when developers have character maps (dvorak vs. qwerty) or might use different tools in their local user&#039;s profile..
+
+Once Tim Pope (maker of Rails.vim) joined us, we started migrating towards Vi since he wanted to use Vi. Pairing has helped all of us become MUCH better at it. So there are some definite fringe benefits to pairing other than bouncing ideas off each other, cranking through features, or writing great code.
+
+Also, check out some of the stuff Corey Haines has been doing.  He&#039;s been traveling A LOT to pair with a lot of people and documenting the most of it!]]></description>
+			<content:encoded><![CDATA[<p>Awesome post Sarah! At Hashrocket we pair 100% of the time! Our setup is 2 developers are hooked in via USB to a 30&#8243; display. Makes it easy to see! </p>
+<p>I&#8217;m interested to hear what Wolf was using when he came in and if you had to adapt to learn a new tool as well? A slight speed bump when pairing is when developers have character maps (dvorak vs. qwerty) or might use different tools in their local user&#8217;s profile..</p>
+<p>Once Tim Pope (maker of Rails.vim) joined us, we started migrating towards Vi since he wanted to use Vi. Pairing has helped all of us become MUCH better at it. So there are some definite fringe benefits to pairing other than bouncing ideas off each other, cranking through features, or writing great code.</p>
+<p>Also, check out some of the stuff Corey Haines has been doing.  He&#8217;s been traveling A LOT to pair with a lot of people and documenting the most of it!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Sarah		</title>
+		<link>https://www.ultrasaurus.com/2009/07/pair-programming-velocity/#comment-573</link>
+
+		<dc:creator><![CDATA[Sarah]]></dc:creator>
+		<pubDate>Tue, 28 Jul 2009 12:26:47 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1817#comment-573</guid>
+
+					<description><![CDATA[Indeed.  We just hooked everything up via USB and it all just works!]]></description>
+			<content:encoded><![CDATA[<p>Indeed.  We just hooked everything up via USB and it all just works!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Adam Wolff		</title>
+		<link>https://www.ultrasaurus.com/2009/07/pair-programming-velocity/#comment-572</link>
+
+		<dc:creator><![CDATA[Adam Wolff]]></dc:creator>
+		<pubDate>Mon, 27 Jul 2009 23:52:06 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1817#comment-572</guid>
+
+					<description><![CDATA[Looks like fun, sarah! So you just hook up two sets of input devices, and the computer knows what to do? or you use blackbox switcher?]]></description>
+			<content:encoded><![CDATA[<p>Looks like fun, sarah! So you just hook up two sets of input devices, and the computer knows what to do? or you use blackbox switcher?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Wolfram Arnold		</title>
+		<link>https://www.ultrasaurus.com/2009/07/pair-programming-velocity/#comment-571</link>
+
+		<dc:creator><![CDATA[Wolfram Arnold]]></dc:creator>
+		<pubDate>Sun, 26 Jul 2009 03:13:27 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1817#comment-571</guid>
+
+					<description><![CDATA[Wow, Sarah!  Thanks for the compliments.  The pleasure was all mine.  I&#039;ve found pairing most fun and effective with another curious sharp mind on my side.  I&#039;ve been lucky in that regard, in several projects, including my first consulting experience with Scott Johnson at EduFire.com and now most recently with you for Mightyverse.com. What matters is the willingness to make a better product, to improve the quality of the code, the pragmatism of a business person and the sense of aesthetics of the artist.  And one to keep me in check on all those aspects.
+
+In many ways I&#039;m just passing on what I learned from others before, like the folks at Pivotal Labs that really showed me the ropes in pair programming, Agile development, leveraging Rails to the fullest.  Some practical considerations that I find key are:
+
+Equal access to the machine by either pairing partner--that includes the physical seating position in front of the monitor and of course dual keyboards and mice--but also things like common tools so that either partner feels more or less at home.  This might just be the time to look at IDE&#039;s such as RubyMine and leave Emacs and vi for editing config files on remote servers.  I also like the Mac/Linux environment we&#039;ve had.  Adapting to the Mac keyboard when coming from Linux is easy enough, but dealing with backslashes and other quirks of Windows might cut into your ROI more than switching to a Mac/Linux environment would be.]]></description>
+			<content:encoded><![CDATA[<p>Wow, Sarah!  Thanks for the compliments.  The pleasure was all mine.  I&#8217;ve found pairing most fun and effective with another curious sharp mind on my side.  I&#8217;ve been lucky in that regard, in several projects, including my first consulting experience with Scott Johnson at EduFire.com and now most recently with you for Mightyverse.com. What matters is the willingness to make a better product, to improve the quality of the code, the pragmatism of a business person and the sense of aesthetics of the artist.  And one to keep me in check on all those aspects.</p>
+<p>In many ways I&#8217;m just passing on what I learned from others before, like the folks at Pivotal Labs that really showed me the ropes in pair programming, Agile development, leveraging Rails to the fullest.  Some practical considerations that I find key are:</p>
+<p>Equal access to the machine by either pairing partner&#8211;that includes the physical seating position in front of the monitor and of course dual keyboards and mice&#8211;but also things like common tools so that either partner feels more or less at home.  This might just be the time to look at IDE&#8217;s such as RubyMine and leave Emacs and vi for editing config files on remote servers.  I also like the Mac/Linux environment we&#8217;ve had.  Adapting to the Mac keyboard when coming from Linux is easy enough, but dealing with backslashes and other quirks of Windows might cut into your ROI more than switching to a Mac/Linux environment would be.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

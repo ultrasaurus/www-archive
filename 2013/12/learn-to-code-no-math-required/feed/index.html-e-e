@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: learn to code: no math required	</title>
+	<atom:link href="https://www.ultrasaurus.com/2013/12/learn-to-code-no-math-required/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.ultrasaurus.com/2013/12/learn-to-code-no-math-required/</link>
+	<description>Sarah Allen&#039;s reflections on internet software and other topics</description>
+	<lastBuildDate>Fri, 20 Dec 2013 22:32:11 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<item>
+		<title>
+		By: Mitch		</title>
+		<link>https://www.ultrasaurus.com/2013/12/learn-to-code-no-math-required/#comment-1564</link>
+
+		<dc:creator><![CDATA[Mitch]]></dc:creator>
+		<pubDate>Fri, 13 Dec 2013 20:46:30 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=4773#comment-1564</guid>
+
+					<description><![CDATA[&lt;p&gt;I agree with you that math does not need to be a starting point for programming.  Yet the process of learning to code is often so entrenched in math as the examples and materials are also frequently math driven.  I dove in to the language Processing in an attempt to learn coding in a different manner, but was never quite thrilled with the outcomes.  I really wish there were more materials to learn/teach coding from a different perspective.  If you know any it would be great to share.&lt;/p&gt;
+]]></description>
+			<content:encoded><![CDATA[<p>I agree with you that math does not need to be a starting point for programming.  Yet the process of learning to code is often so entrenched in math as the examples and materials are also frequently math driven.  I dove in to the language Processing in an attempt to learn coding in a different manner, but was never quite thrilled with the outcomes.  I really wish there were more materials to learn/teach coding from a different perspective.  If you know any it would be great to share.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Sally		</title>
+		<link>https://www.ultrasaurus.com/2013/12/learn-to-code-no-math-required/#comment-1563</link>
+
+		<dc:creator><![CDATA[Sally]]></dc:creator>
+		<pubDate>Wed, 11 Dec 2013 12:39:09 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=4773#comment-1563</guid>
+
+					<description><![CDATA[&lt;p&gt;Itotally agree.  Having studied and worked in computing for 30 years I have come to the conclusion that to require math for computer programming is &quot;conventional wisdom&quot; that is unchallenged and unconfirmed.  Back in the early days of computing in education computers were used solely by scientific University departments and I believe it is these people who paralleled the formal language of mathematics with programming - electrical circuits needed maths some early languages such as ALGOL, FORTRAN were created.  Thank goodness for Grace Hopper&#039;s efforts to create COBOL as something readable.  In order to start to program you need to be able to break down a problem into component parts and analyse each part to describe it.  This parallels the ability to write a good structured essay about a subject in any human language.  It is not just a mathematical skill.  Out in the real world, 90% of computing is not mathematical, is is database related.  We also need skills in design and human-computer interaction especially in e-commerce where so many shoppers are women.&lt;/p&gt;
+]]></description>
+			<content:encoded><![CDATA[<p>Itotally agree.  Having studied and worked in computing for 30 years I have come to the conclusion that to require math for computer programming is &#8220;conventional wisdom&#8221; that is unchallenged and unconfirmed.  Back in the early days of computing in education computers were used solely by scientific University departments and I believe it is these people who paralleled the formal language of mathematics with programming &#8211; electrical circuits needed maths some early languages such as ALGOL, FORTRAN were created.  Thank goodness for Grace Hopper&#8217;s efforts to create COBOL as something readable.  In order to start to program you need to be able to break down a problem into component parts and analyse each part to describe it.  This parallels the ability to write a good structured essay about a subject in any human language.  It is not just a mathematical skill.  Out in the real world, 90% of computing is not mathematical, is is database related.  We also need skills in design and human-computer interaction especially in e-commerce where so many shoppers are women.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

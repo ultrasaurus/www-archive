@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ruby &#8211; the evolving ultrasaurus</title>
+	<atom:link href="https://www.ultrasaurus.com/tag/ruby/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.ultrasaurus.com</link>
+	<description>Sarah Allen&#039;s reflections on internet software and other topics</description>
+	<lastBuildDate>Sun, 19 Apr 2009 14:40:09 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<item>
+		<title>open source digital voting software</title>
+		<link>https://www.ultrasaurus.com/2009/04/open-source-digital-voting-software/</link>
+					<comments>https://www.ultrasaurus.com/2009/04/open-source-digital-voting-software/#respond</comments>
+		
+		<dc:creator><![CDATA[sarah]]></dc:creator>
+		<pubDate>Sun, 19 Apr 2009 14:40:09 +0000</pubDate>
+				<category><![CDATA[general]]></category>
+		<category><![CDATA[Add new tag]]></category>
+		<category><![CDATA[gogaruco]]></category>
+		<category><![CDATA[Ruby]]></category>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1119</guid>
+
+					<description><![CDATA[Josh Susser, organizer of the Golden Gate Ruby Conference, introduced this talk by saying that he wanted to have talks that weren&#8217;t only about how we do what we do, but also about why we do what we do. Gregory Miller&#8217;s talk &#8220;Trust the Vote: An Open Source Digital Public Works Project&#8221; addressed a significant&#8230; <a href="https://www.ultrasaurus.com/2009/04/open-source-digital-voting-software/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p>Josh Susser, organizer of the <a href="http://gogaruco.com">Golden Gate Ruby Conference</a>, introduced this talk by saying that he wanted to have talks that weren&#8217;t only about <em>how</em> we do what we do, but also about <em>why</em> we do what we do.   Gregory Miller&#8217;s talk &#8220;Trust the Vote: An Open Source Digital Public Works Project&#8221; addressed a significant issue for the United States and for democracy in general, and spoke to why the open source process that is so alive in the Ruby community is critical to solving many of the problems of our day.</p>
+<p>Here in the U.S., we have some serious problems with our voting system:</p>
+<ul>
+<li>No Federal Guidelines about how votes are counted</li>
+<li>No assurance in California that absentee votes are counted</li>
+<li>Problems with the voting machines and the companies who make them
+<ul>
+<li>Most voting machines are written on Windows95</li>
+<li>4 vendors creating voting systems in the US, may be 2 by the end of the year.</li>
+<li>Very high barrier to entry: certification costs millions $, this is actually a dis-inventive to innovate</li>
+<li>Natural conflict of interest: shareholder interest collides with public interest.  The companies have feduciary responsibility so the shareholder interst always trumps public interest.</li>
+</ul>
+</li>
+</ul>
+<p>The <a href="http://www.osdv.org/">Open Source Digital Voting Foundation</a> is seeking to fix this &#8220;critical democracy infrastructure.&#8221;  We should consider it a &#8220;digital public works project&#8221; since it is so imperative, creating transparency by using an open source approach.  They are creating an endowment to support a public technology repository.</p>
+<blockquote><p>&#8220;Sunlight is the best disinfectant&#8221;</p></blockquote>
+<p>Overview:</p>
+<ul>
+<li>Dev process: core team essential for continuity</li>
+<li>RFC Services: similar to IETF process</li>
+<li>Design Congress: state elections directors arround the country in a virtual community to drive the business requirements</li>
+<li>Federal Certification undertaken by the non-profit</li>
+</ul>
+<p>All the software will be dual license; Public Development License &amp; Commercial Deployment License, so that it can be easily adopted by corporations.  The goal is to create transparency by using an open source aproach, and actually build things that we can see, touch, and try.</p>
+<p>Major work areas (*=Ruby on Rails projects):</p>
+<ul>
+<li>Digital voter registration system*</li>
+<li>Ballot design*</li>
+<li>Ballot casting and counting</li>
+<li>Election management* &#8211; back office web app for supporting the admin tasks of an election, including district data</li>
+<li>Operating system platform: they are building on &#8220;commodity&#8221; hardware and components, but for some customer who are seeking additional security features they are collaborating on open source hardware with Intel and AMD</li>
+</ul>
+<p>A good portion of the work is Rails-based, with Pivotal Labs as a development partner.  He also noted that they are in the process of putting together a &#8220;core team,&#8221; recently joined by Alec Totec, one of the original Netscape engineers (a very smart, practical guy who I had the opportunity to work with in &#8217;95 tracking down bugs in the Netscape Plugin API when I worked on Shockwave).</p>
+<p>After the talk, I got the chance to speak to John Sebes, OSDV CTO. He noted which projects are being implemented with RoR (see * items above). Some of the web apps they are buiding will solve fairly simple technical problems, but they answer a huge need.  The folks who run the elections generally work with very poor quality software with awkward UI that can lead to errors.  For example, one might think that putting together a ballot would be straight-forward, but there are countless examples of very basic design flaws, which could be remedied by some relatively simple, effective software.  He told a story of the election of Rush Holt, who was fortunately uncontested, yet the ballot made it very hard to tell the intent of the voter:</p>
+<p><img src="http://feministphilosophers.files.wordpress.com/2008/05/ballot-detail.jpg" alt="" /></p>
+<p>I can imagine all sorts of ways that ballot design in general could be improved for usability in addition to fixing outrageous bugs in the system like the one illustrated above.  As a voter and open source developer, I am very excited about this project.</p>
+<p>There are <a href="http://www.osdv.org/get">lots of ways to get involved</a>.  Join their <a href="http://www.facebook.com/group.php?gid=2434315512">new facebook group</a> to stay in touch.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.ultrasaurus.com/2009/04/open-source-digital-voting-software/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>using ruby to fight aids</title>
+		<link>https://www.ultrasaurus.com/2009/04/using-ruby-to-fight-aids/</link>
+					<comments>https://www.ultrasaurus.com/2009/04/using-ruby-to-fight-aids/#comments</comments>
+		
+		<dc:creator><![CDATA[sarah]]></dc:creator>
+		<pubDate>Sat, 18 Apr 2009 22:29:29 +0000</pubDate>
+				<category><![CDATA[general]]></category>
+		<category><![CDATA[gogaruco]]></category>
+		<category><![CDATA[Ruby]]></category>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1124</guid>
+
+					<description><![CDATA[We just heard a fantastic talk by Jacqui Maher about her work on the Boabab project, fighting AIDS in Malawi, Africa. First, she gave us an overview of the AIDS epidemic, especially in Africa: Africa has 12% of the world&#8217;s population, but 60% of the people with AIDs In Malawi 14% of adults have AIDS&#8230; <a href="https://www.ultrasaurus.com/2009/04/using-ruby-to-fight-aids/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p>We just heard a fantastic talk by Jacqui Maher about her work on the <a href="http://www.baobabhealth.org/">Boabab project</a>, fighting AIDS in Malawi, Africa.</p>
+<p>First, she gave us an overview of the AIDS epidemic, especially in Africa:</p>
+<ul>
+<li>Africa has 12% of the world&#8217;s population, but 60% of the people with AIDs</li>
+<li>In Malawi
+<ul>
+<li>14% of adults have AIDS</li>
+<li>8 people die every hour from aids</li>
+<li>there are 280 doctors</li>
+<li>3500 HIV/AIDS patients per doctor</li>
+</ul>
+</li>
+</ul>
+<p>When she arrived, patients would wait in long lines to see a doctor and patient intake would typically take 15 minutes.  It was all paper-based an error-prone.  In Malawi, they have a national id program where every ID card has a bar code.  This could be used for easy patient intake.  After they developed the hardware/software solution, it would take less than 1 minute to register new patients and less than 10 seconds for returning patients to get through the intake process.</p>
+<p>The solution was designed to help  in a number of areas:</p>
+<ul>
+<li>Patient Registration: entering new patient data, generate national id bar code, or scan an existing one</li>
+<li>Encounters: any patient interaction</li>
+<li>Observations: diagnosis, progression, vitals, patients complaints, drug regimen</li>
+<li>Prescriptions: drugs, ingredients, inventory, etc.</li>
+</ul>
+<p>They overcame challenges with spotty internet connections and low bandwidth.  They use a wireless mesh network, which is self-healing.  The portable computer they used was based on the I-Opener (initially bought from the US on eBay, then 2000 were donated) which was hacked to include a touchscreen, ethernet, PoE (power over ethernet) and a bar code scanner.  The software is Ubunto, Ruby on Rails, and MySQL.</p>
+<p>More details on the software:</p>
+<ul>
+<li>BART &#8211; Baobab Anti-Retroviral Treatment</li>
+<li>OpenMRS Data model</li>
+<li>templating using ERB</li>
+<li>App calls via AJAX</li>
+<li>Rspec tests</li>
+</ul>
+<p>Jacqui told a great story about Gem the Janitor (yes, that is his real name) who just picked up the device during a busy time when all of the nurses were busy, figured out the interface quickly and started helping register people.  Now he runs the whole intake process.</p>
+<p>Why RoR?</p>
+<ul>
+<li>great community</li>
+<li>common consensus on best practices</li>
+<li>active contributions to OSS</li>
+<li>very accessible information on every part of the stack</li>
+<li>supurb interactive tutorials like peepcode</li>
+<li>Ruby is easier to learn offline that other languages, comes with documentation</li>
+<li>ActiveRecord: makes complex data models easier</li>
+</ul>
+<p>Now 265 of the 280 doctors are using this app.  The data collection enables extensive reporting, enables agencies to use the data to focus research &amp; funding, and influence policy decisions.</p>
+<p>You can help!</p>
+<ul>
+<li><a href="http://github.com/baobab/">http://github.com/baobab/</a></li>
+<li>the developers are on IRC:  freenode #baobab</li>
+<li>more info: <a href="http://www.baobabhealth.org/">www.baobabhealth.org</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.ultrasaurus.com/2009/04/using-ruby-to-fight-aids/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>magic scaling sprinkles</title>
+		<link>https://www.ultrasaurus.com/2009/04/magic-scaling-sprinkles/</link>
+					<comments>https://www.ultrasaurus.com/2009/04/magic-scaling-sprinkles/#respond</comments>
+		
+		<dc:creator><![CDATA[sarah]]></dc:creator>
+		<pubDate>Sat, 18 Apr 2009 16:08:35 +0000</pubDate>
+				<category><![CDATA[general]]></category>
+		<category><![CDATA[gogaruco]]></category>
+		<category><![CDATA[Ruby]]></category>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1097</guid>
+
+					<description><![CDATA[Nick Kallen, Twitter, author of popular open-source projects such as NamedScope, Screw.Unit, and Cache-Money, gave a compelling talk yesterday at the Golden Gate Ruby Conference.  Nick&#8217;s easy-going presentation style and thoughtfully prepared examples made a complex topic easy to follow.  Nonetheless, my notes are sparse since most of my attention was devoted to listening and&#8230; <a href="https://www.ultrasaurus.com/2009/04/magic-scaling-sprinkles/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p><a href="http://magicscalingsprinkles.wordpress.com/">Nick Kallen</a>, Twitter, author of popular open-source projects such as NamedScope, Screw.Unit, and Cache-Money, gave a compelling talk yesterday at the <a href="http://gogaruco.com/">Golden Gate Ruby Conference</a>.  Nick&#8217;s easy-going presentation style and thoughtfully prepared examples made a complex topic easy to follow.  Nonetheless, my notes are sparse since most of my attention was devoted to listening and absorbing.</p>
+<blockquote><p>&#8220;Your website is a distributed network service.&#8221;</p></blockquote>
+<p>While the talk was entitled &#8220;Magic Scaling Sprinkles,&#8221; Nick dispelled the idea that any magic technology would solve scalability problems; instead, he shared some fundamental concepts of computer science underlying scalability:</p>
+<ul>
+<li> distribution</li>
+<li> balance</li>
+<li> locality</li>
+</ul>
+<p>Two important concepts: <strong>throughput </strong>and<strong> latency</strong></p>
+<p>For example:  1 worker is able to complete a job in 1 sec.  1 job/sec is the <em>throughput</em> (number of jobs per unit time).  1 sec is the <em>latency</em> (elapsed duration from start of job to the end of a job).  Latency is an efficiency question.  Throughput is a scalability question.  Focus of this talk on scalability.</p>
+<p>Nick wrote a very simple echo server, ran a load test.  Then added:</p>
+<pre>100000.times { Time.now }    # represents an intense loop. memory alloc + system call
+sleep rand *3  #an efective representation of blocking i/o</pre>
+<p>complete code is on <a href="http://github.com/nkallen/gogaruco/tree/master">github</a></p>
+<p>How many can we run in parallel? How many can we run per machine? How many can we run per core?</p>
+<p>The code uses a statistics library, statosaurus, that they use at twitter (Nick&#8217;s github example contains a version of <a href="http://github.com/nkallen/gogaruco/blob/2c80e891c5ecbeebada5b20d316a724ecec8170d/util/statosaurus.rb">statosaurus</a> which he says contains the key parts of the proprietary twitter package). Recommendation: <strong>log everything</strong> extensively, thread transaction ids throughout your logs. Essential for tracing down failed distributed transactions. (In SQL queries, HTTP headers, etc.)</p>
+<p>For this example, he logs the following:</p>
+<ul>
+<li> a time stamp</li>
+<li>a transaction id</li>
+<li>wall-clock time: amount of elapsed real time</li>
+<li>system time: amount of time the process has spent in the CPU while in kernel mode</li>
+<li>user time: amount of time the process has spend in the CPU while in user mode</li>
+</ul>
+<p>Note:    <code>system time + user time &lt; wall-clock time</code> Since there is wait time (simulated by sleep) or if there are too many process on the machine at the same time for the number of cores, so your process is waiting in the &#8220;run queue.&#8221;  That latter excessive context switching is what we want to investigate.</p>
+<p>Generally if we take the wall-clock time and divide by (system time + user time) we get the optimal number of processes per core.  This leads us to a distribution strategy.</p>
+<p>Nick talked about different mechanisms for distribution: TCP Proxy, DNS (compelling for a chatty protocol), client (has some serious drawbacks for maintenance/upgrades).  In this  case, proxy is an optimal solution.</p>
+<p>Use a strategy of &#8220;least connections&#8221; aka &#8220;by business&#8221; which is more effective than round robin.</p>
+<p>True efficiency: never do the same work twice.</p>
+<p><strong>Locality</strong>: analogy to tape drive, where if you write close to where you last wrote or read, then it will be significantly faster due to spatial locality.  The same applies to hard drives and databases.<br />
+Cache is a spatial locality that keeps the data near the code.  Put the requests on processes where the data is most likely to be cached.  Sticky sessions can be an essential technique.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.ultrasaurus.com/2009/04/magic-scaling-sprinkles/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>how to write fast ruby code</title>
+		<link>https://www.ultrasaurus.com/2009/04/how-to-write-fast-ruby-code/</link>
+					<comments>https://www.ultrasaurus.com/2009/04/how-to-write-fast-ruby-code/#respond</comments>
+		
+		<dc:creator><![CDATA[sarah]]></dc:creator>
+		<pubDate>Sat, 18 Apr 2009 00:22:57 +0000</pubDate>
+				<category><![CDATA[general]]></category>
+		<category><![CDATA[gogaruco]]></category>
+		<category><![CDATA[Ruby]]></category>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1083</guid>
+
+					<description><![CDATA[Carl Lerche talks about how to write fast ruby code. Yes, ruby is scalable. Scaling != speed. Focus of this talk is on speed. Ruby is fast enough for the vast majority of use cases. &#8220;Slow code is your fault.&#8221; How can I write fast code? 1. Write slow code: well-structured code that is easy&#8230; <a href="https://www.ultrasaurus.com/2009/04/how-to-write-fast-ruby-code/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p>Carl Lerche talks about how to write fast ruby code. Yes, ruby is scalable.  Scaling != speed.  Focus of this talk is on speed. Ruby is fast enough for the vast majority of use cases.</p>
+<blockquote><p>&#8220;Slow code is your fault.&#8221;</p></blockquote>
+<p>How can I write fast code?<br />
+1. <strong>Write slow code</strong>: well-structured code that is easy to read.  Don&#8217;t worry about performance the first time around.  You can&#8217;t tell from the beginning what matters.<br />
+2. <strong>Use the scientific method</strong>.</p>
+<ol>
+<li>Define the question</li>
+<li>Gather information: where is time/memory being spent?</li>
+<li>Form Hypothesis: why is this chunk of code slow/memory hog</li>
+<li>Perform an experiment and collect data</li>
+<li>Publish results (restart if needed)</li>
+</ol>
+<p>Need questions like: &#8220;why is action X taking 600ms? &#8221; why is 60% of a Merb dispatch cycle in content negotiation?&#8221;  Why are my mongrel instances growing to 300MB of memory&#8221;</p>
+<p>Some useful tools:</p>
+<ul>
+<li><a href="http://github.com/somebee/rbench/tree/master">RBench</a></li>
+<li><a href="http://ruby-prof.rubyforge.org/">ruby-prof</a> to generate profile data / <a href="http://kcachegrind.sourceforge.net">kcachegrind</a>:  for reading profile data</li>
+<li>explain analyze log files</li>
+<li>New Relix / five runs</li>
+<li>memory_usage_logger</li>
+<li>Bleak_house (memory leaks)</li>
+</ul>
+<p>Garbage collector is a conservative mark and sweep garbage collector.  When it runs all your code stops. Each run can take 50-150ms.  Triggers befre grabbing more system memory (every 8MB).</p>
+<p>Avoid creating unecessary objects.  Understand the difference between Ruby methods (e.g. the difference between reverse! and reverse).</p>
+<p>DataMapper&#8217;s identity map is pretty awesome.</p>
+<p>Beware of modifying large strings.</p>
+<p>Don&#8217;t concat strings just to pretty print them across lines.  Do this instead:</p>
+<pre>     s = "Here is my long string" 
+           " that continues"</pre>
+<p>Beware of closures.</p>
+<p>No code is the fastest code.  Be lazy.  Don&#8217;t run code till you have to.</p>
+<p>&#8220;Compiling your code.&#8221; Iterating is slow.  Ruby&#8217;s AST is fast. (This is a little crazy, but sometimes you need it.)</p>
+<p>Make sure you have great tests, then when you optimize you can make sure you didn&#8217;t break anything.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.ultrasaurus.com/2009/04/how-to-write-fast-ruby-code/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>ruby application frameworks</title>
+		<link>https://www.ultrasaurus.com/2009/04/ruby-application-frameworks/</link>
+					<comments>https://www.ultrasaurus.com/2009/04/ruby-application-frameworks/#comments</comments>
+		
+		<dc:creator><![CDATA[sarah]]></dc:creator>
+		<pubDate>Fri, 17 Apr 2009 23:47:41 +0000</pubDate>
+				<category><![CDATA[general]]></category>
+		<category><![CDATA[gogaruco]]></category>
+		<category><![CDATA[Ruby]]></category>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1062</guid>
+
+					<description><![CDATA[Panel discussion at Golden Gate Ruby Conference Shoes, Tim Elliott, framework for creating GUI apps. It is an application that embeds Ruby. It is written in C. It is designed to lower to bar for programming and make it fun. Not an MVC framework. Writing an app is more like writing a script. Written to&#8230; <a href="https://www.ultrasaurus.com/2009/04/ruby-application-frameworks/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p>Panel discussion at <a href="http://gogaruco.com/">Golden Gate Ruby Conference</a></p>
+<p><a href="http://shoooes.net/">Shoes</a>, Tim Elliott, framework for creating GUI apps.  It is an application that embeds Ruby.  It is written in C.  It is designed to lower to bar for programming and make it fun. Not an MVC framework.  Writing an app is more like writing a script.  Written to be compiled an shared with your friends.</p>
+<p><a href="http://rad.rubyforge.org/">RAD</a>, Greg Borenstein, open source hardware platform for doing hardware hacking. RAD is a framework for programming the Arduino physcial computing platform using Ruby.  The Ruby code is coonverted into C code which is then compiled and run on the Arduino microcontroller.  Working on a test suite that comes with a shoebox full of hardware, so you can check if things blink or bleep in the right order to see if your tests pass.</p>
+<p><a href="http://adhearsion.com/">Adhearsion</a>, Jay Phillips, a way of building telephony applications.  You call into a phone number, then the Ruby call services the phone call.  First app he wrote was using RAD to make it so he could make a phone call to unlock his door &#8212; he says everyone should go out and buy an Aduino controller and a bunch of LEDs and build something fun tonight.  Interesting thing about Ruby is that it allows you to &#8220;play with other people&#8217;s code.&#8221; He described a plugin system that was actually adopted from RAD.</p>
+<p><a href="http://www.sinatrarb.com/">Sinatra</a>, Blake Mizerany, creator of Sinatra.  Sometimes MVC is too much.  Ruby is great for this.  Closures are awesome.  As Rack grows, Sinatra has been getting smaller.  Sinatra is a really strong Rack citizen.</p>
+<p>Merb,  Yehuda Katz lead maintainer.  (not talking about Merb) Hard thing about maintaining a framework is that they start with a clear mission, but as people build apps with the framework, there are requests where its hard to tell if this request is pushing application code into the framework  The best thing about Ruby is that all code is executed code.  You can define methods anywhere.  What is hard about Ruby.  It isn&#8217;t a slow language, but nothing is free.   The challenge is how to right lightweight code, yet is robust.</p>
+<p>Rails, Josh Peek from the Rails and <a href="http://rack.rubyforge.org/">Rack</a> core teams.  &#8230; interested in seeing how code can be shared between frameworks to strengthen the  ecosystem.</p>
+<p><strong>What features of the Ruby language make it effective for frameworks?</strong> meta-classes and closures (e.g. ActiveRecord),  &#8220;i don&#8217;t consider languages without closures to be powerful languages&#8221; (yehuda katz), defining methods on the fly, open classes, community (grass roots, people agree that they want to share code, this is unusual, agility in the community: moving to git and github, Rack, Ruby gems, RSpec, test-driven development as part of the project),  the agility of the community attributed to the agility of the language.</p>
+<p><strong>Is there anything about Ruby that encourages open source?</strong> the fact that it is a scripting language.  It is hard to hide your code.  The fact that Rails and Ruby are MIT Licensed, so corporations aren&#8217;t afraid to use it.  Even if 90% don&#8217;t give back, it increases the number of people who do.  Makes it so people feel free to try stuff out and modify it (and the fact that there are tests!)  There is high level of inter-operability with the &#8220;host language&#8221; for different Ruby implementations.</p>
+<p>&#8220;If you are writing a framework, you should be writing it in the same way that you recommend people write plugins.  It&#8217;s really hard, but you have to do this.&#8221; &#8212; Yehuda Katz</p>
+<p>&#8220;Allowing people to write test for their plugins is essential.&#8221; &#8212; Jay Phillips</p>
+<p><strong>What about the proliferation of Ruby implementations in different languages? </strong>kick-ass, as long as we keep holding the implementations to a high standard of compatibility.</p>
+<p><strong>Why was github so successful?  Why did so many projects move to git and to github so quickly?</strong> main benefit of github is the social network aspect.  When you put your code up on github, you aren&#8217;t creating an open source project, you are just sharing your code.  This decreases the overhead.  It increases people contributions.  &#8220;I think it has totally revolutionized the way people create open source software&#8221; (Jay Phillips)  Moving to git let&#8217;s you make really large changes and merge them back.  Things that are possible in git, would have been impossible in svn &#8212; you would fork forever instead of merging back in. (Yehuda Katz)</p>
+<p><strong>How to get the community to move to Ruby 1.9?</strong> get Rails to be on 1.9.  <strong>Why do you want the community on 1.9?</strong> speed improvements.  Yehuda Katz:  If you are doing something computationally expensive you might want to be on 1.9.  I benchmark everything.  Usually 1.9 is 2x and JRuby is 2.5x, but 1.9 has outliers of slowness.  I don&#8217;t think there is huge benefit to the community in moving to 1.9 (but I do think it is important that we all do move forward)  Jay Phillips: when JRuby and all the gems move to 1.9, the community will.  If I switch to 1.9 syntax, I will break JRuby, and I can&#8217;t do that.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.ultrasaurus.com/2009/04/ruby-application-frameworks/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>ruby proxies</title>
+		<link>https://www.ultrasaurus.com/2009/04/ruby-proxies/</link>
+					<comments>https://www.ultrasaurus.com/2009/04/ruby-proxies/#respond</comments>
+		
+		<dc:creator><![CDATA[sarah]]></dc:creator>
+		<pubDate>Fri, 17 Apr 2009 22:11:00 +0000</pubDate>
+				<category><![CDATA[general]]></category>
+		<category><![CDATA[gogarugo]]></category>
+		<category><![CDATA[Ruby]]></category>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1051</guid>
+
+					<description><![CDATA[Ilya Grigorik, gave a very informative talk &#8220;Ruby Proxies for Scale, Performance, and Monitoring&#8221; Ilya describes a proxy server as his new favorite hammer. I can think of lots of cases where having an easy way to write a proxy server would come in handy. Mostly what we think of when we think of proxy&#8230; <a href="https://www.ultrasaurus.com/2009/04/ruby-proxies/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p><a href="http://www.igvita.com/">Ilya Grigorik</a>, gave a very informative talk &#8220;Ruby Proxies for Scale, Performance, and Monitoring&#8221;</p>
+<p>Ilya describes a proxy server as his new favorite hammer.  I can think of lots of cases where having an easy way to write a proxy server would come in handy.  Mostly what we think of when we think of proxy servers is a &#8220;transparent, cut-through proxy,&#8221; but proxies can be useful for other purposes.</p>
+<p>The problem that led Ilya to write a proxy server was benchmarking and performance testing.  He started with HTTPPerf is good tool for simulating load, but it is only good for a single run. <a href="http://github.com/igrigorik/autoperf/">autoperf</a> will make multiple runs and simulate more users.  </p>
+<p><a href="http://github.com/igrigorik/em-proxy/">em-proxy</a> Very simple syntax to send traffic to both the production server and benchmark server (and only the response is returned from production).  Real-time benchmarking against production traffic and user sees no performance hit. Only about 300 lines of code, shows the pattern for how to build a proxy server. </p>
+<p>Ilya walked us through using <a href="http://rubyeventmachine.com/">EventMachine</a> which has very concise, easy-to-read syntax for implementing proxy servers.  This does not need to be restricted to http, but can work with any protocol.</p>
+<p>Ilya described an interesting use case in detail. They created a proxy server which works with Beanstalkd, a distributed in-member work queue, where jobs are stored in MySql when they don&#8217;t need to be in memory.  </p>
+<p>Slides from the talk:</p>
+<div style="width:425px;text-align:left" id="__ss_1307248"><a style="font:14px Helvetica,Arial,Sans-serif;margin:12px 0 3px 0;text-decoration:underline" href="http://www.slideshare.net/igrigorik/ruby-proxies-for-scale-performance-and-monitoring-gogaruco-igvitacom?type=presentation" title="Ruby Proxies for Scale, Performance, and Monitoring - GoGaRuCo - igvita.com">Ruby Proxies for Scale, Performance, and Monitoring &#8211; GoGaRuCo &#8211; igvita.com</a></p>
+<div style="font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px">View more <a style="text-decoration:underline" href="http://www.slideshare.net/">presentations</a> from <a style="text-decoration:underline" href="http://www.slideshare.net/igrigorik">Ilya Grigorik</a>.</div>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.ultrasaurus.com/2009/04/ruby-proxies/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>sandbox for ruby code</title>
+		<link>https://www.ultrasaurus.com/2009/04/sandbox-for-ruby-code/</link>
+					<comments>https://www.ultrasaurus.com/2009/04/sandbox-for-ruby-code/#comments</comments>
+		
+		<dc:creator><![CDATA[sarah]]></dc:creator>
+		<pubDate>Fri, 17 Apr 2009 19:08:13 +0000</pubDate>
+				<category><![CDATA[general]]></category>
+		<category><![CDATA[gogaruco]]></category>
+		<category><![CDATA[Ruby]]></category>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1044</guid>
+
+					<description><![CDATA[David Stevenson, flouri.sh, talk &#8220;Playing With Fire: Running Uploaded Ruby Code in a Sandbox&#8221; at Golden Gate Ruby Conference A sandbox needs to: Limit functionality Make it so code can&#8217;t break out Separate code space Bounded execution time Sandbox gems Freaky-freaky sandbox gem (MRI Ruby): it&#8217;s a gem, but you can&#8217;t use gem install.  No&#8230; <a href="https://www.ultrasaurus.com/2009/04/sandbox-for-ruby-code/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p>David Stevenson, <a href="http://flouri.sh/">flouri.sh</a>, talk &#8220;Playing With Fire: Running Uploaded Ruby Code in a Sandbox&#8221; at <a href="http://gogaruco.com/">Golden Gate Ruby Conference</a></p>
+<p>A sandbox needs to:</p>
+<ul>
+<li>Limit functionality</li>
+<li>Make it so code can&#8217;t break out</li>
+<li>Separate code space</li>
+<li>Bounded execution time</li>
+</ul>
+<p><strong>Sandbox gems</strong></p>
+<ul>
+<li>Freaky-freaky sandbox gem (MRI Ruby): it&#8217;s a gem, but you can&#8217;t use gem install.  No support for 1.8.7 and later.</li>
+<li>JavaSand gem (JRuby): same API as the freaky-freaky sandbox, more actively maintained</li>
+<li>Rubinious has SubVMs, David doesn&#8217;t have experience with it</li>
+</ul>
+<p><strong>acts_as_runnable_code</strong> is a sandbox helper:<br />
+set up sandbox easily with referenced classes<br />
+pass in top-level binding</p>
+<p>Built an example in just a few minutes that allowed people to enter experession to be evaluated and opened to the audience (offering cupcakes to anyone who broke it!).  Here&#8217;s some of the first experiments from the audience:</p>
+<p><img src="http://img.skitch.com/20090417-bb68kd3qyyn3yrimx2htyc1bna.jpg" alt="Exprs: index" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.ultrasaurus.com/2009/04/sandbox-for-ruby-code/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>sinatra: simple ruby web app library</title>
+		<link>https://www.ultrasaurus.com/2009/04/sinatra-simple-ruby-web-app-library/</link>
+					<comments>https://www.ultrasaurus.com/2009/04/sinatra-simple-ruby-web-app-library/#respond</comments>
+		
+		<dc:creator><![CDATA[sarah]]></dc:creator>
+		<pubDate>Fri, 17 Apr 2009 18:05:24 +0000</pubDate>
+				<category><![CDATA[general]]></category>
+		<category><![CDATA[gogaruco]]></category>
+		<category><![CDATA[Ruby]]></category>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1036</guid>
+
+					<description><![CDATA[talk by Aaron Quint, quirkey.com, at Golden Gate Ruby Conference very simple framework, define a route, where it goes, return a string Sinatra is not a framework, doesn&#8217;t dictate how to create your code.  It is a library.  A ruby library for making Web applications. Why? HTTP as a language? with REST and other conventions,&#8230; <a href="https://www.ultrasaurus.com/2009/04/sinatra-simple-ruby-web-app-library/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p>talk by Aaron Quint, <a href="http://www.quirkey.com/">quirkey.com</a>, at <a href="http://gogaruco.com/">Golden Gate Ruby Conference</a></p>
+<p>very simple framework, define a route, where it goes, return a string<br />
+Sinatra is not a framework, doesn&#8217;t dictate how to create your code.  It is a library.  A ruby library for making Web applications.</p>
+<p><strong>Why?</strong> HTTP as a language? with REST and other conventions, it is cool to think of it as a way of two apps speaking to each other.  If your library needs to &#8220;speak HTTP,&#8221; Sinatra is a good way to do that.  It&#8217;s a nice layer on top of rack.</p>
+<p>Aaron described a vision where all libraries would have web apps interfaces: to allow you to configure your library or inspect information.  These are designed to be available on localhost, not designed for the &#8220;global web.&#8221;</p>
+<p>For example: Aaron wrote &#8216;<a href="http://code.quirkey.com/gembox/">gembox</a>&#8216; for Ruby Gems, which will display in a browser the list of installed gems.  Simply calls the gem APIs, but provides a UI on it instead.  The app is very little code, low effort for a significant return.</p>
+<p>Vegas: super simple Sinatra starter.  Provides simple options for running the app (startup, saving pid, etc.)  (this is a cool idea right now, just a simple class right now)</p>
+<p>Would be neat to be able to search for all gems that have Sinatra or Vegas interfaces.  Question from the audience about security issues.  This is still pretty early in development, but there are some neat ideas here and potentially useful tools.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.ultrasaurus.com/2009/04/sinatra-simple-ruby-web-app-library/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>MacRuby and Hot Cocoa</title>
+		<link>https://www.ultrasaurus.com/2009/04/macruby-and-hot-cocoa/</link>
+					<comments>https://www.ultrasaurus.com/2009/04/macruby-and-hot-cocoa/#respond</comments>
+		
+		<dc:creator><![CDATA[sarah]]></dc:creator>
+		<pubDate>Fri, 17 Apr 2009 17:31:16 +0000</pubDate>
+				<category><![CDATA[general]]></category>
+		<category><![CDATA[gogaruco]]></category>
+		<category><![CDATA[Ruby]]></category>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1028</guid>
+
+					<description><![CDATA[great session by Rich Kilmer at Golden Gate Ruby Conference. MacRuby, started toward the end of &#8217;07.  It has two ambitious goals: Make Mac OSX the best platform for Ruby developers Make Ruby the best Cocoa programming language on OSX Apple has the higher level APIs in Objective-C.  RubyCocoa (2001) mostly written in C will&#8230; <a href="https://www.ultrasaurus.com/2009/04/macruby-and-hot-cocoa/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p>great session by<a href="http://gogaruco.com/speakers/index.html#kilmer"> Rich Kilmer</a> at Golden Gate Ruby Conference.</p>
+<p><a href="http://www.macruby.org/">MacRuby</a>, started toward the end of &#8217;07.  It has two ambitious goals:</p>
+<ul>
+<li>Make Mac OSX the best platform for Ruby developers</li>
+<li>Make Ruby the best Cocoa programming language on OSX</li>
+</ul>
+<p>Apple has the higher level APIs in Objective-C.  RubyCocoa (2001) mostly written in C will bridge  Ruby &amp; Objective-C.  Quite verbose. Rich showed a &#8220;hello world&#8221; that was about a page of code in small type.  Problem: it&#8217;s a bridge.  Thereare holes, expensive (slow), messaging syntax is diferent.  Ruby uses green threads (it is not re-entrant) &#8212; only one native thread can enter the Ruby runtime at any time. Tricky garbage collection, etc.</p>
+<p>The development of MacRuby leveraged the key observation that Ruby is actually similar to Objective-C.  MacRuby replaced the Ruby 1.9 garbage collector with the Objective-C garbage collector.  Ruby&#8217;s hash is actually an NsMetuable dictionary.  Every Ruby class is an Objective-C class.  You can use MacRuby, at runtime to add methods to an Objective-C object.</p>
+<p>MacRuby is 0.4.  Syntax is better, but still a lot of code for &#8220;Hello World&#8221;</p>
+<p><strong>HotCocoa</strong><br />
+In the MacRuby &#8220;hello world&#8221; a lot of the code is in configuring, setting up the app, wiring things together.  <a href="http://www.macruby.org/trac/wiki/HotCocoa">HotCocoa</a> is just a library that helps simplify this setup process.</p>
+<p>Much more concise, but it isn&#8217;t magic.  &#8216;window&#8217; returns an NSWindow, it isn&#8217;t obscured, just decorated.  You have all the NSWindow methods available,</p>
+<p>Hello World turns into 7 lines of code!  [update: <a href="http://pivotallabs.com/users/edward/blog/articles/779-gogaruco-talk-macruby-hotcocoa">nice post</a> with code snippets]</p>
+<p>hotcocoa &lt;app&gt; (similar to rails &lt;app&gt;) will generate all the files needs for a Mac application.  Framework is dropped in there, so you can give the code to someone and they don&#8217;t need</p>
+<p>HotConsole: written in MacRuby and it is irb, but {}.methods(true,true) will show you all of the methods in an MSMutable dictionary, but otherwise {} behaves just like a Ruby hash. Also let you interactively create native Mac OS widgets (create a window, add a button, make it do something) all by typing in a few lines into this interactive console.</p>
+<p><strong>MacRuby Experimental</strong></p>
+<p>LLVM replaces yarv.  In this, using MacRuby the jit generates machine code. This makes it 4-5x faster than 1.9 (which is 4-5 times faster than 1.8).  Goal is to pass all of 1.9 Ruby specs, and it is well on its way to doing this.  Also plans to make it reentrant.  Goal is to automatically generate GrandCentral code hich allows the code to run across all the cores in the machine.  Rich expects this to be complete by the end of the year.  This could also be applied to compiling ahead of time which would enable running the code on a certain devices that don&#8217;t run Ruby, yet run OSX code :)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.ultrasaurus.com/2009/04/macruby-and-hot-cocoa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: js meetup, paul sowden, client-side storage	</title>
+	<atom:link href="https://www.ultrasaurus.com/2008/06/js-meetup-paul-sowden-client-side-storage/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.ultrasaurus.com/2008/06/js-meetup-paul-sowden-client-side-storage/</link>
+	<description>Sarah Allen&#039;s reflections on internet software and other topics</description>
+	<lastBuildDate>Sat, 07 Jun 2008 02:02:45 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<item>
+		<title>
+		By: Paul Sowden		</title>
+		<link>https://www.ultrasaurus.com/2008/06/js-meetup-paul-sowden-client-side-storage/#comment-305</link>
+
+		<dc:creator><![CDATA[Paul Sowden]]></dc:creator>
+		<pubDate>Sat, 07 Jun 2008 02:02:45 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/wordpress/?p=385#comment-305</guid>
+
+					<description><![CDATA[Hey, the first example was halfnote, one of Aaron Boodman&#039;s small side projects.
+
+&lt;a href=&quot;http://aaronboodman.com/halfnote/&quot; rel=&quot;nofollow&quot;&gt;http://aaronboodman.com/halfnote/&lt;/a&gt;
+]]></description>
+			<content:encoded><![CDATA[<p>Hey, the first example was halfnote, one of Aaron Boodman&#8217;s small side projects.</p>
+<p><a href="http://aaronboodman.com/halfnote/" rel="nofollow">http://aaronboodman.com/halfnote/</a></p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

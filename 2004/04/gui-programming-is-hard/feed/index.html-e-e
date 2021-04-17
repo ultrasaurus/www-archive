@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: GUI Programming is Hard	</title>
+	<atom:link href="https://www.ultrasaurus.com/2004/04/gui-programming-is-hard/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.ultrasaurus.com/2004/04/gui-programming-is-hard/</link>
+	<description>Sarah Allen&#039;s reflections on internet software and other topics</description>
+	<lastBuildDate>Sun, 11 Apr 2004 02:12:54 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<item>
+		<title>
+		By: Eric Hancock		</title>
+		<link>https://www.ultrasaurus.com/2004/04/gui-programming-is-hard/#comment-165</link>
+
+		<dc:creator><![CDATA[Eric Hancock]]></dc:creator>
+		<pubDate>Sun, 11 Apr 2004 02:12:54 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/wordpress/?p=115#comment-165</guid>
+
+					<description><![CDATA[I think the most difficult thing about GUI design is that too many people confuse &quot;I don&#039;t like it&quot; with &quot;it isn&#039;t useable.&quot;  Well-designed GUI isn&#039;t always immediately evident.  Often, good GUI is highly adapted to the task at hand.
+
+With GUI, &lt;i&gt;learnable&lt;/i&gt; is often more important than &lt;i&gt;intuitive&lt;/i&gt;.
+
+Of course, this depends entirely on the task at hand.
+]]></description>
+			<content:encoded><![CDATA[<p>I think the most difficult thing about GUI design is that too many people confuse &#8220;I don&#8217;t like it&#8221; with &#8220;it isn&#8217;t useable.&#8221;  Well-designed GUI isn&#8217;t always immediately evident.  Often, good GUI is highly adapted to the task at hand.</p>
+<p>With GUI, <i>learnable</i> is often more important than <i>intuitive</i>.</p>
+<p>Of course, this depends entirely on the task at hand.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Victor Laszlo		</title>
+		<link>https://www.ultrasaurus.com/2004/04/gui-programming-is-hard/#comment-164</link>
+
+		<dc:creator><![CDATA[Victor Laszlo]]></dc:creator>
+		<pubDate>Wed, 07 Apr 2004 16:35:12 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/wordpress/?p=115#comment-164</guid>
+
+					<description><![CDATA[Interesting topic, and one I&#039;ve been thinking about a lot lately as I&#039;ve been working on a project for a customer, which is mostly a snazzy user interface for some fairly simple functionality.
+
+I think that the most difficult thing about GUI programming is that the &#039;correctness&#039; of a GUI lies in the very minutiae of its details, but it&#039;s not always easy to identify which details are the ones that aren&#039;t right. In this way, GUI programming is a true art: you have to be able to step back from your work and look at it critically, and have to iterate quickly over alternatives.
+]]></description>
+			<content:encoded><![CDATA[<p>Interesting topic, and one I&#8217;ve been thinking about a lot lately as I&#8217;ve been working on a project for a customer, which is mostly a snazzy user interface for some fairly simple functionality.</p>
+<p>I think that the most difficult thing about GUI programming is that the &#8216;correctness&#8217; of a GUI lies in the very minutiae of its details, but it&#8217;s not always easy to identify which details are the ones that aren&#8217;t right. In this way, GUI programming is a true art: you have to be able to step back from your work and look at it critically, and have to iterate quickly over alternatives.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

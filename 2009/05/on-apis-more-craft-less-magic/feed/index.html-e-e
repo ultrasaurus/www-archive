@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: on APIs: more craft, less magic	</title>
+	<atom:link href="https://www.ultrasaurus.com/2009/05/on-apis-more-craft-less-magic/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.ultrasaurus.com/2009/05/on-apis-more-craft-less-magic/</link>
+	<description>Sarah Allen&#039;s reflections on internet software and other topics</description>
+	<lastBuildDate>Mon, 11 May 2009 22:16:46 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<item>
+		<title>
+		By: Dev Blog AF83 &#187; Blog Archive &#187; Veille technologique : Infrastructure Ruby Rails, HTML, Javascript, Tutoriels, Git, Regexp		</title>
+		<link>https://www.ultrasaurus.com/2009/05/on-apis-more-craft-less-magic/#comment-497</link>
+
+		<dc:creator><![CDATA[Dev Blog AF83 &#187; Blog Archive &#187; Veille technologique : Infrastructure Ruby Rails, HTML, Javascript, Tutoriels, Git, Regexp]]></dc:creator>
+		<pubDate>Mon, 11 May 2009 22:16:46 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1254#comment-497</guid>
+
+					<description><![CDATA[[...] https://www.ultrasaurus.com/sarahblog/2009/05/on-apis-more-craft-less-magic/ : un billet de blog sur les API et leurs utilisations dans Rails [...] ]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] <a href="https://www.ultrasaurus.com/sarahblog/2009/05/on-apis-more-craft-less-magic/" rel="nofollow ugc">https://www.ultrasaurus.com/sarahblog/2009/05/on-apis-more-craft-less-magic/</a> : un billet de blog sur les API et leurs utilisations dans Rails [&#8230;] </p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: clibou		</title>
+		<link>https://www.ultrasaurus.com/2009/05/on-apis-more-craft-less-magic/#comment-496</link>
+
+		<dc:creator><![CDATA[clibou]]></dc:creator>
+		<pubDate>Mon, 11 May 2009 05:21:58 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1254#comment-496</guid>
+
+					<description><![CDATA[checkout Twitter API dev Alex @ Stanford
+RT @Al3x Slides from talk today: http://bit.ly/68cej. And video (WMV): http://bit.ly/QrLfS. Of interest if you&#039;re into API design.]]></description>
+			<content:encoded><![CDATA[<p>checkout Twitter API dev Alex @ Stanford<br />
+RT @Al3x Slides from talk today: <a href="http://bit.ly/68cej" rel="nofollow ugc">http://bit.ly/68cej</a>. And video (WMV): <a href="http://bit.ly/QrLfS" rel="nofollow ugc">http://bit.ly/QrLfS</a>. Of interest if you&#8217;re into API design.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: ste		</title>
+		<link>https://www.ultrasaurus.com/2009/05/on-apis-more-craft-less-magic/#comment-495</link>
+
+		<dc:creator><![CDATA[ste]]></dc:creator>
+		<pubDate>Thu, 07 May 2009 11:05:24 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1254#comment-495</guid>
+
+					<description><![CDATA[&quot;Rails seems to assume that you want to expose your database object model transparently through your API.  &quot;
+Rails doesn&#039;t assume this, like it doesn&#039;t assume that you should have an isomorphic mapping between models and controllers. It&#039;s all about exposing resources: the fact that most developers seem to equate resources with models (and, therefore, tend to expose their object model through their APIs) has nothing to do with Rails (well, maybe the guilt is partly to lay on scaffolding, which may have encouraged this mindset)]]></description>
+			<content:encoded><![CDATA[<p>&#8220;Rails seems to assume that you want to expose your database object model transparently through your API.  &#8221;<br />
+Rails doesn&#8217;t assume this, like it doesn&#8217;t assume that you should have an isomorphic mapping between models and controllers. It&#8217;s all about exposing resources: the fact that most developers seem to equate resources with models (and, therefore, tend to expose their object model through their APIs) has nothing to do with Rails (well, maybe the guilt is partly to lay on scaffolding, which may have encouraged this mindset)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Double Shot #447 &#171; A Fresh Cup		</title>
+		<link>https://www.ultrasaurus.com/2009/05/on-apis-more-craft-less-magic/#comment-494</link>
+
+		<dc:creator><![CDATA[Double Shot #447 &#171; A Fresh Cup]]></dc:creator>
+		<pubDate>Thu, 07 May 2009 10:23:43 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1254#comment-494</guid>
+
+					<description><![CDATA[[...] on APIs: more craft, less magic - &#8220;Rails seems to assume that you want to expose your database object model transparently through your API. In my experience, this is rarely what you want to do. In fact, it is a crazy way to live.&#8221; [...] ]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] on APIs: more craft, less magic &#8211; &#8220;Rails seems to assume that you want to expose your database object model transparently through your API. In my experience, this is rarely what you want to do. In fact, it is a crazy way to live.&#8221; [&#8230;] </p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matthew Lang		</title>
+		<link>https://www.ultrasaurus.com/2009/05/on-apis-more-craft-less-magic/#comment-493</link>
+
+		<dc:creator><![CDATA[Matthew Lang]]></dc:creator>
+		<pubDate>Wed, 06 May 2009 19:56:38 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1254#comment-493</guid>
+
+					<description><![CDATA[Great piece Sarah!
+
+It seems that API design has been left out for some time now while Rails developers got fixed on the new application specific features that the framework had to offer.
+
+With the new Rails 3 framework started, and tech like Rails Metal, Rack and Sinatra, more and more developers might start caring more for their API design as well as their application design.]]></description>
+			<content:encoded><![CDATA[<p>Great piece Sarah!</p>
+<p>It seems that API design has been left out for some time now while Rails developers got fixed on the new application specific features that the framework had to offer.</p>
+<p>With the new Rails 3 framework started, and tech like Rails Metal, Rack and Sinatra, more and more developers might start caring more for their API design as well as their application design.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

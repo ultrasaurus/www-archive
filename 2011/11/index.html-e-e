@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+	<head>
+				<link rel="profile" href="http://gmpg.org/xfn/11" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<title>November &laquo; 2011 &laquo; the evolving ultrasaurus</title>
+		
+				<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="the evolving ultrasaurus &raquo; Feed" href="https://www.ultrasaurus.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="the evolving ultrasaurus &raquo; Comments Feed" href="https://www.ultrasaurus.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.ultrasaurus.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.1"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='mailchimpSF_main_css-css'  href='https://www.ultrasaurus.com/?mcsf_action=main_css&#038;ver=5.7.1' type='text/css' media='all' />
+<!--[if IE]>
+<link rel='stylesheet' id='mailchimpSF_ie_css-css'  href='https://www.ultrasaurus.com/wp-content/plugins/mailchimp/css/ie.css?ver=5.7.1' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='wp-block-library-css'  href='https://www.ultrasaurus.com/wp-includes/css/dist/block-library/style.min.css?ver=5.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='tw-bootstrap-css'  href='https://www.ultrasaurus.com/wp-content/themes/the-bootstrap/css/bootstrap.min.css?ver=2.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='the-bootstrap-css'  href='https://www.ultrasaurus.com/wp-content/themes/the-bootstrap/style.min.css?ver=2.0.1' type='text/css' media='all' />
+<style id='the-bootstrap-inline-css' type='text/css'>
+body > .container{margin-top:68px;}@media(min-width: 980px){body > .container{margin-top:58px;}}
+</style>
+<script type='text/javascript' src='https://www.ultrasaurus.com/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://www.ultrasaurus.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://www.ultrasaurus.com/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.5.4' id='ga-external-tracking-js'></script>
+<link rel="https://api.w.org/" href="https://www.ultrasaurus.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.ultrasaurus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.ultrasaurus.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.7.1" />
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>	<style type="text/css">
+				#branding hgroup {
+			position: absolute !important;
+			clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+			</style>
+		<!--[if lt IE 9]>
+		<script src="https://www.ultrasaurus.com/wp-content/themes/the-bootstrap/js/html5shiv.min.js" type="text/javascript"></script>
+		<script src="https://www.ultrasaurus.com/wp-content/themes/the-bootstrap/js/respond.min.js" type="text/javascript"></script>
+	<![endif]-->
+	<!-- Google Analytics Tracking by Google Analyticator 6.5.4: http://www.videousermanuals.com/google-analyticator/ -->
+<script type="text/javascript">
+    var analyticsFileTypes = [''];
+    var analyticsSnippet = 'enabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+  
+	_gaq.push(['_setAccount', 'UA-4313619-1']);
+    _gaq.push(['_addDevId', 'i9k95']); // Google Analyticator App ID with Google
+    _gaq.push(['_gat._anonymizeIp']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+		<style type="text/css" id="wp-custom-css">
+			code {
+	color: #70a
+}
+
+p {
+	color: #333
+}
+
+blockquote p {
+	font-size: 14px;
+	font-weight: normal;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 10px;
+	padding-right: 60px;
+	line-height: 1.2;
+}		</style>
+			</head>
+	
+	<body class="archive date content-sidebar">
+		<div class="container">
+			<div id="page" class="hfeed row">
+								<header id="branding" role="banner" class="span12">
+										<hgroup>
+						<h1 id="site-title">
+							<a href="https://www.ultrasaurus.com/" title="the evolving ultrasaurus" rel="home">
+								<span>the evolving ultrasaurus</span>
+							</a>
+						</h1>
+						<h2 id="site-description">Sarah Allen&#039;s reflections on internet software and other topics</h2>
+					</hgroup>
+					
+					
+					<nav id="access" role="navigation">
+						<h3 class="assistive-text">Main menu</h3>
+						<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
+						<div class="skip-link"><a class="assistive-text" href="#secondary" title="Skip to secondary content">Skip to secondary content</a></div>
+												<div class="navbar navbar-fixed-top navbar-inverse">
+							<div class="navbar-inner">
+								<div class="container">
+									<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+									<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</a>
+																		<span class="brand">the evolving ultrasaurus</span>
+																		<div class="nav-collapse">
+										<div class="menu-primary-container"><ul id="menu-primary" class="nav"><li id="menu-item-4272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4272"><a href="https://www.ultrasaurus.com/about/">About</a></li>
+<li id="menu-item-6605" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6605"><a href="https://www.ultrasaurus.com/speaking/">Speaking</a></li>
+<li id="menu-item-6366" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6366"><a href="https://www.ultrasaurus.com/code/">Code</a></li>
+<li id="menu-item-4269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4269"><a href="https://www.ultrasaurus.com/archives/">Archives</a></li>
+<li id="menu-item-4759" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4759"><a href="https://www.ultrasaurus.com/contact/">Contact</a></li>
+<li id="menu-item-4697" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4697"><a href="https://www.ultrasaurus.com/ultrasaurus/">What is an ultrasaurus?</a></li>
+</ul></div>	<form id="searchform" class="navbar-search pull-right" method="get" action="https://www.ultrasaurus.com/">
+						<label for="s" class="assistive-text hidden">Search</label>
+						<input type="search" class="search-query" name="s" id="s" placeholder="Search" />
+					</form>								    </div>
+								</div>
+							</div>
+						</div>
+											</nav><!-- #access -->
+									</header><!-- #branding -->
+<section id="primary" class="span8">
+
+		<div id="content" role="main">
+		
+			<header class="page-header">
+				<h1 class="page-title">
+					Monthly Archives: <span>November 2011</span>				</h1>
+			</header><!-- .page-header -->
+
+			<article id="post-3464" class="post-3464 post type-post status-publish format-standard hentry category-general">
+		
+	<header class="page-header">
+	<h1 class="entry-title"><a href="https://www.ultrasaurus.com/2011/11/setting-up-ec2-minecraft-server/" title="Permalink to setting up ec2 minecraft server" rel="bookmark">setting up ec2 minecraft server</a></h1>		<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://www.ultrasaurus.com/2011/11/setting-up-ec2-minecraft-server/" title="7:08 pm" rel="bookmark"><time class="entry-date" datetime="2011-11-24T19:08:54-08:00" pubdate>November 24, 2011</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://www.ultrasaurus.com/author/sarah/" title="View all posts by sarah" rel="author">sarah</a></span></span>		<span class="sep"> | </span>
+		<span class="comments-link">
+			<a href="https://www.ultrasaurus.com/2011/11/setting-up-ec2-minecraft-server/#comments"><strong>4</strong> Replies</a>		</span>
+				</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+		<div class="entry-content clearfix">
+		<p>Goal: set up a minecraft server using free EC2 account from OSX<br />
+[update: FAIL &#8212; game play doesn&#8217;t work on a micro instance, if we want to use EC2 it looks like we need to use at least a small one. so be careful to adjust the steps below to pick a small instance if you want to play.]</p>
+<p>I learned that there are a lot of minecraft server implementations.  I decided to use Craftbukkit server largely because I saw it referenced from a <a href="http://confreaks.net/videos/696-rubyconf2011-be-a-minecraft-modman-with-purugin">RubyConf talk</a> by <a href="http://blog.enebo.com/">Tom Enebo</a> &#8212; might be fun to mod it someday :)</p>
+<p>I pieced together information from some helpful tutorials from <a href="https://help.ubuntu.com/community/EC2StartersGuide">Ubuntu</a> and <a href="http://www.robertsosinski.com/2008/01/26/starting-amazon-ec2-with-mac-os-x/">Robert Sosinski</a>.</p>
+<ol>
+<li>Sign-up for an AWS account (1 year free for new AWS accounts, but you need a credit card)</li>
+<li>Go to <a href="https://console.aws.amazon.com/ec2/home">AWS Management Console</a></li>
+<li>Create a Private Key
+<ul>
+<li>Select EC2 tab, click on &#8220;0 Key Pairs&#8221; on the right side</li>
+<li>name it ec2.pem (or anything you want, but I&#8217;ll use ec2 in the rest of this tutorial)</li>
+<li>save it to ~/.ec2/ec2.pem</li>
+</ul>
+</li>
+<li>Create a Certificate
+<ul>
+<li>Under your name in the top right corner, select &#8220;Security Credentials&#8221;</li>
+<li>Download the private key and certificate and save them in ~/.ec2</li>
+</ul>
+</li>
+<li>Make your credential files private.  In your local terminal, type:
+<ul>
+<li>cd ~/.ec2</li>
+<li>chmod go-rwx ~/.ec2/*.pem</li>
+</ul>
+</li>
+<li>Download <a href="http://aws.amazon.com/developertools/351">EC2 API Tools</a>
+<ul>
+<li>Unzip the Amazon EC2 Command-Line Tools</li>
+<li>Move both the bin and lib directory into your ~/.ec2 directory</li>
+</ul>
+</li>
+<li>Your ~/.ec2 directory should have:
+<ul>
+<li>The cert-xxxxxxx.pem file</li>
+<li>The pk-xxxxxxx.pem file</li>
+<li>The bin directory</li>
+<li>The lib directory</li>
+<li>ec2.pem</li>
+</ul>
+</li>
+<li>Set up EC2 Command-line Tools
+<ul>
+<li>Put the following into your ~/.bash_profile:<br />
+<code># Setup Amazon EC2 Command-Line Tools<br />
+export EC2_HOME=~/.ec2<br />
+export PATH=$PATH:$EC2_HOME/bin<br />
+export EC2_PRIVATE_KEY=`ls $EC2_HOME/pk-*.pem`<br />
+export EC2_CERT=`ls $EC2_HOME/cert-*.pem`<br />
+export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Home/</code></li>
+<li>On the command-line, type:<br />
+<code>source ~/.bash_profile</code></li>
+</ul>
+</li>
+<li>Startup a server
+<ul>
+<li>[Update] We want to be careful to choose an AMI that works with the micro instance, which is what we get for free.  Ubuntu takes up too much disk space by default to fit into a micro instance, so you need to use one of the <a href="http://cloud.ubuntu.com/2010/11/using-ubuntu-images-on-aws-free-tier/">micro Ubuntu AMIs</a> they created for this purpose.  I&#8217;m going to use Maverick 10-10 &#8212; it&#8217;s the most recent version that has a micro version.</li>
+<li>[Update] I picked one in us-east, since that&#8217;s where Amazon started my account by default and it seems that it needs to be in the same region matching the one set for my key:<br />
+ec2-run-instances ami-cf33fea6 &#8211;instance-type t1.micro &#8211;region us-east-1 &#8211;key ec2</li>
+<li>check to see if it is running, by typing:<br />
+<code>ec2-describe-instances</code></li>
+<li>make a note of your hostname!  It should look something like:</li>
+</ul>
+<pre>ec2-###-##-##-##.compute-1.amazonaws.com</pre>
+</li>
+<li>Open relevant ports (22 for ssh, 80 for http, 25565 for minecraft):<code><br />
+ec2-authorize default -p 22<br />
+ec2-authorize default -p 80<br />
+ec2-authorize default -p 25565<br />
+</code></li>
+<li>ssh into your new instance<br />
+<code>ssh -i ec2.pem ubuntu@ec2-###-##-##-##.compute-1.amazonaws.com</code></li>
+<li>Install Java (<a href="http://ubuntu-for-humans.blogspot.com/2011/04/installing-java-on-ubuntu-server-1010.html">nice Ubuntu instructions</a>)<br />
+Note: to accept the license, use tab to get to the OK &#8220;button&#8221; then hit return, then arrow to get to &#8220;Yes&#8221; and hit return again.<br />
+To verify installation:<br />
+$ java -version<br />
+java version &#8220;1.6.0_26&#8221;<br />
+Java(TM) SE Runtime Environment (build 1.6.0_26-b03)<br />
+Java HotSpot(TM) Client VM (build 20.1-b02, mixed mode, sharing)</li>
+<li>See <a href="http://wiki.bukkit.org/Setting_up_a_remote_Linux_server">this tutorial for setting up minecraft</a>, but if you are playing with the Minecraft 1.0 client (at least of today) you&#8217;ll need to install a dev build which you can find on the <a href="http://ci.bukkit.org/job/dev-CraftBukkit/">ci server</a>. I found that I needed to run the server, stop it and run it again to get it to start without errors.
+<ul>
+<li>get the latest dev build (I&#8217;m running 1502):
+<pre>
+wget http://ci.bukkit.org/job/dev-CraftBukkit/lastSuccessfulBuild/artifact/target/craftbukkit-1.0.0-SNAPSHOT.jar
+</pre>
+</li>
+<li>create a file called &#8220;start.sh&#8221; with the following contents:
+<pre>
+#!/bin/sh
+java -Xmx613M -Xincgc -jar craftbukkit-1.0.0-SNAPSHOT.jar
+</pre>
+</li>
+<li>run the server in screen:
+<pre>
+screen
+./start.sh
+</pre>
+</li>
+</ol>
+<p>[Update] By tweaking the memory allocation, we can get it to work (most of the time) with a single player.  I found that I can raise the memory allocation for java and use virtual memory, but that it sometimes maxes out the CPU.  </p>
+<p>Here&#8217;s the setting where the game couldn&#8217;t be failed (couldn&#8217;t fight monsters or build things):</p>
+<pre>#!/bin/sh
+java -Xmx613M -Xincgc -jar craftbukkit-1.0.0-SNAPSHOT.jar
+
+$top
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND                                                                 
+ 1642 ubuntu    20   0  978m 300m  10m S 12.3 50.7 100:44.96 java                                                                     
+</pre>
+<p>Note:<br />
+VIRT &#8211; 978M of virtual memory<br />
+RES &#8211; 300m resident (physical) memory</p>
+<hr />
+<p>With this it sometimes works:</p>
+<pre>
+#!/bin/sh
+java -Xmx1024M -Xincgc -jar craftbukkit-1.0.0-SNAPSHOT.jar
+
+ 2829 ubuntu    20   0 1336m 271m  10m S 14.0 45.8   0:18.76 java                                                                     
+</pre>
+<hr />
+<p>With this works almost all the time (but we&#8217;ve only tested one player):</p>
+<pre>
+#!/bin/sh
+java -Xmx2048M -Xincgc -jar craftbukkit-1.0.0-SNAPSHOT.jar
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND                                                                 
+ 2893 ubuntu    20   0 2499m 341m  10m S 99.8 57.6   0:27.68 java                                                                     
+
+ 2893 ubuntu    20   0 2499m 341m  10m S 18.2 57.7   1:27.30 java                     </pre>
+<p>when the CPU maxes out, I see this in the game console:<br />
+<code>22:39:19 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?</code></p>
+	</div><!-- .entry-content -->
+	
+	<footer class="entry-meta">
+		<span class="cat-links block">Posted in <a href="https://www.ultrasaurus.com/category/general/" rel="category tag">general</a>.</span>	</footer><!-- #entry-meta -->
+	
+	</article><!-- #post-3464 -->
+<article id="post-3443" class="post-3443 post type-post status-publish format-standard hentry category-general">
+		
+	<header class="page-header">
+	<h1 class="entry-title"><a href="https://www.ultrasaurus.com/2011/11/why-flash-lost-but-html-still-sucks/" title="Permalink to Why Flash Lost but HTML Still Sucks" rel="bookmark">Why Flash Lost but HTML Still Sucks</a></h1>		<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://www.ultrasaurus.com/2011/11/why-flash-lost-but-html-still-sucks/" title="4:42 pm" rel="bookmark"><time class="entry-date" datetime="2011-11-09T16:42:51-08:00" pubdate>November 9, 2011</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://www.ultrasaurus.com/author/sarah/" title="View all posts by sarah" rel="author">sarah</a></span></span>		<span class="sep"> | </span>
+		<span class="comments-link">
+			<a href="https://www.ultrasaurus.com/2011/11/why-flash-lost-but-html-still-sucks/#respond"><span class="leave-reply">Leave a reply</span></a>		</span>
+				</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+		<div class="entry-content clearfix">
+		<p>I&#8217;ve been creating and using cross-platform tools for application development since the late 80s, from VideoWorks, HyperCard, and Authorware to Director, SuperCard, ScriptX and mTropolis to Shockwave, Flash, and HTML/Javascript.  We&#8217;ve moved past the experimental days when it was called multimedia and techniques for interactivity, graphics, animation and information design are routinely applied for mainstream consumer and business applications.  The dominant paradigm is now HTML.</p>
+<p>When people say HTML, they really mean HTML, CSS, Javascript and a collection of proprietary browser APIs which are similar enough across desktop and mobile browsers that we can build applications that look and feel the same even if the code under-the-hood needs to be a little different.  </p>
+<p>Flash successfully enabled one set of code for one application, independent of browser and OS.  Macormedia documented the file format back in the 90s. The Flash Player itself remained proprietary, but the open file format enabled competitive authoring tools like OpenLaszlo in addition to the original Flash authoring tool and later Flex.  Of course, OpenLaszlo moved to support HTML many years ago, as browsers grew faster and more capable making HTML a practical choice for apps with desktop-like interactivity.</p>
+<h2>It&#8217;s Not Just About Technical Merits</h2>
+<p>I believe that the technical reason that Flash lost was that Flash never completely made the leap to app development from its origins in games and entertainment (some of the following may be out of date, since I stopped using Flash for anything but video 2 years ago).  However, the big reason that Flash lost was an emotional one that Steve Jobs did a good job of propagating.  Macromedia and Adobe never successfully embraced and fostered an open source approach to the platform, and sadly I think the marketing of this is more important today than the reality. The reality is that any effective, so-called HTML5 implementation that rivals Flash uses proprietary browser APIs that differ across browsers.  Today a lot of that is hidden by popular frameworks, but any Javascript developer that has produced something meaningful that is widely used knows what I&#8217;m talking about.  </p>
+<p>The HTML, CSS, and JavaScript you need to write for the iOS implementation of the webkit browser has a lot in common with what you would need to write for the Windows Phone 7 Internet Explorer which both share a lot with the documented standards and their desktop counterparts, but share a lot less with BlackBerry 4 browsers or IE6, let alone earlier browser versions. Standards are only as good as their widespread and shared implementations.  In the real-world, we do what works, which means we write to proprietary APIs.</p>
+<p>For a while it looked like Flash might just offer a proprietary API that worked effectively across desktop, web and mobile, but they didn&#8217;t effectively make the leap to mobile, nor did they keep up with some of the capabilities of the desktop browsers; however, neither have web browsers yet to fully catch up to Flash.  The standards committee approach doesn&#8217;t seem to be effectively driving new capabilities and the platforms are splintering even more than they were in the late 90s.</p>
+<h2>So why did Flash lose (technically)?</h2>
+<ul>
+<li>Text was never a first class citizen (undo, spellcheck, etc.) &#8212; the truth is that text is hard and really important. HTML forced web browsers to do this very well.  With the addition of JavaScript, with its dynamic manipulation of the DOM, web applications started to be able to have the kinds of interactions people were familiar with from the desktop, but Flash never matched with regard to text.</li>
+<li>Settings&#8230; (This should have been called Flash Player Settings: with the addition of context menu items, the &#8220;Settings&#8230;&#8221; menu may appear to control application setting; however, if someone picks that menu item when an iframe is partially obscuring the app, it will not appear to the end-user and the app will seem to hang.  I have to admit personally responsibility for screwing this up circa 2000 when I was at Macromedia leading the Flash video team.  In my own defense, it is very hard to balance usability and security.  I wish we had done more of a trusted app model with authorization of features (like Android and iOS do fairly well for mobile apps) and used OS dialogs to prevent spoofing.</li>
+<li>Drag &amp; drop not integrated with the desktop (Browsers are doing better on this, but there is still a ways to go)</li>
+<li>Cut/Copy/Paste really needs to work well for text and all media types, which is still not fully there on browsers.</li>
+<li>http auth: seriously silly that this was not easily supported</li>
+<li>Sometime network operations fail &#8212; real apps need reliability</li>
+</ul>
+<h2>Why HTML still sucks, just like Flash</h2>
+<ol>
+<li>&#8220;This script has caused the Flash Player to run slowly&#8221; &#8212; web browsers haven&#8217;t figured this out either, I like how Apple handles this with desktop apps better</li>
+<li>From a performance perspective, HTML/Javascript has the same challenges as Flash &#8212; has anyone else noticed the return of &#8220;skip intro&#8221; and progress bar loading screens, but they are so-called HTML5 sites instead of Flash?</li>
+</ol>
+<h2>How HTML sucks more than Flash</h2>
+<p>Desktop HTML video suffers from same of the same issues as mobile web video:</p>
+<ol>
+<li>The only use case that is well-vetted and works effectively cross-platform is playing a movie with VCR controls.  There are a lot of other video interaction use cases that Flash did a very good job of supporting and HTML isn&#8217;t there yet on even modern browsers, let alone on the range of browsers and platforms supported by Flash.</li>
+<li>There is no accepted standard here &#8212; we&#8217;re back to the codec/format wars of the late &#8217;90s with Apple sticking to QuickTime and Google arguing that zero cost = open.  This is a hard problem, and pretending it is solved isn&#8217;t helping anyone.</li>
+</ol>
+<p>and of course, same goes for audio.</p>
+	</div><!-- .entry-content -->
+	
+	<footer class="entry-meta">
+		<span class="cat-links block">Posted in <a href="https://www.ultrasaurus.com/category/general/" rel="category tag">general</a>.</span>	</footer><!-- #entry-meta -->
+	
+	</article><!-- #post-3443 -->
+<article id="post-3428" class="post-3428 post type-post status-publish format-standard hentry category-general">
+		
+	<header class="page-header">
+	<h1 class="entry-title"><a href="https://www.ultrasaurus.com/2011/11/debugging-objective-c-in-xcode-for-ios/" title="Permalink to debugging objective-c in xcode for iOS" rel="bookmark">debugging objective-c in xcode for iOS</a></h1>		<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://www.ultrasaurus.com/2011/11/debugging-objective-c-in-xcode-for-ios/" title="6:40 am" rel="bookmark"><time class="entry-date" datetime="2011-11-02T06:40:59-07:00" pubdate>November 2, 2011</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://www.ultrasaurus.com/author/sarah/" title="View all posts by sarah" rel="author">sarah</a></span></span>		<span class="sep"> | </span>
+		<span class="comments-link">
+			<a href="https://www.ultrasaurus.com/2011/11/debugging-objective-c-in-xcode-for-ios/#respond"><span class="leave-reply">Leave a reply</span></a>		</span>
+				</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+		<div class="entry-content clearfix">
+		<p>I&#8217;m coding again in native Objective-C coding for iOS with the lovely XCode.  It has been a while so I&#8217;ve been reading up on debugging tricks.  Sadly, it still feels a bit like debugging in Macsbug in 1990&#8230; </p>
+<p>The graphical display of object values is fairly useless, but in gdb, we can use the <strong>po</strong> command to get a pretty printing of the object if it comes with a built in description (for details see <a href="http://cocoawithlove.com/2008/10/debugging-tips-for-objective-c.html">nice writeup from cocoa with love</a>).</p>
+<p>For our own objects, we can define a debugDescription method.  For example, if I have a Thing class which is a subclass of NSObject and just has a title and subtitle:</p>
+<blockquote>
+<pre>@implementation Thing
+
+@synthesize title;
+@synthesize subtitle;
+
+- (NSString *)debugDescription { return [NSString stringWithFormat:@"title: %@n subtitle: %@", title, subtitle]; }
+
+@end</pre>
+</blockquote>
+<p>Then if I find myself at a breakpoint with an instance of Thing in scope, called &#8220;thing&#8221;:</p>
+<blockquote>
+<pre>(gdb) po thing
+title: Another
+subtitle: Another example</pre>
+</blockquote>
+<p>Or if I have an array of Thing instances, called &#8220;things&#8221;:</p>
+<blockquote>
+<pre>(gdb) po things
+&lt;__NSArrayM 0x6a157a0&gt;(
+title: Basic
+subtitle: My Thing,
+title: Something
+subtitle: Example of something,
+title: Another
+subtitle: Another example
+)</pre>
+</blockquote>
+<p><a href="http://iphonedevelopertips.com/cocoa/overriding-nsobject-description-method.html">iphonedevelopertips illustrates</a> this nicely in more detail with the description method which will do the same thing for any subclass of NSObject.</p>
+<p><strong>Note:</strong> <code>print-object</code> actually calls the <code>debugDescription</code> method of the specified object. <code>NSObject</code> implements this method by calling through to the <code>description</code> method. Thus, by default, an object&#8217;s debug description is the same as its description. However, you can override <code>debugDescription</code> if you want to decouple these; many Cocoa objects do this. (via <a href="http://developer.apple.com/library/mac/#technotes/tn2124/_index.html">Apple Tech Note 2124</a>)</p>
+<h2>Update: LLVM Debugger sucks less</h2>
+<p>If you <a href="http://developer.apple.com/library/mac/#documentation/IDEs/Conceptual/Xcode4TransitionGuide/Debugging/Debugging.html">choose the LLVM Debugger</a>, instead of gdb, you can see properties on an object without defining a description or debugDescription method:</p>
+<blockquote>
+<pre>
+(lldb) po thing
+(Thing *) $8 = 0x06a487d0 
+(lldb) po thing.title
+(NSString *) $9 = 0x00005984 Another
+(lldb) po thing.subtitle
+(NSString *) $10 = 0x00005994 Another example
+</pre>
+</blockquote>
+<p>&#8230;but still no love for Arrays:</p>
+<blockquote>
+<pre>
+(lldb) po things
+(NSMutableArray *) $11 = 0x06a0b6a0 (
+,
+,
+
+)
+</pre>
+</blockquote>
+<p>&#8230;just for fun, let&#8217;s see how to look at a property of the first object in an array:</p>
+<blockquote>
+<pre>
+(lldb) po [things objectAtIndex:0]
+(id) $12 = 0x06a44d20 
+(lldb) po [things objectAtIndex:0].title
+error: warning: instance method '-objectAtIndex:' not found (return type defaults to 'id')
+error: property 'title' not found on object of type 'id'
+error: 1 errors parsing expression
+(lldb) po (Thing*)[things objectAtIndex:0].title
+error: warning: instance method '-objectAtIndex:' not found (return type defaults to 'id')
+error: property 'title' not found on object of type 'id'
+error: 1 errors parsing expression
+(lldb) po ((Thing*)[things objectAtIndex:0]).title
+(NSString *) $14 = 0x00005944 Basic
+(lldb) po [[things objectAtIndex:0] valueForKey:@"title"]
+(id) $15 = 0x00005944 Basic
+</pre>
+</blockquote>
+<p>Whew!</p>
+	</div><!-- .entry-content -->
+	
+	<footer class="entry-meta">
+		<span class="cat-links block">Posted in <a href="https://www.ultrasaurus.com/category/general/" rel="category tag">general</a>.</span>	</footer><!-- #entry-meta -->
+	
+	</article><!-- #post-3428 -->
+	</div><!-- #content -->
+	</section><!-- #primary -->
+
+<section id="secondary" class="widget-area span4" role="complementary">
+	<aside id="recent-comments-2" class="widget well widget_recent_comments"><h2 class="widget-title">Recent Comments</h2><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link"><a href='https://da.biomarmicrobialtechnologies.com/' rel='external nofollow ugc' class='url'>Silje Randrup</a></span> on <a href="https://www.ultrasaurus.com/2003/08/the-history-of-the-letter-c/#comment-22370">the history of the letter &#8216;C&#8217;</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://x--x.us' rel='external nofollow ugc' class='url'>Paula</a></span> on <a href="https://www.ultrasaurus.com/2003/08/the-history-of-the-letter-c/#comment-19549">the history of the letter &#8216;C&#8217;</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://x--x.us' rel='external nofollow ugc' class='url'>Michelle</a></span> on <a href="https://www.ultrasaurus.com/2003/08/the-history-of-the-letter-c/#comment-19399">the history of the letter &#8216;C&#8217;</a></li><li class="recentcomments"><span class="comment-author-link">Craig</span> on <a href="https://www.ultrasaurus.com/2019/10/http-3-starter-notes-rust-quiche/#comment-18963">http/3 starter notes, rust quiche</a></li><li class="recentcomments"><span class="comment-author-link">Kornel</span> on <a href="https://www.ultrasaurus.com/2019/10/rust-whats-a-tuple-variant/#comment-18539">[rust] what&#8217;s a tuple variant?</a></li><li class="recentcomments"><span class="comment-author-link"><a href='https://apromixately.github.io' rel='external nofollow ugc' class='url'>Simon</a></span> on <a href="https://www.ultrasaurus.com/2019/06/essential-rust-tools/#comment-13007">essential rust tools</a></li><li class="recentcomments"><span class="comment-author-link"><a href='https://balsamiq.com/company/' rel='external nofollow ugc' class='url'>balsamiqVal</a></span> on <a href="https://www.ultrasaurus.com/2018/10/the-path-is-made-by-walking/#comment-9108">the path is made by walking</a></li><li class="recentcomments"><span class="comment-author-link">Jennifer</span> on <a href="https://www.ultrasaurus.com/2018/07/optimize-for-results-not-optics/#comment-8193">optimize for results, not optics</a></li><li class="recentcomments"><span class="comment-author-link">Bernardo Gomes</span> on <a href="https://www.ultrasaurus.com/2016/06/sailsjs-testing-patterns-trunctate-database/#comment-8058">sailsjs testing: how to truncate the database</a></li><li class="recentcomments"><span class="comment-author-link">Bernardo Gomes</span> on <a href="https://www.ultrasaurus.com/2016/06/sailsjs-testing-patterns-trunctate-database/#comment-8057">sailsjs testing: how to truncate the database</a></li></ul></aside>
+		<aside id="recent-posts-2" class="widget well widget_recent_entries">
+		<h2 class="widget-title">Recent Posts</h2>
+		<ul>
+											<li>
+					<a href="https://www.ultrasaurus.com/2020/07/hope-is-not-a-strategy/">hope is not a strategy</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2020/01/duck-typing-in-rust-trait-vs-type/">duck typing in rust: trait vs type</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2020/01/writing-c-library-in-rust/">writing c library in rust</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2020/01/rust-on-heroku-with-hyper-http/">rust on heroku with hyper http</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2020/01/rust-on-heroku-with-async-await-and-tokio/">rust on heroku with async/await and tokio</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/12/patterns-of-actions-are-a-making/">patterns of actions are a making</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/12/memory-safety-necessary-not-sufficient/">memory safety: necessary, not sufficient</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/12/brief-history-of-rtmp-future-thoughts/">brief history of rtmp + future thoughts</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/12/rust-2020/">rust 2020: fulfill the promise</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/11/nut-loaf-with-red-pepper-sauce/">nut loaf with red pepper sauce</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/10/http-3-starter-notes-rust-quiche/">http/3 starter notes, rust quiche</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/10/rust-whats-a-tuple-variant/">[rust] what&#8217;s a tuple variant?</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/08/graph-in-rust-using-petgraph/">graph in rust using petgraph</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/06/debugging-openssl-shared-libary/">debugging openssl shared libary</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/06/digital-identity-how-to-verify-trust/">digital identity: how to verify trust?</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/06/essential-rust-tools/">essential rust tools</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/05/learning-scala-with-graphics/">learning scala with graphics</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/04/when-reality-is-broken-change-the-rules/">when reality is broken, change the rules</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/04/subverting-saurons-business-model/">subverting Sauron&#8217;s business model</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/02/firebase-auth-migration-from-rails-and-devise/">firebase auth migration from rails/devise</a>
+									</li>
+					</ul>
+
+		</aside></section><!-- #secondary .widget-area -->
+				<footer id="colophon" role="contentinfo" class="span12">
+										<div id="page-footer" class="well clearfix">
+						<span class="credits alignleft">&copy; 2021 <a href="https://www.ultrasaurus.com/">the evolving ultrasaurus</a>, all rights reserved.</span>						<div id="site-generator">
+							<a	href="http://wordpress.org/"
+								title="Semantic Personal Publishing Platform"
+								target="_blank"
+								rel="generator">Proudly powered by WordPress</a>
+						</div>
+					</div><!-- #page-footer .well .clearfix -->
+									</footer><!-- #colophon -->
+							</div><!-- #page -->
+		</div><!-- .container -->
+	<!-- 42 queries. 0.344 seconds. -->
+	<script type='text/javascript' src='https://www.ultrasaurus.com/wp-content/themes/the-bootstrap/js/bootstrap.min.js?ver=2.0.3' id='tw-bootstrap-js'></script>
+<script type='text/javascript' src='https://www.ultrasaurus.com/wp-content/themes/the-bootstrap/js/the-bootstrap.min.js?ver=2.0.1' id='the-bootstrap-js'></script>
+<script type='text/javascript' src='https://www.ultrasaurus.com/wp-includes/js/wp-embed.min.js?ver=5.7.1' id='wp-embed-js'></script>
+	</body>
+</html>

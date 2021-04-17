@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: gratuitous animation vs. meaningful motion	</title>
+	<atom:link href="https://www.ultrasaurus.com/2011/07/gratuitous-animation-vs-meaningful-motion/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.ultrasaurus.com/2011/07/gratuitous-animation-vs-meaningful-motion/</link>
+	<description>Sarah Allen&#039;s reflections on internet software and other topics</description>
+	<lastBuildDate>Mon, 18 Jul 2011 04:44:11 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<item>
+		<title>
+		By: Sarah		</title>
+		<link>https://www.ultrasaurus.com/2011/07/gratuitous-animation-vs-meaningful-motion/#comment-756</link>
+
+		<dc:creator><![CDATA[Sarah]]></dc:creator>
+		<pubDate>Mon, 18 Jul 2011 04:44:11 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=3336#comment-756</guid>
+
+					<description><![CDATA[oops -- fixed the link to the Chrome demo.]]></description>
+			<content:encoded><![CDATA[<p>oops &#8212; fixed the link to the Chrome demo.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: SeanJA		</title>
+		<link>https://www.ultrasaurus.com/2011/07/gratuitous-animation-vs-meaningful-motion/#comment-755</link>
+
+		<dc:creator><![CDATA[SeanJA]]></dc:creator>
+		<pubDate>Mon, 18 Jul 2011 04:38:36 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=3336#comment-755</guid>
+
+					<description><![CDATA[I agree, I also have a feeling this is one of the reasons that a lot of people don&#039;t like flash... too many motions just for the sake of motions.
+
+I am also dissapointed with the Chrome &quot;Check this out&quot; page... it doesn&#039;t appear to work with Chrome 14 dev and the links to the troubleshooting page are dead at the moment.]]></description>
+			<content:encoded><![CDATA[<p>I agree, I also have a feeling this is one of the reasons that a lot of people don&#8217;t like flash&#8230; too many motions just for the sake of motions.</p>
+<p>I am also dissapointed with the Chrome &#8220;Check this out&#8221; page&#8230; it doesn&#8217;t appear to work with Chrome 14 dev and the links to the troubleshooting page are dead at the moment.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

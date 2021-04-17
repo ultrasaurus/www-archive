@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: getting started with activescaffold	</title>
+	<atom:link href="https://www.ultrasaurus.com/2009/07/getting-started-with-activescaffold/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.ultrasaurus.com/2009/07/getting-started-with-activescaffold/</link>
+	<description>Sarah Allen&#039;s reflections on internet software and other topics</description>
+	<lastBuildDate>Thu, 01 Nov 2012 13:58:50 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<item>
+		<title>
+		By: Active scaffold &#124; Kaokaokao		</title>
+		<link>https://www.ultrasaurus.com/2009/07/getting-started-with-activescaffold/#comment-545</link>
+
+		<dc:creator><![CDATA[Active scaffold &#124; Kaokaokao]]></dc:creator>
+		<pubDate>Thu, 01 Nov 2012 13:58:50 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1621#comment-545</guid>
+
+					<description><![CDATA[[...] getting started with activescaffold &#124; the evolving ultrasaurusJul 1, 2009 &#8230; The use case that led me to ActiveScaffold today was the creation of an admin interface. I&#8217;m working on a website and the end user stuff is &#8230; [...] ]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] getting started with activescaffold | the evolving ultrasaurusJul 1, 2009 &#8230; The use case that led me to ActiveScaffold today was the creation of an admin interface. I&#8217;m working on a website and the end user stuff is &#8230; [&#8230;] </p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Amal		</title>
+		<link>https://www.ultrasaurus.com/2009/07/getting-started-with-activescaffold/#comment-544</link>
+
+		<dc:creator><![CDATA[Amal]]></dc:creator>
+		<pubDate>Wed, 10 Mar 2010 07:04:58 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1621#comment-544</guid>
+
+					<description><![CDATA[Really Nice....I too started with this....]]></description>
+			<content:encoded><![CDATA[<p>Really Nice&#8230;.I too started with this&#8230;.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bronson		</title>
+		<link>https://www.ultrasaurus.com/2009/07/getting-started-with-activescaffold/#comment-543</link>
+
+		<dc:creator><![CDATA[bronson]]></dc:creator>
+		<pubDate>Thu, 21 Jan 2010 20:21:43 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1621#comment-543</guid>
+
+					<description><![CDATA[That seems a little strange to have a tasks.html.erb and an admin.html.erb...  Conceptually, I would expect it to be admin/tasks.html.erb.
+
+Does nesting everything behind /admin work well in practice?]]></description>
+			<content:encoded><![CDATA[<p>That seems a little strange to have a tasks.html.erb and an admin.html.erb&#8230;  Conceptually, I would expect it to be admin/tasks.html.erb.</p>
+<p>Does nesting everything behind /admin work well in practice?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Rupak Ganguly		</title>
+		<link>https://www.ultrasaurus.com/2009/07/getting-started-with-activescaffold/#comment-542</link>
+
+		<dc:creator><![CDATA[Rupak Ganguly]]></dc:creator>
+		<pubDate>Fri, 11 Dec 2009 08:42:02 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1621#comment-542</guid>
+
+					<description><![CDATA[Nice comparative post, Sarah. I noticed that there is a slight typo in the line:
+
+Create app/controllers/task_controller.rb:
+
+which I believe should be:
+
+Create app/controllers/admin/tasks_controller.rb:
+
+Notice the folder &quot;admin&quot; where the controller should be along with the plural naming convention.
+
+Also, for Windows users, if you are having a tough time installing the active_scaffold plugin from Git, checkout the tip in my post at http://rails.webintellix.com/index.php/2009/05/installing-rails-plugins-from-github-on-windows/.]]></description>
+			<content:encoded><![CDATA[<p>Nice comparative post, Sarah. I noticed that there is a slight typo in the line:</p>
+<p>Create app/controllers/task_controller.rb:</p>
+<p>which I believe should be:</p>
+<p>Create app/controllers/admin/tasks_controller.rb:</p>
+<p>Notice the folder &#8220;admin&#8221; where the controller should be along with the plural naming convention.</p>
+<p>Also, for Windows users, if you are having a tough time installing the active_scaffold plugin from Git, checkout the tip in my post at <a href="http://rails.webintellix.com/index.php/2009/05/installing-rails-plugins-from-github-on-windows/" rel="nofollow ugc">http://rails.webintellix.com/index.php/2009/05/installing-rails-plugins-from-github-on-windows/</a>.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: rails admin interface roundup &#124; the evolving ultrasaurus		</title>
+		<link>https://www.ultrasaurus.com/2009/07/getting-started-with-activescaffold/#comment-541</link>
+
+		<dc:creator><![CDATA[rails admin interface roundup &#124; the evolving ultrasaurus]]></dc:creator>
+		<pubDate>Sun, 05 Jul 2009 15:23:35 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1621#comment-541</guid>
+
+					<description><![CDATA[[...] the evolving ultrasaurus Sarah Allen&#8217;s reflections on internet software and other topics   Skip to content HomeCodeArchivesAbout       &#171; getting started with activescaffold [...] ]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] the evolving ultrasaurus Sarah Allen&#8217;s reflections on internet software and other topics   Skip to content HomeCodeArchivesAbout       &laquo; getting started with activescaffold [&#8230;] </p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Daily Links #7 &#124; :neil_middleton		</title>
+		<link>https://www.ultrasaurus.com/2009/07/getting-started-with-activescaffold/#comment-540</link>
+
+		<dc:creator><![CDATA[Daily Links #7 &#124; :neil_middleton]]></dc:creator>
+		<pubDate>Fri, 03 Jul 2009 18:16:10 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1621#comment-540</guid>
+
+					<description><![CDATA[[...] Getting started with ActiveScaffold &#8211; A neat little alternative to the default Rails scaffolding that gives you a whole load more UI, and functionality out of the box [...] ]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] Getting started with ActiveScaffold &#8211; A neat little alternative to the default Rails scaffolding that gives you a whole load more UI, and functionality out of the box [&#8230;] </p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Francesc Esplugas		</title>
+		<link>https://www.ultrasaurus.com/2009/07/getting-started-with-activescaffold/#comment-539</link>
+
+		<dc:creator><![CDATA[Francesc Esplugas]]></dc:creator>
+		<pubDate>Fri, 03 Jul 2009 11:52:02 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1621#comment-539</guid>
+
+					<description><![CDATA[Nice introduction to ActiveScaffold, but I still think Typus works better out of the box. ;)]]></description>
+			<content:encoded><![CDATA[<p>Nice introduction to ActiveScaffold, but I still think Typus works better out of the box. ;)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Double Shot #488 &#171; A Fresh Cup		</title>
+		<link>https://www.ultrasaurus.com/2009/07/getting-started-with-activescaffold/#comment-538</link>
+
+		<dc:creator><![CDATA[Double Shot #488 &#171; A Fresh Cup]]></dc:creator>
+		<pubDate>Fri, 03 Jul 2009 09:50:43 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1621#comment-538</guid>
+
+					<description><![CDATA[[...] Getting Started with ActiveScaffold &#8211; A basic introduction. [...] ]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] Getting Started with ActiveScaffold &#8211; A basic introduction. [&#8230;] </p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Sean Dick		</title>
+		<link>https://www.ultrasaurus.com/2009/07/getting-started-with-activescaffold/#comment-537</link>
+
+		<dc:creator><![CDATA[Sean Dick]]></dc:creator>
+		<pubDate>Thu, 02 Jul 2009 17:09:33 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1621#comment-537</guid>
+
+					<description><![CDATA[Taking a quick look at streamlined, the same approach of namespacing admin versions of all of your controllers would still give you basically the same effect. If you wanted to be extra fancy, you could actually have your admin versions inherit from an admin controller:
+
+class Admin::AdminController &#060; ApplicationController
+  before_filter [:login_required, :must_be_admin]
+
+  def must_be_admin
+    # add something to the flash maybe?
+    redirect_to &quot;/&quot; unless user.admin? and return
+  end
+end]]></description>
+			<content:encoded><![CDATA[<p>Taking a quick look at streamlined, the same approach of namespacing admin versions of all of your controllers would still give you basically the same effect. If you wanted to be extra fancy, you could actually have your admin versions inherit from an admin controller:</p>
+<p>class Admin::AdminController &lt; ApplicationController<br />
+  before_filter [:login_required, :must_be_admin]</p>
+<p>  def must_be_admin<br />
+    # add something to the flash maybe?<br />
+    redirect_to &#8220;/&#8221; unless user.admin? and return<br />
+  end<br />
+end</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Jamie Flournoy		</title>
+		<link>https://www.ultrasaurus.com/2009/07/getting-started-with-activescaffold/#comment-536</link>
+
+		<dc:creator><![CDATA[Jamie Flournoy]]></dc:creator>
+		<pubDate>Thu, 02 Jul 2009 08:30:18 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1621#comment-536</guid>
+
+					<description><![CDATA[I tried ActiveScaffold out a couple of weeks ago and didn&#039;t like it. I did like Streamlined, which I ended up using instead.
+
+http://streamlinedframework.org/
+
+The RDoc is not very helpful but the Wiki is: http://trac.streamlinedframework.org/ (at least I think that&#039;s the right wiki since it&#039;s down right this moment.)]]></description>
+			<content:encoded><![CDATA[<p>I tried ActiveScaffold out a couple of weeks ago and didn&#8217;t like it. I did like Streamlined, which I ended up using instead.</p>
+<p><a href="http://streamlinedframework.org/" rel="nofollow ugc">http://streamlinedframework.org/</a></p>
+<p>The RDoc is not very helpful but the Wiki is: <a href="http://trac.streamlinedframework.org/" rel="nofollow ugc">http://trac.streamlinedframework.org/</a> (at least I think that&#8217;s the right wiki since it&#8217;s down right this moment.)</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

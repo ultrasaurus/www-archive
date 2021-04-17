@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: d3.js experiments in the console	</title>
+	<atom:link href="https://www.ultrasaurus.com/2012/03/d3-js-experiments-in-the-console/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.ultrasaurus.com/2012/03/d3-js-experiments-in-the-console/</link>
+	<description>Sarah Allen&#039;s reflections on internet software and other topics</description>
+	<lastBuildDate>Wed, 25 Sep 2013 13:57:53 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<item>
+		<title>
+		By: Santosh Marigowda		</title>
+		<link>https://www.ultrasaurus.com/2012/03/d3-js-experiments-in-the-console/#comment-1297</link>
+
+		<dc:creator><![CDATA[Santosh Marigowda]]></dc:creator>
+		<pubDate>Wed, 25 Sep 2013 13:57:53 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=3573#comment-1297</guid>
+
+					<description><![CDATA[Thank you. Its awesome.]]></description>
+			<content:encoded><![CDATA[<p>Thank you. Its awesome.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Bill		</title>
+		<link>https://www.ultrasaurus.com/2012/03/d3-js-experiments-in-the-console/#comment-798</link>
+
+		<dc:creator><![CDATA[Bill]]></dc:creator>
+		<pubDate>Mon, 24 Jun 2013 14:38:39 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=3573#comment-798</guid>
+
+					<description><![CDATA[Finally! A way to get into the guts of d3 and play without constantly refreshing a page and the browser. Thanks!]]></description>
+			<content:encoded><![CDATA[<p>Finally! A way to get into the guts of d3 and play without constantly refreshing a page and the browser. Thanks!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Tapan		</title>
+		<link>https://www.ultrasaurus.com/2012/03/d3-js-experiments-in-the-console/#comment-797</link>
+
+		<dc:creator><![CDATA[Tapan]]></dc:creator>
+		<pubDate>Fri, 19 Apr 2013 19:57:56 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=3573#comment-797</guid>
+
+					<description><![CDATA[Best way to dig into D3, it&#039;s awesome :)]]></description>
+			<content:encoded><![CDATA[<p>Best way to dig into D3, it&#8217;s awesome :)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Denny Lim		</title>
+		<link>https://www.ultrasaurus.com/2012/03/d3-js-experiments-in-the-console/#comment-796</link>
+
+		<dc:creator><![CDATA[Denny Lim]]></dc:creator>
+		<pubDate>Thu, 24 Jan 2013 02:14:53 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=3573#comment-796</guid>
+
+					<description><![CDATA[I love this experiments.
+Gracias.]]></description>
+			<content:encoded><![CDATA[<p>I love this experiments.<br />
+Gracias.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Henrik		</title>
+		<link>https://www.ultrasaurus.com/2012/03/d3-js-experiments-in-the-console/#comment-795</link>
+
+		<dc:creator><![CDATA[Henrik]]></dc:creator>
+		<pubDate>Sun, 09 Dec 2012 15:15:47 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=3573#comment-795</guid>
+
+					<description><![CDATA[Great intro. Thanks!]]></description>
+			<content:encoded><![CDATA[<p>Great intro. Thanks!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: RomaS		</title>
+		<link>https://www.ultrasaurus.com/2012/03/d3-js-experiments-in-the-console/#comment-794</link>
+
+		<dc:creator><![CDATA[RomaS]]></dc:creator>
+		<pubDate>Wed, 08 Aug 2012 13:17:57 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=3573#comment-794</guid>
+
+					<description><![CDATA[This are very useful tricks, thanks!]]></description>
+			<content:encoded><![CDATA[<p>This are very useful tricks, thanks!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Marc Baiges		</title>
+		<link>https://www.ultrasaurus.com/2012/03/d3-js-experiments-in-the-console/#comment-793</link>
+
+		<dc:creator><![CDATA[Marc Baiges]]></dc:creator>
+		<pubDate>Mon, 06 Aug 2012 21:39:47 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=3573#comment-793</guid>
+
+					<description><![CDATA[About your question regarding nested arrays as result of selections, there is a note on https://github.com/mbostock/d3/wiki/Selections :
+
+Operating on Selections
+
+Selections are arrays of elements—literally. D3 binds additional methods to the array so that you can apply operators to the selected elements, such as setting an attribute on all the selected elements. One nuance is that selections are grouped: rather than a one-dimensional array, each selection is an array of arrays of elements. This preserves the hierarchical structure of subselections. Most of the time, you can ignore this detail, but that&#039;s why a single-element selection looks like [[node]] rather than [node]. For more on nested selections, see Nested Selections.]]></description>
+			<content:encoded><![CDATA[<p>About your question regarding nested arrays as result of selections, there is a note on <a href="https://github.com/mbostock/d3/wiki/Selections" rel="nofollow ugc">https://github.com/mbostock/d3/wiki/Selections</a> :</p>
+<p>Operating on Selections</p>
+<p>Selections are arrays of elements—literally. D3 binds additional methods to the array so that you can apply operators to the selected elements, such as setting an attribute on all the selected elements. One nuance is that selections are grouped: rather than a one-dimensional array, each selection is an array of arrays of elements. This preserves the hierarchical structure of subselections. Most of the time, you can ignore this detail, but that&#8217;s why a single-element selection looks like [[node]] rather than [node]. For more on nested selections, see Nested Selections.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nischay		</title>
+		<link>https://www.ultrasaurus.com/2012/03/d3-js-experiments-in-the-console/#comment-791</link>
+
+		<dc:creator><![CDATA[Nischay]]></dc:creator>
+		<pubDate>Sat, 07 Jul 2012 05:18:59 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=3573#comment-791</guid>
+
+					<description><![CDATA[Awesome ones, would be amazing if you could now explain complex ones :)]]></description>
+			<content:encoded><![CDATA[<p>Awesome ones, would be amazing if you could now explain complex ones :)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: EvanZ		</title>
+		<link>https://www.ultrasaurus.com/2012/03/d3-js-experiments-in-the-console/#comment-790</link>
+
+		<dc:creator><![CDATA[EvanZ]]></dc:creator>
+		<pubDate>Tue, 15 May 2012 00:10:28 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=3573#comment-790</guid>
+
+					<description><![CDATA[Just wanted to say I appreciate your tutorial. Hopefully somebody writes a d3 book soon.]]></description>
+			<content:encoded><![CDATA[<p>Just wanted to say I appreciate your tutorial. Hopefully somebody writes a d3 book soon.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

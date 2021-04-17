@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: tesseract html page with text overlay	</title>
+	<atom:link href="https://www.ultrasaurus.com/2013/07/tesseract-html-page-with-text-overlay/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.ultrasaurus.com/2013/07/tesseract-html-page-with-text-overlay/</link>
+	<description>Sarah Allen&#039;s reflections on internet software and other topics</description>
+	<lastBuildDate>Mon, 15 Jul 2013 16:06:43 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<item>
+		<title>
+		By: Matt Christy		</title>
+		<link>https://www.ultrasaurus.com/2013/07/tesseract-html-page-with-text-overlay/#comment-986</link>
+
+		<dc:creator><![CDATA[Matt Christy]]></dc:creator>
+		<pubDate>Mon, 15 Jul 2013 16:06:43 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=4050#comment-986</guid>
+
+					<description><![CDATA[If you made this into pop-ups for each word instead of an overlay, it could be useful for some difficult to read fonts like black letter. Of course, that assumes we can get good OCR results for black letter -- eMOP is working on that. 
+
+I could imagine some DH projects that might find this a useful way to show page images and have transcriptions available in a convenient way on the same page. Proyecto Cervantes is one. Maybe if done by line or paragraph instead of by word.
+
+Just thinking out loud.]]></description>
+			<content:encoded><![CDATA[<p>If you made this into pop-ups for each word instead of an overlay, it could be useful for some difficult to read fonts like black letter. Of course, that assumes we can get good OCR results for black letter &#8212; eMOP is working on that. </p>
+<p>I could imagine some DH projects that might find this a useful way to show page images and have transcriptions available in a convenient way on the same page. Proyecto Cervantes is one. Maybe if done by line or paragraph instead of by word.</p>
+<p>Just thinking out loud.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Antoine		</title>
+		<link>https://www.ultrasaurus.com/2013/07/tesseract-html-page-with-text-overlay/#comment-985</link>
+
+		<dc:creator><![CDATA[Antoine]]></dc:creator>
+		<pubDate>Mon, 15 Jul 2013 07:07:18 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=4050#comment-985</guid>
+
+					<description><![CDATA[Most useful. I had to make two slight changes:
+-the class for OCR words was named ocr_word, not ocrx_word, on my version of Tesseract for Ubuntu 12.04.
+-I had to add to the generated CSS for each word the fragment &quot;position: absolute;&quot;. I didn&#039;t have as much bandwidth as you did, adding a CSS style to set it globally in head. I might try that.
+
+I used opacity on the image to get the words to show more clearly. Setting it to 0.4 was the right setting.]]></description>
+			<content:encoded><![CDATA[<p>Most useful. I had to make two slight changes:<br />
+-the class for OCR words was named ocr_word, not ocrx_word, on my version of Tesseract for Ubuntu 12.04.<br />
+-I had to add to the generated CSS for each word the fragment &#8220;position: absolute;&#8221;. I didn&#8217;t have as much bandwidth as you did, adding a CSS style to set it globally in head. I might try that.</p>
+<p>I used opacity on the image to get the words to show more clearly. Setting it to 0.4 was the right setting.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt Christy		</title>
+		<link>https://www.ultrasaurus.com/2013/07/tesseract-html-page-with-text-overlay/#comment-984</link>
+
+		<dc:creator><![CDATA[Matt Christy]]></dc:creator>
+		<pubDate>Sun, 14 Jul 2013 18:27:24 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=4050#comment-984</guid>
+
+					<description><![CDATA[Very nice tool. Great idea. Definitely going to try it out. Thanks.]]></description>
+			<content:encoded><![CDATA[<p>Very nice tool. Great idea. Definitely going to try it out. Thanks.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: incidental learning	</title>
+	<atom:link href="https://www.ultrasaurus.com/2008/05/incidental-learning/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.ultrasaurus.com/2008/05/incidental-learning/</link>
+	<description>Sarah Allen&#039;s reflections on internet software and other topics</description>
+	<lastBuildDate>Fri, 23 May 2008 08:49:25 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<item>
+		<title>
+		By: Yonat		</title>
+		<link>https://www.ultrasaurus.com/2008/05/incidental-learning/#comment-304</link>
+
+		<dc:creator><![CDATA[Yonat]]></dc:creator>
+		<pubDate>Fri, 23 May 2008 08:49:25 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/wordpress/?p=378#comment-304</guid>
+
+					<description><![CDATA[A great place to learn the meanings and relationship of chinese characters is &lt;a href=&quot;http://zhongwen.com.&quot; rel=&quot;nofollow&quot;&gt;http://zhongwen.com.&lt;/a&gt;
+]]></description>
+			<content:encoded><![CDATA[<p>A great place to learn the meanings and relationship of chinese characters is <a href="http://zhongwen.com." rel="nofollow"></a><a href="http://zhongwen.com" rel="nofollow ugc">http://zhongwen.com</a>.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

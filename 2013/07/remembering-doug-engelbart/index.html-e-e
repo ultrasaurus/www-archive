@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+	<head>
+				<link rel="profile" href="http://gmpg.org/xfn/11" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<title>remembering doug engelbart &laquo; the evolving ultrasaurus</title>
+		
+				<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="the evolving ultrasaurus &raquo; Feed" href="https://www.ultrasaurus.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="the evolving ultrasaurus &raquo; Comments Feed" href="https://www.ultrasaurus.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="the evolving ultrasaurus &raquo; remembering doug engelbart Comments Feed" href="https://www.ultrasaurus.com/2013/07/remembering-doug-engelbart/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.ultrasaurus.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.1"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='mailchimpSF_main_css-css'  href='https://www.ultrasaurus.com/?mcsf_action=main_css&#038;ver=5.7.1' type='text/css' media='all' />
+<!--[if IE]>
+<link rel='stylesheet' id='mailchimpSF_ie_css-css'  href='https://www.ultrasaurus.com/wp-content/plugins/mailchimp/css/ie.css?ver=5.7.1' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='wp-block-library-css'  href='https://www.ultrasaurus.com/wp-includes/css/dist/block-library/style.min.css?ver=5.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='tw-bootstrap-css'  href='https://www.ultrasaurus.com/wp-content/themes/the-bootstrap/css/bootstrap.min.css?ver=2.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='the-bootstrap-css'  href='https://www.ultrasaurus.com/wp-content/themes/the-bootstrap/style.min.css?ver=2.0.1' type='text/css' media='all' />
+<style id='the-bootstrap-inline-css' type='text/css'>
+body > .container{margin-top:68px;}@media(min-width: 980px){body > .container{margin-top:58px;}}
+</style>
+<script type='text/javascript' src='https://www.ultrasaurus.com/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://www.ultrasaurus.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://www.ultrasaurus.com/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.5.4' id='ga-external-tracking-js'></script>
+<link rel="https://api.w.org/" href="https://www.ultrasaurus.com/wp-json/" /><link rel="alternate" type="application/json" href="https://www.ultrasaurus.com/wp-json/wp/v2/posts/3973" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.ultrasaurus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.ultrasaurus.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.7.1" />
+<link rel="canonical" href="https://www.ultrasaurus.com/2013/07/remembering-doug-engelbart/" />
+<link rel='shortlink' href='https://www.ultrasaurus.com/?p=3973' />
+<link rel="alternate" type="application/json+oembed" href="https://www.ultrasaurus.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.ultrasaurus.com%2F2013%2F07%2Fremembering-doug-engelbart%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.ultrasaurus.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.ultrasaurus.com%2F2013%2F07%2Fremembering-doug-engelbart%2F&#038;format=xml" />
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>	<style type="text/css">
+				#branding hgroup {
+			position: absolute !important;
+			clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+			</style>
+		<!--[if lt IE 9]>
+		<script src="https://www.ultrasaurus.com/wp-content/themes/the-bootstrap/js/html5shiv.min.js" type="text/javascript"></script>
+		<script src="https://www.ultrasaurus.com/wp-content/themes/the-bootstrap/js/respond.min.js" type="text/javascript"></script>
+	<![endif]-->
+	<!-- Google Analytics Tracking by Google Analyticator 6.5.4: http://www.videousermanuals.com/google-analyticator/ -->
+<script type="text/javascript">
+    var analyticsFileTypes = [''];
+    var analyticsSnippet = 'enabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+  
+	_gaq.push(['_setAccount', 'UA-4313619-1']);
+    _gaq.push(['_addDevId', 'i9k95']); // Google Analyticator App ID with Google
+    _gaq.push(['_gat._anonymizeIp']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+		<style type="text/css" id="wp-custom-css">
+			code {
+	color: #70a
+}
+
+p {
+	color: #333
+}
+
+blockquote p {
+	font-size: 14px;
+	font-weight: normal;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 10px;
+	padding-right: 60px;
+	line-height: 1.2;
+}		</style>
+			</head>
+	
+	<body class="post-template-default single single-post postid-3973 single-format-standard content-sidebar">
+		<div class="container">
+			<div id="page" class="hfeed row">
+								<header id="branding" role="banner" class="span12">
+										<hgroup>
+						<h1 id="site-title">
+							<a href="https://www.ultrasaurus.com/" title="the evolving ultrasaurus" rel="home">
+								<span>the evolving ultrasaurus</span>
+							</a>
+						</h1>
+						<h2 id="site-description">Sarah Allen&#039;s reflections on internet software and other topics</h2>
+					</hgroup>
+					
+					
+					<nav id="access" role="navigation">
+						<h3 class="assistive-text">Main menu</h3>
+						<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
+						<div class="skip-link"><a class="assistive-text" href="#secondary" title="Skip to secondary content">Skip to secondary content</a></div>
+												<div class="navbar navbar-fixed-top navbar-inverse">
+							<div class="navbar-inner">
+								<div class="container">
+									<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+									<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</a>
+																		<span class="brand">the evolving ultrasaurus</span>
+																		<div class="nav-collapse">
+										<div class="menu-primary-container"><ul id="menu-primary" class="nav"><li id="menu-item-4272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4272"><a href="https://www.ultrasaurus.com/about/">About</a></li>
+<li id="menu-item-6605" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6605"><a href="https://www.ultrasaurus.com/speaking/">Speaking</a></li>
+<li id="menu-item-6366" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6366"><a href="https://www.ultrasaurus.com/code/">Code</a></li>
+<li id="menu-item-4269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4269"><a href="https://www.ultrasaurus.com/archives/">Archives</a></li>
+<li id="menu-item-4759" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4759"><a href="https://www.ultrasaurus.com/contact/">Contact</a></li>
+<li id="menu-item-4697" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4697"><a href="https://www.ultrasaurus.com/ultrasaurus/">What is an ultrasaurus?</a></li>
+</ul></div>	<form id="searchform" class="navbar-search pull-right" method="get" action="https://www.ultrasaurus.com/">
+						<label for="s" class="assistive-text hidden">Search</label>
+						<input type="search" class="search-query" name="s" id="s" placeholder="Search" />
+					</form>								    </div>
+								</div>
+							</div>
+						</div>
+											</nav><!-- #access -->
+									</header><!-- #branding -->
+<section id="primary" class="span8">
+	
+		<div id="content" role="main">
+		<article id="post-3973" class="post-3973 post type-post status-publish format-standard hentry category-general">
+		
+	<header class="page-header">
+		<h1 class="entry-title">remembering doug engelbart</h1>		<div class="entry-meta"><span class="sep">Posted on </span><a href="https://www.ultrasaurus.com/2013/07/remembering-doug-engelbart/" title="5:57 am" rel="bookmark"><time class="entry-date" datetime="2013-07-06T05:57:27-07:00" pubdate>July 6, 2013</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://www.ultrasaurus.com/author/sarah/" title="View all posts by sarah" rel="author">sarah</a></span></span>		<span class="sep"> | </span>
+		<span class="comments-link">
+			<a href="https://www.ultrasaurus.com/2013/07/remembering-doug-engelbart/#comments"><strong>1</strong> Reply</a>		</span>
+		</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+	<div class="entry-content clearfix">
+		<p>I first met Doug Englebart in late 1997 or very early 1998, when my friend and mentor Harry Chesley and I went down to SRI to hear him speak.  I was awed by his early breakthrough work.  (If you have not seen &#8220;the mother of all demos,&#8221; set aside some time to watch it  <a href="http://www.youtube.com/watch?v=yJDv-zdhzMY">in its entirety</a> &#8212; for now, you can checkout <a href="http://sloan.stanford.edu/MouseSite/1968Demo.html">some highlights</a>.)</p>
+<p>I remember afterwards Doug saying &#8220;everyone thinks it is great being a visionary, but the problem with being a visionary is that no one ever knows what you are talking about.&#8221;  At the time, I was awed that in 1968, Doug had not only foreseen, but had built systems that would gain widespread use 20-30 years later as personal computers became ubiquitous.  Of course, Alan Kay is correct in saying that &#8220;the best way to predict the future is to invent it.&#8221;  Doug laid the foundations for the modern graphical user interface.  At the time, I thought that was his vision and life&#8217;s work.  I learned later how wrong and short-sighted I was.</p>
+<p>I had the pleasure of meeting Doug Engelbart again in 2002, when <a href="http://www.klynch.com/">Kevin Lynch</a> had the brilliant idea of inviting Doug to attend the launch event of Flash video (then called the Flash Communication Server, later Flash Media Server).  The event would be held in New York city and Doug was invited to attend remotely using our two-way video tech.</p>
+<p>I eagerly volunteered to stay home and run tech support for Doug.  His Augment system predated our efforts by almost 40 years and included more features.  It was humbling.  As the event began, Kevin had a couple of other items on the agenda before the big finale with Doug.  Kevin talked about how we need to be mindful and respectful of our critics.  Doug and I were listening in (on mute) from his home in Atherton.  Macromedia had made great efforts to address concerns raised most vocally by Jacob Nielson, who had written <a href="http://www.nngroup.com/articles/flash-99-percent-bad/">scathing criticisms of Flash</a>.  At which point, Doug said to me: &#8220;Jakob never liked my work either.&#8221;  Mike Chamber, who was there in New York, tells the story of what came next as witnessed by the audience:</p>
+<p>&#8220;Kevin then talked about some of the pioneering work done in computers in the 50&#8217;s and 60&#8217;s, and introduced a clip of a presentation by Doug Engelbart, and his famous <a href="http://sloan.stanford.edu/mousesite/1968Demo.html">1968 video</a> of distributed collaboration and real-time video in a graphical computer.<br />
+It is really hard to describe the excitement and electricity in the audience while viewing the clips&#8230;<br />
+We showed the introduction to the presentation, and Doug typing on the screen, and then a clip where he was collaborating with someone remotely (using text and video!).<br />
+Kevin then opened up a Flash Communication Server application, which linked him and Flash Forward to Palo Alto, California and Doug Engelbart. When he came through on the video, the audience gave the loudest and longest applause of the morning. <img src="http://web.archive.org/web/20130706125731/http://www.flashmagazine.com/img/mekeynote3.jpg" align="right" /><br />
+Doug talked about how after he got engaged, he realized he didn&#8217;t have any long term goals. He decided that he should dedicate himself to making a positive difference to humankind, and that one way to do that would be to figure out a way to make communication and collaboration easier. Doug, who has actually used director in the past, said that he would like to see applications that make it simple to connect users via video, and then archive and search that video (as easy as searching and indexing text on the web).&#8221;<br />
+&#8212; <a href="http://web.archive.org/web/20061207112749/http://weblogs.macromedia.com/mesh/archives/2002/07/macromedia_keyn.html">Mike Chambers blog, July 2002</a></p>
+<p>Doug had been a radar operator during World War II and it struck him that these new machines had phenomenal power to collect data, and foresaw that our ability to collect information would surpass our ability to understand and make good decisions based on that information.  The goal of the system that he designed and implemented was to &#8220;augment human intellect.&#8221;  </p>
+<p>Later, when I went down to Atherton to pick up some things we had left at Doug&#8217;s house, I brought Jonathan Gay, who had built the original Flash Player and who I worked for when I led the Flash video team.  Flash video was Jon&#8217;s inspiration &#8212; he coded the first prototype with Slavik Lozben. Like Doug, Jon had the ability to envision the future and write the code to get there.</p>
+<p>Jon asked Doug whether he still had the first mouse.  At which point, Doug brought us into his study, where he had an Augment system still running.  It had been ported over the years and was running emulated on a PDP11 or something similarly archaic to my modern experience.  An old personal computer ran as a client desktop.  The mouse was designed to be used by one hand, and there was a chorded keyboard which allowed him to type with a single hand as well.  The system supported full version control of all documents and links between them.  An email could link to a source code file or written report, and the recipient could jump directly to the reference in the correct version of the file.</p>
+<p>Doug told us that all of the innovations that he had built and subsequently inspired were merely the tools that he had needed to begin his work.  He had barely scratched the surface of what would be required.  Then he looked at us and said.  I won&#8217;t finish this in my lifetime.  It&#8217;s on you now.</p>
+<p>Doug inspired me to pay attention to my visions of the future that might seem outlandish or unattainable.  Although I might not get there in my lifetime, it is worth pursuing the larger goal of turning our technology into truly powerful tools for human&#8217;s to solve the very real and urgent problems of our world.  I set out to learn how to reverse engineer my crazy visions &#8212; to connect the dots from the hypothetical sci-fi future to the primitive tools we have today.  </p>
+<p>Somehow we must find a way to do more than make data and compute power available.  We must create the tools that allow people to use that data effectively, to learn, to understand, to collaborate and solve real problems &#8212; to turn data into knowledge, and from that knowledge gain wisdom.</p>
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<span class="cat-links block">Posted in <a href="https://www.ultrasaurus.com/category/general/" rel="category tag">general</a>.</span>	</footer><!-- .entry-footer -->
+	
+	</article><!-- #post-3973 -->
+		<div id="comments">
+			<h2 id="comments-title">
+				One thought on &ldquo;<span>remembering doug engelbart</span>&rdquo;			</h2>
+		
+					
+			<ol class="commentlist unstyled">
+						
+		<li  id="li-comment-888" class="comment even thread-even depth-1">
+			<article id="comment-888" class="comment row">
+				<div class="comment-author-avatar span1">
+					<img alt='' src='https://secure.gravatar.com/avatar/dc2787c7a67c91a6cd10bc07f7e588a8?s=70&#038;r=g' srcset='https://secure.gravatar.com/avatar/dc2787c7a67c91a6cd10bc07f7e588a8?s=140&#038;r=g 2x' class='avatar avatar-70 photo' height='70' width='70' loading='lazy'/>				</div>
+				<footer class="comment-meta span7">
+					<p class="comment-author vcard">
+						<span class="fn"><a href='http://www.balsamiq.com' rel='external nofollow ugc' class='url'>Valerie Liberty</a></span> <span class="says">said</span> on <a href="https://www.ultrasaurus.com/2013/07/remembering-doug-engelbart/#comment-888"><time pubdate datetime="2013-07-08T17:40:57-07:00">July 8, 2013 at 5:40 pm</time></a>:					</p><!-- .comment-author .vcard -->
+	
+						
+				</footer><!-- .comment-meta -->
+	
+				<div class="comment-content span7">
+					<p>Terrific story, Sarah. Thanks for the memories.</p>
+				</div><!-- .comment-content -->
+			</article><!-- #comment-888 .comment -->
+			
+	</li><!-- #comment-## -->
+			</ol><!-- .commentlist .unstyled -->
+		
+					
+		</div><!-- #comments -->
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title"><legend>Leave a reply</legend> <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2013/07/remembering-doug-engelbart/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://www.ultrasaurus.com/wp-comments-post.php" method="post" id="commentform" class="comment-form"><div class="form-horizontal"><div class="comment-form-comment control-group"><label class="control-label" for="comment">Comment</label><div class="controls"><textarea autocomplete="new-password"  class="span7" id="ce9e59a376"  name="ce9e59a376"   rows="8" aria-required="true"></textarea><textarea id="comment" aria-hidden="true" name="comment" autocomplete="new-password" style="padding:0 !important;clip:rect(1px, 1px, 1px, 1px) !important;position:absolute !important;white-space:nowrap !important;height:1px !important;width:1px !important;overflow:hidden !important;" tabindex="-1"></textarea><script data-noptimize type="text/javascript">document.getElementById("comment").setAttribute( "id", "ad8668bac09b7b984fbe9a46fb758a0e" );document.getElementById("ce9e59a376").setAttribute( "id", "comment" );</script></div></div><div class="form-allowed-tags control-group"><label class="control-label">You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes: </label><div class="controls"><pre>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;s&gt; &lt;strike&gt; &lt;strong&gt; </pre></div></div>
+									 <div class="form-actions"><div class="comment-form-author control-group">
+				<label for="author" class="control-label">Name</label>
+				<div class="controls">
+					<input id="author" name="author" type="text" value="" size="30" aria-required='true' />
+					<p class="help-inline"><span class="required">required</span></p>
+				</div>
+			</div>
+<div class="comment-form-email control-group">
+				<label for="email" class="control-label">Email</label>
+				<div class="controls">
+					<input id="email" name="email" type="email" value="" size="30" aria-required='true' />
+					<p class="help-inline"><span class="required">required</span>, will not be published</p>
+				</div>
+			</div>
+<div class="comment-form-url control-group">
+				<label for="url" class="control-label">Website</label>
+				<div class="controls">
+					<input id="url" name="url" type="url" value="" size="30" />
+				</div>
+			</div>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='3973' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p></div></div></form>	</div><!-- #respond -->
+			
+		<nav id="nav-single" class="pager">
+			<h3 class="assistive-text">Post navigation</h3>
+			<span class="next"><a href="https://www.ultrasaurus.com/2013/07/easy-drupal-install-on-mac-osx-lion/" rel="next">Next Post <span class="meta-nav">&rarr;</span></a></span>
+			<span class="previous"><a href="https://www.ultrasaurus.com/2013/07/getting-started-with-drupal-7-and-openshift/" rel="prev"><span class="meta-nav">&larr;</span> Previous Post</a></span>
+		</nav><!-- #nav-single -->
+		
+			</div><!-- #content -->
+	</section><!-- #primary -->
+
+<section id="secondary" class="widget-area span4" role="complementary">
+	<aside id="recent-comments-2" class="widget well widget_recent_comments"><h2 class="widget-title">Recent Comments</h2><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link"><a href='https://da.biomarmicrobialtechnologies.com/' rel='external nofollow ugc' class='url'>Silje Randrup</a></span> on <a href="https://www.ultrasaurus.com/2003/08/the-history-of-the-letter-c/#comment-22370">the history of the letter &#8216;C&#8217;</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://x--x.us' rel='external nofollow ugc' class='url'>Paula</a></span> on <a href="https://www.ultrasaurus.com/2003/08/the-history-of-the-letter-c/#comment-19549">the history of the letter &#8216;C&#8217;</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://x--x.us' rel='external nofollow ugc' class='url'>Michelle</a></span> on <a href="https://www.ultrasaurus.com/2003/08/the-history-of-the-letter-c/#comment-19399">the history of the letter &#8216;C&#8217;</a></li><li class="recentcomments"><span class="comment-author-link">Craig</span> on <a href="https://www.ultrasaurus.com/2019/10/http-3-starter-notes-rust-quiche/#comment-18963">http/3 starter notes, rust quiche</a></li><li class="recentcomments"><span class="comment-author-link">Kornel</span> on <a href="https://www.ultrasaurus.com/2019/10/rust-whats-a-tuple-variant/#comment-18539">[rust] what&#8217;s a tuple variant?</a></li><li class="recentcomments"><span class="comment-author-link"><a href='https://apromixately.github.io' rel='external nofollow ugc' class='url'>Simon</a></span> on <a href="https://www.ultrasaurus.com/2019/06/essential-rust-tools/#comment-13007">essential rust tools</a></li><li class="recentcomments"><span class="comment-author-link"><a href='https://balsamiq.com/company/' rel='external nofollow ugc' class='url'>balsamiqVal</a></span> on <a href="https://www.ultrasaurus.com/2018/10/the-path-is-made-by-walking/#comment-9108">the path is made by walking</a></li><li class="recentcomments"><span class="comment-author-link">Jennifer</span> on <a href="https://www.ultrasaurus.com/2018/07/optimize-for-results-not-optics/#comment-8193">optimize for results, not optics</a></li><li class="recentcomments"><span class="comment-author-link">Bernardo Gomes</span> on <a href="https://www.ultrasaurus.com/2016/06/sailsjs-testing-patterns-trunctate-database/#comment-8058">sailsjs testing: how to truncate the database</a></li><li class="recentcomments"><span class="comment-author-link">Bernardo Gomes</span> on <a href="https://www.ultrasaurus.com/2016/06/sailsjs-testing-patterns-trunctate-database/#comment-8057">sailsjs testing: how to truncate the database</a></li></ul></aside>
+		<aside id="recent-posts-2" class="widget well widget_recent_entries">
+		<h2 class="widget-title">Recent Posts</h2>
+		<ul>
+											<li>
+					<a href="https://www.ultrasaurus.com/2020/07/hope-is-not-a-strategy/">hope is not a strategy</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2020/01/duck-typing-in-rust-trait-vs-type/">duck typing in rust: trait vs type</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2020/01/writing-c-library-in-rust/">writing c library in rust</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2020/01/rust-on-heroku-with-hyper-http/">rust on heroku with hyper http</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2020/01/rust-on-heroku-with-async-await-and-tokio/">rust on heroku with async/await and tokio</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/12/patterns-of-actions-are-a-making/">patterns of actions are a making</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/12/memory-safety-necessary-not-sufficient/">memory safety: necessary, not sufficient</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/12/brief-history-of-rtmp-future-thoughts/">brief history of rtmp + future thoughts</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/12/rust-2020/">rust 2020: fulfill the promise</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/11/nut-loaf-with-red-pepper-sauce/">nut loaf with red pepper sauce</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/10/http-3-starter-notes-rust-quiche/">http/3 starter notes, rust quiche</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/10/rust-whats-a-tuple-variant/">[rust] what&#8217;s a tuple variant?</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/08/graph-in-rust-using-petgraph/">graph in rust using petgraph</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/06/debugging-openssl-shared-libary/">debugging openssl shared libary</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/06/digital-identity-how-to-verify-trust/">digital identity: how to verify trust?</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/06/essential-rust-tools/">essential rust tools</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/05/learning-scala-with-graphics/">learning scala with graphics</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/04/when-reality-is-broken-change-the-rules/">when reality is broken, change the rules</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/04/subverting-saurons-business-model/">subverting Sauron&#8217;s business model</a>
+									</li>
+											<li>
+					<a href="https://www.ultrasaurus.com/2019/02/firebase-auth-migration-from-rails-and-devise/">firebase auth migration from rails/devise</a>
+									</li>
+					</ul>
+
+		</aside></section><!-- #secondary .widget-area -->
+				<footer id="colophon" role="contentinfo" class="span12">
+										<div id="page-footer" class="well clearfix">
+						<span class="credits alignleft">&copy; 2021 <a href="https://www.ultrasaurus.com/">the evolving ultrasaurus</a>, all rights reserved.</span>						<div id="site-generator">
+							<a	href="http://wordpress.org/"
+								title="Semantic Personal Publishing Platform"
+								target="_blank"
+								rel="generator">Proudly powered by WordPress</a>
+						</div>
+					</div><!-- #page-footer .well .clearfix -->
+									</footer><!-- #colophon -->
+							</div><!-- #page -->
+		</div><!-- .container -->
+	<!-- 48 queries. 0.354 seconds. -->
+	<script type='text/javascript' src='https://www.ultrasaurus.com/wp-content/themes/the-bootstrap/js/bootstrap.min.js?ver=2.0.3' id='tw-bootstrap-js'></script>
+<script type='text/javascript' src='https://www.ultrasaurus.com/wp-content/themes/the-bootstrap/js/the-bootstrap.min.js?ver=2.0.1' id='the-bootstrap-js'></script>
+<script type='text/javascript' src='https://www.ultrasaurus.com/wp-includes/js/wp-embed.min.js?ver=5.7.1' id='wp-embed-js'></script>
+	</body>
+</html>

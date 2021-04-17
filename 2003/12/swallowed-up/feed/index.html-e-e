@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: swallowed up	</title>
+	<atom:link href="https://www.ultrasaurus.com/2003/12/swallowed-up/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.ultrasaurus.com/2003/12/swallowed-up/</link>
+	<description>Sarah Allen&#039;s reflections on internet software and other topics</description>
+	<lastBuildDate>Tue, 23 Dec 2003 23:01:06 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<item>
+		<title>
+		By: Dreff		</title>
+		<link>https://www.ultrasaurus.com/2003/12/swallowed-up/#comment-133</link>
+
+		<dc:creator><![CDATA[Dreff]]></dc:creator>
+		<pubDate>Tue, 23 Dec 2003 23:01:06 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/wordpress/?p=81#comment-133</guid>
+
+					<description><![CDATA[Hey! Shaddap and get back to work!
+
+:P
+]]></description>
+			<content:encoded><![CDATA[<p>Hey! Shaddap and get back to work!</p>
+<p>:P</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Buggy		</title>
+		<link>https://www.ultrasaurus.com/2003/12/swallowed-up/#comment-132</link>
+
+		<dc:creator><![CDATA[Buggy]]></dc:creator>
+		<pubDate>Tue, 23 Dec 2003 17:29:59 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/wordpress/?p=81#comment-132</guid>
+
+					<description><![CDATA[Oh, that is so true.  I think it&#039;s a fortunate thing that I have a family and activities outside work that need my attention.  Otherwise I&#039;d have the tendency to try to find those extra hours and days.  I also feel fortunate that I work on smaller projects with smaller teams where it seems you can get things done and make progress week after week.
+]]></description>
+			<content:encoded><![CDATA[<p>Oh, that is so true.  I think it&#8217;s a fortunate thing that I have a family and activities outside work that need my attention.  Otherwise I&#8217;d have the tendency to try to find those extra hours and days.  I also feel fortunate that I work on smaller projects with smaller teams where it seems you can get things done and make progress week after week.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: rhomobile reflections	</title>
+	<atom:link href="https://www.ultrasaurus.com/2009/08/rhomobile-reflections/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.ultrasaurus.com/2009/08/rhomobile-reflections/</link>
+	<description>Sarah Allen&#039;s reflections on internet software and other topics</description>
+	<lastBuildDate>Mon, 28 Sep 2009 21:22:32 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<item>
+		<title>
+		By: Rob Levin		</title>
+		<link>https://www.ultrasaurus.com/2009/08/rhomobile-reflections/#comment-590</link>
+
+		<dc:creator><![CDATA[Rob Levin]]></dc:creator>
+		<pubDate>Mon, 28 Sep 2009 21:22:32 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1935#comment-590</guid>
+
+					<description><![CDATA[Thanks for the article Sarah! It&#039;s great to hear from someone who&#039;s been actually &quot;using&quot; the technology. I went to the East Bay Ruby and Adam (above) gave a very compelling overview of his technology. Having went from knowing nothing about Objective C &#038; Cocoa to building a Timesheet/Expense tracking productivity application earlier this year, the idea of &quot;ramping up&quot; on Android, Blackberry, etc., terrifies me! Perhaps, when the time comes (which may be soon), I&#039;ll give Rhodes a try and see if I can roll out my project with success. My current project is very Javascript&#039;ie - CSS intensive so it may be a perfect fit. Thanks again for the 411 Sarah!]]></description>
+			<content:encoded><![CDATA[<p>Thanks for the article Sarah! It&#8217;s great to hear from someone who&#8217;s been actually &#8220;using&#8221; the technology. I went to the East Bay Ruby and Adam (above) gave a very compelling overview of his technology. Having went from knowing nothing about Objective C &amp; Cocoa to building a Timesheet/Expense tracking productivity application earlier this year, the idea of &#8220;ramping up&#8221; on Android, Blackberry, etc., terrifies me! Perhaps, when the time comes (which may be soon), I&#8217;ll give Rhodes a try and see if I can roll out my project with success. My current project is very Javascript&#8217;ie &#8211; CSS intensive so it may be a perfect fit. Thanks again for the 411 Sarah!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Adam Blum		</title>
+		<link>https://www.ultrasaurus.com/2009/08/rhomobile-reflections/#comment-589</link>
+
+		<dc:creator><![CDATA[Adam Blum]]></dc:creator>
+		<pubDate>Sat, 15 Aug 2009 18:04:32 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=1935#comment-589</guid>
+
+					<description><![CDATA[Sarah,
+
+Nice post. As far as robust examples go, click on the Customers page on our website where we link to the source code for Vdg Group&#039;s Issues To Go app and Wikipedia&#039;s app. Otherwise I liked it and we think you&#039;ll really love rhohub when it&#039;s ready to release.
+
+Adam]]></description>
+			<content:encoded><![CDATA[<p>Sarah,</p>
+<p>Nice post. As far as robust examples go, click on the Customers page on our website where we link to the source code for Vdg Group&#8217;s Issues To Go app and Wikipedia&#8217;s app. Otherwise I liked it and we think you&#8217;ll really love rhohub when it&#8217;s ready to release.</p>
+<p>Adam</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

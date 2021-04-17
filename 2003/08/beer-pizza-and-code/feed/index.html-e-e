@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: beer, pizza, and code	</title>
+	<atom:link href="https://www.ultrasaurus.com/2003/08/beer-pizza-and-code/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.ultrasaurus.com/2003/08/beer-pizza-and-code/</link>
+	<description>Sarah Allen&#039;s reflections on internet software and other topics</description>
+	<lastBuildDate>Thu, 18 Mar 2004 21:01:28 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<item>
+		<title>
+		By: Beer		</title>
+		<link>https://www.ultrasaurus.com/2003/08/beer-pizza-and-code/#comment-67</link>
+
+		<dc:creator><![CDATA[Beer]]></dc:creator>
+		<pubDate>Thu, 18 Mar 2004 21:01:28 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/wordpress/?p=40#comment-67</guid>
+
+					<description><![CDATA[Sometimes matters are solved best when drinking beer with some pizza...
+]]></description>
+			<content:encoded><![CDATA[<p>Sometimes matters are solved best when drinking beer with some pizza&#8230;</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: AndyEd		</title>
+		<link>https://www.ultrasaurus.com/2003/08/beer-pizza-and-code/#comment-66</link>
+
+		<dc:creator><![CDATA[AndyEd]]></dc:creator>
+		<pubDate>Tue, 12 Aug 2003 20:08:19 +0000</pubDate>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/wordpress/?p=40#comment-66</guid>
+
+					<description><![CDATA[Nifty tree app -- the timing on the animation seems just about right.  The dissolve/collapse is quick enough not to interfere with the next mouse motion.
+
+On the other hand, I dispute the notion that the +/- is the best way to enable expand collapse in a tree widget.  See my take at &quot;redefining the tree&quot; in the  name link.
+]]></description>
+			<content:encoded><![CDATA[<p>Nifty tree app &#8212; the timing on the animation seems just about right.  The dissolve/collapse is quick enough not to interfere with the next mouse motion.</p>
+<p>On the other hand, I dispute the notion that the +/- is the best way to enable expand collapse in a tree widget.  See my take at &#8220;redefining the tree&#8221; in the  name link.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

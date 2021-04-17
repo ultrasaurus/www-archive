@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>vi &#8211; the evolving ultrasaurus</title>
+	<atom:link href="https://www.ultrasaurus.com/tag/vi/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.ultrasaurus.com</link>
+	<description>Sarah Allen&#039;s reflections on internet software and other topics</description>
+	<lastBuildDate>Sat, 28 Feb 2009 20:53:20 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<item>
+		<title>command line happiness</title>
+		<link>https://www.ultrasaurus.com/2009/02/command-line-happiness/</link>
+					<comments>https://www.ultrasaurus.com/2009/02/command-line-happiness/#respond</comments>
+		
+		<dc:creator><![CDATA[sarah]]></dc:creator>
+		<pubDate>Sat, 28 Feb 2009 20:53:20 +0000</pubDate>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[bash]]></category>
+		<category><![CDATA[vi]]></category>
+		<guid isPermaLink="false">https://www.ultrasaurus.com/?p=884</guid>
+
+					<description><![CDATA[How could I have lived for so long without knowing that I could set up my command line with vi key bindings? Well, for anyone else who uses vi and bash, here&#8217;s the secret&#8230; Create ~/.inputrc set meta-flag on set input-meta on set output-meta on set convert-meta off add this to your .bashrc set -o&#8230; <a href="https://www.ultrasaurus.com/2009/02/command-line-happiness/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p>How could I have lived for so long without knowing that I could set up my command line with vi key bindings?  Well, for anyone else who uses vi and bash, here&#8217;s the secret&#8230;</p>
+<p>Create ~/.inputrc</p>
+<pre>
+set meta-flag on
+set input-meta on
+set output-meta on
+set convert-meta off
+</pre>
+<p>add this to your .bashrc</p>
+<pre>
+set -o vi
+</pre>
+<p>Thanks <a href="http://elasticprocess.com/blogs/adam">Adam</a>!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.ultrasaurus.com/2009/02/command-line-happiness/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
